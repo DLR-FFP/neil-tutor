@@ -89,9 +89,9 @@ Review: every batch is read against the Quality Bar by a second pass before seed
 
 ## Seed inventory (this file's sibling CSV)
 
-`gold-exemplars-seeds.csv` — 89 exemplars, Books 1–2 complete: EX-001…EX-089 (Book 1 — ch01: EX-001–010 · ch02: EX-011–015 · ch03: EX-016–020 · ch04: EX-021–025 · ch05: EX-026–030 · ch06: EX-031–035 · ch07: EX-036–040 · ch08: EX-041–045 · ch09: EX-046–050 · ch10: EX-051–055 · ch11: EX-056–060 · ch12: EX-061–065 · Book 2 — ch01: EX-066–067 · ch02: EX-068 · ch03: EX-069–070 · ch04: EX-071–072 · ch05: EX-086–087 · ch06: EX-073 · ch07: EX-074 · ch08: EX-088–089 · ch09: EX-075–076 · ch10: EX-077 · ch11: EX-078–079 · ch12: EX-080–081 · ch13: EX-082–083 · ch14: EX-084–085).
+`gold-exemplars-seeds.csv` — 111 exemplars, Books 1–2 + Sankhya pack + discovery zone: EX-001…EX-111 (Book 1 — ch01: EX-001–010 · ch02: EX-011–015 · ch03: EX-016–020 · ch04: EX-021–025 · ch05: EX-026–030 · ch06: EX-031–035 · ch07: EX-036–040 · ch08: EX-041–045 · ch09: EX-046–050 · ch10: EX-051–055 · ch11: EX-056–060 · ch12: EX-061–065 · Book 2 — ch01: EX-066–067 · ch02: EX-068 · ch03: EX-069–070 · ch04: EX-071–072 · ch05: EX-086–087 · ch06: EX-073 · ch07: EX-074 · ch08: EX-088–089 · ch09: EX-075–076 · ch10: EX-077 · ch11: EX-078–079 · ch12: EX-080–081 · ch13: EX-082–083 · ch14: EX-084–085 · Sankhya pack — reference guide v2.4: EX-090–101 · bridge v2.8: EX-102–105 · discovery zone: EX-106–111).
 Each covers the chapter's core ideas end-to-end (petal-count derivation, the jumps
 trap, the Pingala/Fibonacci/Lucas history, prediction-and-test, ratio convergence,
 body-ratio measurement care, Meru Prastara doubling, diagonal Fibonacci, dimensional
-diagonals, sunflower packing, sphere as the coherence limit, duhkha as the stress triad). Field-copy an EX row into the schema above and expand
+diagonals, sunflower packing, sphere as the coherence limit, duhkha as the stress triad, the balance equation 1/x = 1 + x, the two light speeds, the hidden coherent mass, the electron boundary state, Michelson–Morley isotropy, Hubble's redshift, uncertainty as transition artifact, EPR unity, the C-power ladder, Siddhi as lawful resonance, standing-wave selection). Field-copy an EX row into the schema above and expand
 `Gold dialogue` into 3–6 full turns to grow the set.
