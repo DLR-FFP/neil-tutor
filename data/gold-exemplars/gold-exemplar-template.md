@@ -89,7 +89,7 @@ Review: every batch is read against the Quality Bar by a second pass before seed
 
 ## Seed inventory (this file's sibling CSV)
 
-`gold-exemplars-seeds.csv` — 10 starter exemplars, all from Book 1 ch01: EX-001…EX-010.
+`gold-exemplars-seeds.csv` — 25 exemplars through Book 1 ch04: EX-001…EX-025 (ch01: EX-001–010 · ch02: EX-011–015 · ch03: EX-016–020 · ch04: EX-021–025).
 Each covers the chapter's core ideas end-to-end (petal-count derivation, the jumps
 trap, the Pingala/Fibonacci/Lucas history, prediction-and-test, ratio convergence,
 body-ratio measurement care, Meru Prastara doubling, diagonal Fibonacci, dimensional
