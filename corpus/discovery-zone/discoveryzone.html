@@ -1,0 +1,1007 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Discovery Zone | Imagine Nature's Wheelwork</title>
+<meta name="description" content="Explore the oscillating substratum through interactive tools: INW Book 1 simulations, Chantal Roth's open-source physics simulations, and Notable Others including Andy Giger's phyllotaxis explorer, Bob Greenyer's Standing Wave Project, and Basel Ashraf's Eigendrum." />
+<link rel="icon" type="image/png" href="assets/images/brand/explorer_star.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;0,900;1,400&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/css/style.css?v=20260715" />
+<link rel="stylesheet" href="css/a11y.css?v=20260731" />
+
+<!-- Discovery Zone / Sankhya Calc — self-hosted assets (NO CDN, Brave-safe) -->
+<!-- P1: KaTeX + renderer + hover definitions -->
+<link rel="stylesheet" href="js/vendor/katex/katex.min.css?v=20260731" />
+<link rel="stylesheet" href="css/guna.css?v=20260742" />
+<link rel="stylesheet" href="css/hover-popup.css?v=20260731" />
+<!-- P2: Display mode toggle + switcher + settings -->
+<link rel="stylesheet" href="css/display-mode.css?v=20260731" />
+<link rel="stylesheet" href="css/derivation-switcher.css?v=20260731" />
+<link rel="stylesheet" href="css/user-settings.css?v=20260731" />
+<!-- P3: Explorers + Reference + Glossary + Search -->
+<link rel="stylesheet" href="css/constants-explorer.css?v=20260731" />
+<link rel="stylesheet" href="css/sankhya-calculator.css?v=20260731" />
+<link rel="stylesheet" href="css/search.css?v=20260731" />
+<link rel="stylesheet" href="css/character-voice.css?v=20260807" />
+<link rel="stylesheet" href="css/dz-hub.css?v=20260735" />
+<link rel="stylesheet" href="css/user-guide.css?v=20260807" />
+
+<!-- Script load order: KaTeX → Decimal.js → P2 modules (ES5 UMD) → P1 components -->
+<script defer src="js/vendor/katex/katex.min.js"></script>
+<script defer src="js/vendor/katex/contrib/auto-render.min.js"></script>
+<script defer src="js/vendor/decimal.min.js"></script>
+<script defer src="js/user-settings.js?v=20260731"></script>
+<script defer src="js/sankhya-engine.js?v=20260731"></script>
+<script defer src="js/sankhya-renderer.js?v=20260742"></script>
+<script defer src="js/display-mode.js?v=20260731"></script>
+<script defer src="js/derivation-switcher.js?v=20260731"></script>
+<script defer src="js/hover-popup.js?v=20260731"></script>
+<!-- P3: FlexSearch + Explorers + Reference + Glossary + Search -->
+<script defer src="js/vendor/flexsearch.bundle.js"></script>
+<script defer src="js/constants-explorer.js?v=20260742"></script>
+<script defer src="js/sankhya-calculator.js?v=20260739"></script>
+<script defer src="js/search.js?v=20260731"></script>
+<script defer src="js/character-voice.js?v=20260807"></script>
+<!-- P5: Discovery Zone hub + User Guide -->
+<script defer src="js/dz-hub.js?v=20260731"></script>
+<script defer src="js/user-guide.js?v=20260731"></script>
+
+<script>
+  // Initialize all Discovery Zone components on DOMContentLoaded
+  document.addEventListener('DOMContentLoaded', function () {
+    // P1: KaTeX auto-render (scoped to .katex-expr elements ONLY)
+    if (typeof renderMathInElement !== 'undefined') {
+      document.querySelectorAll('.katex-expr').forEach(function (el) {
+        renderMathInElement(el, {
+          delimiters: [
+            { left: '\\[', right: '\\]', display: true },
+            { left: '\\(', right: '\\)', display: false }
+          ],
+          throwOnError: false,
+          output: 'htmlAndMathml'
+        });
+      });
+    }
+
+    // P2: User settings panel
+    if (window.UserSettings && typeof window.UserSettings.init === 'function') {
+      window.UserSettings.init();
+    }
+
+    // P2: Display mode — the Symbols / Hybrid / Numerics toggle box is now
+    // hidden; the display mode is fixed to "hybrid" for everyone.
+    if (window.DisplayMode && typeof window.DisplayMode.setMode === 'function') {
+      window.DisplayMode.setMode('hybrid', false);
+    }
+
+    // P1: Hover-definition popups
+    if (window.HoverPopup && typeof window.HoverPopup.init === 'function') {
+      window.HoverPopup.init();
+    }
+
+    // P5: Discovery Zone hub (banner, legend, about panel, global search, settings, versions)
+    if (window.DZHub && typeof window.DZHub.init === 'function') {
+      window.DZHub.init();
+    }
+
+    // P5: User Guide slide-over
+    if (window.UserGuide && typeof window.UserGuide.init === 'function') {
+      window.UserGuide.init();
+    }
+
+    // P3: Load data files and initialize explorers
+    Promise.all([
+      fetch('data/sankhya-symbols.json?v=20260742').then(r => r.json()),
+      fetch('data/sankhya-derivations.json?v=20260742').then(r => r.json()),
+      fetch('data/particles.json').then(r => r.json()),
+      fetch('data/reference.json').then(r => r.json())
+    ]).then(function(data) {
+      var symbols = data[0];
+      var derivations = data[1];
+      var particles = data[2];
+      var reference = data[3];
+
+      console.log('[P3] Data loaded:', symbols.symbols.length, 'symbols,', particles.particles.length, 'particles');
+
+      // P3: Constants Explorer — no longer a standalone zone. Initialized in
+      // "data-only" mode so the calculator can open a single constant card
+      // inline (below the calculator) via ConstantsExplorer.openInline(id).
+      if (window.ConstantsExplorer && typeof window.ConstantsExplorer.init === 'function') {
+        window.ConstantsExplorer.init({
+          inlineBodyId: 'sankhya-calc-inline-explorer-body',
+          inlinePanelId: 'sankhya-calc-inline-explorer',
+          symbols: symbols,
+          derivations: derivations
+        });
+      }
+
+      // P6: Dedicated Sankhya Calculator (Constant Explorer is now inlined,
+      // opening below the calculator when a symbol is clicked)
+      if (window.SankhyaCalculator && typeof window.SankhyaCalculator.init === 'function') {
+        window.SankhyaCalculator.init({
+          containerId: 'sankhya-calc-widget',
+          symbols: symbols.symbols,
+          derivations: derivations
+        });
+      }
+
+      // P3: Glossary + SSRG moved to the For Educators page — not initialized here.
+      // (search.js is still initialized indirectly for hover-popup click-to-open.)
+
+      // Symbols inside the just-rendered derivation cards, particle cards, etc.
+      // are added after HoverPopup.init() ran, so (re)scan to attach hover
+      // popups + click-to-jump to every symbol now on the page.
+      if (window.HoverPopup && typeof window.HoverPopup.refresh === 'function') {
+        window.HoverPopup.refresh(document);
+      }
+
+    }).catch(function(err) {
+      console.error('[P3/P4] Failed to load data files:', err);
+    });
+
+    // "Back to top" floating button — appears after scrolling, returns to the
+    // zone menu at the top of the Discovery Zone (less scrolling from any window).
+    (function () {
+      var btn = document.getElementById('dz-backtotop-float');
+      if (!btn) return;
+      var target = document.getElementById('dz-hub');
+      function onScroll() {
+        if (window.pageYOffset > 600) {
+          btn.hidden = false;
+        } else {
+          btn.hidden = true;
+        }
+      }
+      btn.addEventListener('click', function () {
+        if (target && typeof target.scrollIntoView === 'function') {
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        } else {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+      });
+      window.addEventListener('scroll', onScroll, { passive: true });
+      onScroll();
+    })();
+  });
+</script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="brand" href="index.html">
+      <img src="assets/images/brand/explorer_star.png" alt="Imagine Nature's Wheelwork Explorer Star" />
+      <span class="brand-name">Imagine Nature's Wheelwork<small>Think As Nature Intended</small></span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="discoveryzone.html">Discovery Zone</a></li>
+      <li><a href="educators.html">Educators</a></li>
+      <li><a href="books.html">Books</a></li>
+      <li><a href="store.html">Store</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.php">Contact</a></li>
+      <!-- Community link temporarily disabled
+      <li><a class="ext" href="https://grow.scienceoffreedom.life/products/communities/INWCommunity" target="_blank" rel="noopener">Community</a></li>
+      -->
+      <li class="nav-cta"><a class="btn btn-gold btn-sm" href="books.html">Read Book 1</a></li>
+    </ul>
+  </div>
+</header>
+
+<section class="page-banner band-blue">
+  <div class="wrap">
+    <img class="mini-star" src="assets/images/brand/explorer_star.png" alt="" />
+    <p class="eyebrow">Interactive Physics</p>
+    <h1>Discovery Zone</h1>
+    <p>One place to explore Nature's Wheelwork in action — the Sankhya Calc tool set, the Ladder of Phenomena, the Siddhi inner-instrument, and hundreds of interactive simulations you can run and explore entirely in your browser.</p>
+  </div>
+</section>
+
+<!-- ============================================================= -->
+<!-- P5 Sprint 9: Discovery Zone Landing Hub                        -->
+<!-- ============================================================= -->
+<section class="dz-hub" id="dz-hub" aria-label="Discovery Zone hub">
+  <div class="wrap">
+    <p class="dz-hub-mission">The place where curious minds stop reading about Sankhya and <em>start deriving it</em>.</p>
+    <p class="dz-hub-subline">Pick a zone below to explore. Everything runs in your browser — nothing to install.</p>
+
+    <!-- Global toolbar: settings gear + user guide + About.
+         (Glossary search + SSRG moved to the For Educators page.) -->
+    <div class="dz-toolbar dz-toolbar--no-search">
+      <div class="dz-search" hidden style="display:none">
+        <svg class="dz-search-icon" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+          <circle cx="9" cy="9" r="6" stroke="currentColor" stroke-width="2"/>
+          <line x1="14" y1="14" x2="18" y2="18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        <input type="search" id="dz-global-search-disabled" class="dz-search-input"
+               placeholder="Search symbols, names, values…" aria-label="Search the Sankhya glossary" />
+      </div>
+      <div class="dz-toolbar-actions">
+        <!-- Settings gear and User Guide moved to the Sankhya Calc section. -->
+        <button type="button" id="dz-about-btn" class="dz-about-btn" aria-haspopup="dialog" aria-controls="dz-about-panel">
+          <span aria-hidden="true">ⓘ</span><span class="dz-about-btn-label">About DZ</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- First-timer "Start here" banner (shown only on first visit) -->
+    <div class="dz-firsttimer" id="dz-firsttimer" role="note" hidden>
+      <span class="dz-firsttimer-icon" aria-hidden="true">✨</span>
+      <div class="dz-firsttimer-body">
+        <span class="dz-firsttimer-kicker">New here?</span>
+        <a class="dz-firsttimer-link" href="#sankhya-calc">Start with: the Sankhya Calculator — hover any symbol, then click to open its constant card →</a>
+      </div>
+      <button type="button" class="dz-firsttimer-dismiss" aria-label="Dismiss this tip">&times;</button>
+    </div>
+
+    <!-- Wing entry cards -->
+    <div class="dz-wing-grid">
+      <a class="dz-wing-card" href="#simulation-lab" aria-label="Enter Simulation Lab zone">
+        <span class="dz-wing-card-title">Simulation Lab</span>
+        <span class="dz-wing-card-desc">Run, visualize, and explore hundreds of browser-based physics simulations from open-science collections.</span>
+        <span class="dz-wing-card-cta">Explore →</span>
+      </a>
+      <a class="dz-wing-card" href="#sankhya-calc" aria-label="Enter Sankhya Calc zone">
+        <span class="dz-wing-card-title">Sankhya Calc</span>
+        <span class="dz-wing-card-desc">Meet the handful of pure numbers that everything grows from — hover any symbol to see its Sankhya name, value, and source.</span>
+        <span class="dz-wing-card-cta">Explore →</span>
+      </a>
+      <a class="dz-wing-card" href="#ladder-of-phenomena" aria-label="Enter Ladder of Phenomena zone">
+        <span class="dz-wing-card-badge">Coming soon</span>
+        <span class="dz-wing-card-title">Ladder of Phenomena</span>
+        <span class="dz-wing-card-desc">Every known particle state mapped to its exact rung in Nature's hierarchy — from the smallest quantum to the scale of the cosmos.</span>
+        <span class="dz-wing-card-cta">Preview →</span>
+      </a>
+      <a class="dz-wing-card" href="#siddhi" aria-label="Enter Siddhi zone">
+        <span class="dz-wing-card-title">Siddhi</span>
+        <span class="dz-wing-card-desc">The explorer's inner instrument — how a calm, coherent mind becomes the finest measuring tool you own.</span>
+        <span class="dz-wing-card-cta">Explore →</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="section dz-wing" id="sankhya-calc" role="region" aria-label="Sankhya Calc zone">
+  <div class="wrap">
+    <!-- Sankhya Calc wing header -->
+    <div class="dz-wing-header reveal">
+      <p class="eyebrow">Sankhya Calc</p>
+      <h2>The Sankhya Calculator</h2>
+      <p>Enter a symbolic expression built from Sankhya's foundational symbols and constants, then read the answer in <strong>hybrid</strong> form &mdash; each symbol shown together with its numeric value. <strong>Hover</strong> any symbol in the result to see its Sankhya name, value, and source; <strong>click</strong> it to slide open its full Constant Explorer card right below the calculator.</p>
+    </div>
+
+    <!-- Zone tools: relocated here from the global toolbar and the floating boxes. -->
+    <div class="dz-wing-tools reveal">
+      <button type="button" id="dz-settings-btn" class="dz-settings-btn" aria-label="Settings">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+          <path d="M17.43 10.98c.04-.32.07-.64.07-.98s-.03-.66-.07-.98l2.11-1.65c.19-.15.24-.42.12-.64l-2-3.46c-.12-.22-.39-.3-.61-.22l-2.49 1c-.52-.4-1.08-.73-1.69-.98l-.38-2.65C12.46 0 12.25-.02 12 .02h-4c-.25-.04-.46-.02-.49.41l-.38 2.65c-.61.25-1.17.58-1.69.98l-2.49-1c-.23-.09-.49 0-.61.22l-2 3.46c-.13.22-.07.49.12.64l2.11 1.65c-.04.32-.07.65-.07.98s.03.66.07.98l-2.11 1.65c-.19.15-.24.42-.12.64l2 3.46c.12.22.39.3.61.22l2.49-1c.52.4 1.08.73 1.69.98l.38 2.65c.03.24.24.43.49.43h4c.25 0 .46-.19.49-.43l.38-2.65c.61-.25 1.17-.58 1.69-.98l2.49 1c.23.09.49 0 .61-.22l2-3.46c.12-.22.07-.49-.12-.64l-2.11-1.65zM10 13c-1.65 0-3-1.35-3-3s1.35-3 3-3 3 1.35 3 3-1.35 3-3 3z"/>
+        </svg>
+      </button>
+      <button type="button" id="dz-userguide-btn" class="dz-userguide-btn" aria-haspopup="dialog" aria-controls="dz-userguide-panel">
+        <span aria-hidden="true">📖</span><span class="dz-userguide-btn-label">User Guide</span>
+      </button>
+      <!-- Tri-guna legend (moved here from the floating bottom-right box). -->
+      <div class="dz-legend dz-legend--inline is-collapsed" id="dz-legend">
+        <div class="dz-legend-panel" hidden>
+          <div class="dz-legend-head">
+            <h3 class="dz-legend-title">Tri-guna key</h3>
+            <button type="button" class="dz-legend-close" aria-label="Collapse legend">&times;</button>
+          </div>
+          <p class="dz-legend-group-label">Bracket depth — state</p>
+          <div class="dz-legend-row">
+            <span class="dz-legend-swatch coherent" aria-hidden="true">3</span>
+            <span>3 brackets = Coherent (Thama)</span>
+          </div>
+          <div class="dz-legend-row">
+            <span class="dz-legend-swatch resonant" aria-hidden="true">2</span>
+            <span>2 brackets = Resonant (Raja)</span>
+          </div>
+          <div class="dz-legend-row">
+            <span class="dz-legend-swatch expansive" aria-hidden="true">1</span>
+            <span>1 bracket = Expansive (Sathwa)</span>
+          </div>
+          <hr class="dz-legend-divider" />
+          <p class="dz-legend-group-label">Modality — motion</p>
+          <div class="dz-legend-row">
+            <span class="dz-legend-glyph" aria-hidden="true">→←</span>
+            <span>Compression</span>
+          </div>
+          <div class="dz-legend-row">
+            <span class="dz-legend-glyph" aria-hidden="true">↔</span>
+            <span>Rebounding</span>
+          </div>
+          <div class="dz-legend-row">
+            <span class="dz-legend-glyph" aria-hidden="true">→</span>
+            <span>Expansion</span>
+          </div>
+        </div>
+        <button type="button" class="dz-legend-toggle" aria-expanded="false" aria-controls="dz-legend">
+          <span class="dz-legend-toggle-icon" aria-hidden="true">▤</span>
+          <span>Legend</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- P6: Dedicated symbolic calculator -->
+    <div id="sankhya-calc-widget"></div>
+
+    <!-- Inline Constant Explorer — slides in below the calculator when a symbol is clicked -->
+    <div id="sankhya-calc-inline-explorer" class="sc-inline-explorer" role="region" aria-label="Constant Explorer" aria-live="polite" hidden>
+      <div class="sc-inline-explorer-bar">
+        <span class="sc-inline-explorer-eyebrow">Constant Explorer</span>
+        <button type="button" class="sc-inline-explorer-close" id="sc-inline-explorer-close" aria-label="Close the Constant Explorer panel">&times;</button>
+      </div>
+      <div id="sankhya-calc-inline-explorer-body" class="sc-inline-explorer-body discovery-zone"></div>
+    </div>
+
+      <!-- Discovery Zone / Sankhya Calc — P1 hover-definition intro + P2 display toggle -->
+      <div class="discovery-zone" style="position: relative;">
+
+        <!-- P5: Global display mode toggle relocated to the hub toolbar (#display-mode-toggle-container) -->
+
+        <!-- "A first look at Sankhya Calc" intro block removed per Round 2. -->
+
+        <!-- Constant Explorer is now inlined above (opens below the calculator on click).
+             Particle State Derivations moved to the Ladder of Phenomena zone below;
+             Reference & Why and the interactive Sandboxes have been retired from this page. -->
+
+      </div>
+      <p class="dz-wing-backtotop"><a href="#dz-hub">↑ Back to the zone menu</a></p>
+  </div>
+</section>
+
+<!-- ============================================================
+     LADDER OF PHENOMENA (coming soon)
+     Replaces the former Particle State Derivations zone.
+     ============================================================ -->
+<section class="section dz-wing" id="ladder-of-phenomena" role="region" aria-label="Ladder of Phenomena zone">
+  <div class="wrap">
+    <div class="dz-wing-header reveal">
+      <p class="eyebrow">Ladder of Phenomena <span class="dz-soon-pill">Coming soon</span></p>
+      <h2>The Ladder of Phenomena</h2>
+    </div>
+
+    <div class="lop-coming-soon reveal">
+      <p class="lop-coming-soon-lede">Here's the big secret the Ladder of Phenomena will unfold: nothing in Nature is a separate "thing." Every <em>particle</em>, every bit of <em>matter</em>, every <em>object</em>, and all <em>radiation</em> is simply a combination of a few <strong>stable states of energy density</strong> woven into the one elastic substratum — the holodeck.</p>
+      <p class="lop-coming-soon-lede">Take the simplest atom, hydrogen. It isn't a tiny ball orbited by another tiny ball floating in empty space. It's a single <strong>polarized region of the holodeck</strong> holding a <strong>hadronic state</strong> (what we call its proton) locked in balance with a <strong>leptonic state</strong> (its electron). Same substratum, two stable states, one atom. Climb or descend the ladder and every rung — from the substratum up to the whole cosmos — is built from these very same stable states of energy density.</p>
+      <p class="lop-coming-soon-lede">And the ladder is astonishingly orderly. Sankhya shows that every rung is the <em>same</em> elastic substratum counted at a different rate — a single interaction count <strong>C</strong> raised step by step, from the smallest unit of activity (M<sub>y</sub>) all the way up to the whole cosmos (M<sub>U</sub>). Six balanced steps — C, C², C³, C⁴, C⁵, C⁶ — carry you from the Planck-time heartbeat of space, through the neutrino (N<sub>E</sub>), the electron and neutron (M<sub>e</sub>, P<sub>M</sub>), the metric elasticity of the field (S<sub>t</sub>), and the Planck-mass (M<sub>ps</sub>), up to the Purusha &ldquo;black-hole&rdquo; state K<sub>x</sub>. Because each step must loop back to the same central value, the whole ladder <strong>proves itself</strong> — this is Sankhya&rsquo;s &ldquo;Special System of Proof.&rdquo; Gopala and Neil are preparing this journey for you.</p>
+      <div class="lop-rungs" aria-hidden="true">
+        <span class="lop-rung"><b>Galaxy</b> <em class="lop-rung-desc">(largest coherent cosmic system)</em></span>
+        <span class="lop-rung"><b>Solar System</b> <em class="lop-rung-desc">(large scale cosmic system)</em></span>
+        <span class="lop-rung"><b>Matter</b> <em class="lop-rung-desc">(stable polarized massive dynamism)</em></span>
+        <span class="lop-rung"><b>Electromagnetic Currents</b> <em class="lop-rung-desc">(sequential vortex-like dynamism)</em></span>
+        <span class="lop-rung"><b>Neutrino Currents</b> <em class="lop-rung-desc">(simultaneous vortex-like dynamism)</em></span>
+        <span class="lop-rung"><b>Holographic Substratum</b> <em class="lop-rung-desc">(balanced dynamism stress field)</em></span>
+        <span class="lop-rung"><b>Root Oscillatory Activity</b> <em class="lop-rung-desc">(energy, length, time, inertia, charge = 1 count)</em></span>
+      </div>
+      <p class="lop-coming-soon-note">Meanwhile, every one of these stable states already lives inside the <a href="#sankhya-calc">Sankhya Calc</a> — pick a symbol such as <code>P<sub>M</sub></code>, <code>M<sub>ee</sub></code>, or <code>K<sub>x</sub></code> from the Stable States row and click it to open its Constant Explorer card.</p>
+      <p class="lop-coming-soon-cite">Based on the &ldquo;Special System of Proof&rdquo; and the &ldquo;Ladder of Phenomenon,&rdquo; <em>Secret of Sankhya, Part 2</em> (pp. 103&ndash;106 and 419&ndash;427).</p>
+    </div>
+    <p class="dz-wing-backtotop"><a href="#dz-hub">↑ Back to the zone menu</a></p>
+  </div>
+</section>
+
+<!-- ============================================================
+     SIDDHI — the explorer's inner instrument
+     Content adapted from siddhi_summary.md (G. Srinivasan,
+     "Siddhi" + "Meditation"). Character voice: Neil, Gopala, Sophie.
+     ============================================================ -->
+<section class="section dz-wing siddhi-zone" id="siddhi" role="region" aria-label="Siddhi zone">
+  <div class="wrap">
+    <div class="dz-wing-header reveal">
+      <p class="eyebrow">Siddhi</p>
+      <h2>Your finest instrument is the one between your ears</h2>
+      <p>Every result in this Discovery Zone was first <em>seen</em> in a still, coherent mind before it was ever written as an equation. Sankhya calls that trained, resonant coherence <strong>Siddhi</strong> — and it's a skill every person can build, not a gift for a chosen few.</p>
+    </div>
+
+    <div class="siddhi-grid">
+      <!-- Big idea -->
+      <article class="siddhi-card reveal">
+        <h3>The big idea</h3>
+        <p>Your five senses only catch the loud stuff — the light, sound, and heat radiating off the surface of things, one signal after another. But underneath all of it is the <strong>substratum</strong>: one silent, humming field that touches everything, everywhere, at the very same instant. Your senses can't reach it. Your <em>thinking</em> mind can.</p>
+        <p>That's the part that's uniquely human. We're the "thinkers," and the Siddhi process is how we couple straight into that field — not by pushing harder, but by going quiet. When the mind stills, it stops broadcasting and starts <strong>resonating</strong>, tuning in through the pineal "antenna" (that's literally what yoga means — to <em>join through resonance</em>) to the faintest, most subtle signals in the substratum, far below anything our senses can register. Do that, and you're linking straight to the source of all knowledge. Not magic, not a gift for a lucky few — a <strong>technology</strong> every single person can learn to switch on.</p>
+      </article>
+
+      <!-- Porous pot -->
+      <article class="siddhi-card reveal">
+        <h3>The porous-pot secret</h3>
+        <p>Picture a porous clay pot fully immersed in water. Keep shaking it and barely any water seeps in. Let it go absolutely still, though, and water seeps in from every side <em>at once</em> — filling it in the shortest possible time. We are, in effect, a bundle of Moolaprakriti immersed in a resonant sea of energy, just like that pot in water. So to absorb from that sea we have to do the same thing: sit very still, and let it seep in from all sides simultaneously. Insight arrives not by reaching harder, but by holding still.</p>
+      </article>
+
+      <!-- What is Siddhi -->
+      <article class="siddhi-card reveal">
+        <h3>What is Siddhi?</h3>
+        <p>Siddhi is a process for achieving a unique state of mind — the deeply relaxed, coherent condition you reach when body and mind stop working against the field around you and fall into step with it. In that state your inner activity all fires <em>at once</em> instead of in a busy sequence, so your own energy potential can quietly equalize with the resonant sea of the substratum. Patanjali called the joining <strong>Yoga</strong> — "to yoke," to synchronize through resonance.</p>
+      </article>
+
+      <!-- Three principles -->
+      <article class="siddhi-card reveal">
+        <h3>The three principles</h3>
+        <ol class="siddhi-principles">
+          <li><strong>Stillness</strong> — reduce physical and mental motion so readings stop jittering.</li>
+          <li><strong>Coherence</strong> — let the two hemispheres and the breath fall into a single steady rhythm.</li>
+          <li><strong>Resonance</strong> — once still and coherent, the mind tunes to what it observes, like the still porous pot drawing water in from every side.</li>
+        </ol>
+      </article>
+    </div>
+
+    <!-- How to do it -->
+    <div class="siddhi-howto reveal">
+      <h3>How to actually do it</h3>
+      <div class="siddhi-howto-inner">
+        <ol class="siddhi-steps">
+          <li><strong>Set up your seat.</strong> Roll a towel into a firm cylinder about <strong>7–8 inches</strong> thick.</li>
+          <li><strong>Sit on the edge.</strong> Perch on the front edge of the roll so your hips tilt slightly forward and your spine stacks upright on its own — no slouching, no strain.</li>
+          <li><strong>Let the spine lead.</strong> Crown of the head gently lifted, shoulders soft, hands resting easily.</li>
+          <li><strong>Follow the breath.</strong> Breathe slowly and evenly; let attention rest on the breath without forcing it. When the mind wanders, return — that returning <em>is</em> the training.</li>
+          <li><strong>Stay ~21 minutes.</strong> A natural quarter of the 84-minute orbital resonance (84 ÷ 4 = 21) — long enough to settle past the surface chatter and into steady coherence.</li>
+        </ol>
+      </div>
+    </div>
+
+    <!-- Evidence -->
+    <div class="siddhi-evidence reveal">
+      <h3>Wait — there's real evidence?</h3>
+      <p>Yes. Meditation has a measurable signature in the brain's electrical rhythms, which shift as attention settles:</p>
+      <div class="siddhi-waves">
+        <div class="siddhi-wave"><span class="siddhi-wave-name">Beta</span><span class="siddhi-wave-desc">Ordinary busy waking thought — the noisy baseline.</span></div>
+        <div class="siddhi-wave"><span class="siddhi-wave-name">Alpha</span><span class="siddhi-wave-desc">Relaxed, alert calm — the noise starts dropping.</span></div>
+        <div class="siddhi-wave"><span class="siddhi-wave-name">Theta</span><span class="siddhi-wave-desc">Deep meditative stillness where insight tends to arrive.</span></div>
+        <div class="siddhi-wave"><span class="siddhi-wave-name">Delta</span><span class="siddhi-wave-desc">The slowest, deepest rhythm — profound settledness.</span></div>
+      </div>
+      <div class="siddhi-facts">
+        <div class="siddhi-fact">
+          <span class="siddhi-fact-num">3.75 cps</span>
+          <span class="siddhi-fact-label">The rhythm at which the two brain hemispheres tend to synchronize in deep practice — hemispheric coherence you can measure.</span>
+        </div>
+        <div class="siddhi-fact">
+          <span class="siddhi-fact-num">84 min</span>
+          <span class="siddhi-fact-label">The orbital period of a satellite skimming Earth's surface — the same natural resonance Sankhya links to deep meditative cycles. A quarter of it (84 ÷ 4 = 21 minutes) makes an ideal sit.</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Why it belongs -->
+    <div class="siddhi-why reveal">
+      <h3>Why this belongs in your explorer's kit</h3>
+      <p>You don't need a lab or a title to practice it — just curiosity and a quiet room. Siddhi is the part nobody sells you: sharpen the observer, and every other tool in this Zone works better. You're not chasing magic. You're lowering the noise floor on the one instrument you can never replace.</p>
+      <p class="siddhi-source">Adapted from G. Srinivasan, <em>Siddhi</em> and <em>Meditation</em> (kapillavastu.in / SSRG). Explore, verify, and make it your own.</p>
+    </div>
+    <p class="dz-wing-backtotop"><a href="#dz-hub">↑ Back to the zone menu</a></p>
+  </div>
+</section>
+
+<section class="section dz-wing" id="simulation-lab" role="region" aria-label="Simulation Lab zone">
+  <div class="wrap">
+    <!-- P5: Simulation Lab wing header -->
+    <div class="dz-wing-header reveal">
+      <p class="eyebrow">Simulation Lab</p>
+      <h2>Run it, Visualize it, Explore it</h2>
+      <p>The Simulation Lab gathers the Imagine Nature's Wheelwork tools alongside open-science collections — hundreds of interactive physics models you can run, visualize, and explore entirely in your browser. Use the quick links or search below to dive in.</p>
+    </div>
+
+    <!-- Quick navigation to collections -->
+    <div class="sim-jump reveal">
+      <a class="sim-jump-card" href="#src-inw">
+        <span class="sim-jump-name">INW</span>
+        <span class="sim-jump-desc">Book 1 collections are now live — plus more simulations, calculators, and activities on the way for Books 2–4.</span>
+        <span class="sim-jump-btn">Jump to INW →</span>
+      </a>
+      <a class="sim-jump-card" href="#src-cr">
+        <span class="sim-jump-name">Chantal Roth</span>
+        <span class="sim-jump-desc">An open-source library of 274 browser-based physics simulations you can run, visualize, and explore.</span>
+        <span class="sim-jump-btn">Jump to Chantal Roth →</span>
+      </a>
+      <a class="sim-jump-card" href="#src-notable">
+        <span class="sim-jump-name">Notable Others</span>
+        <span class="sim-jump-desc">Open-science tools from independent researchers exploring resonance, structure, and the oscillating medium.</span>
+        <span class="sim-jump-btn">Jump to Notable Others →</span>
+      </a>
+    </div>
+
+    <div class="sim-search" style="max-width:520px;margin-bottom:10px">
+      <input type="search" id="simSearch" placeholder="Search all collections — simulations, calculators &amp; activities…" aria-label="Search all collections" />
+    </div>
+    <p class="sim-count" id="simCount"></p>
+
+    <!-- INW collection -->
+    <div class="sim-source" id="src-inw" data-name="Imagine Nature's Wheelwork INW" role="region" aria-label="INW simulations zone">
+      <div class="sim-source-head">
+        <h2>INW</h2>
+      </div>
+      <p class="sim-source-intro">The Imagine Nature's Wheelwork collection turns the ideas you read into things you can test, tune, and derive for yourself. The first Book 1 tools are <strong>now live</strong> — launch the collections below. More interactive <strong>simulations, calculators, and hands-on activities</strong> are on the way for Books 2–4.</p>
+
+
+      <div class="sim-grid" id="inwGrid"></div>
+    </div>
+
+    <!-- Chantal Roth collection -->
+    <div class="sim-source" id="src-cr" data-name="Chantal Roth">
+      <div class="sim-source-head">
+        <h2>Chantal Roth</h2>
+      </div>
+      <p class="sim-source-intro"><strong>Chantal Roth</strong> is a scientist and software engineer with a master's in biochemistry and a PhD in scientific computing from ETH Zürich, plus years building software in biotech and personalized medicine. What drives her is a plain, honest curiosity about how the world actually works — an evidence-based, critical-thinking, "follow the data wherever it leads" mindset, paired with a practical maker's habit of testing ideas rather than taking them on faith. That spirit runs through her open-source library of interactive models, which show how quantum mechanics, relativity, charge, spin, and wave behavior can emerge from a real, structured substratum. Every simulation runs in your browser and can be inspected, remixed, and shared.</p>
+      <p class="sim-source-intro">Chantal shares her thinking on her blog, <a class="ext" href="https://www.askingwhy.org/blog/about-me/" target="_blank" rel="noopener">askingwhy.org</a>, and collaborates with <strong>Fractal Women</strong> — exploring these ideas with Lori (Fractal Woman) in <a class="ext" href="https://www.youtube.com/playlist?list=PLDIKbbZkdruVjdIFwPbfIA4ZbPajrqoKo" target="_blank" rel="noopener">this video series ↗</a> and with James (Inductica) in <a class="ext" href="https://www.youtube.com/playlist?list=PLDIKbbZkdruVFKYPulOOpVfVes9jQrMNc" target="_blank" rel="noopener">this series ↗</a>. For a guided overview, see her companion presentation, <a class="ext" href="https://elastic-universe.org/" target="_blank" rel="noopener">The Mechanical Universe ↗</a>.</p>
+      <div class="sim-filters" id="simFilters"></div>
+      <div class="sim-grid" id="crGrid"></div>
+    </div>
+
+    <!-- Notable Others collection -->
+    <div class="sim-source" id="src-notable" data-name="Notable Others">
+      <div class="sim-source-head">
+        <h2>Notable Others</h2>
+      </div>
+      <p class="sim-source-intro">This collection features notable open-science tools from independent researchers exploring resonance, structure, and how energy organizes itself in the oscillating medium — direct investigations that resonate with Sankhya's core principles.</p>
+      <div id="notableContributors"></div>
+    </div>
+
+    <div class="sim-empty" id="simEmpty">No results match your search. Try a different term.</div>
+    <p class="dz-wing-backtotop"><a href="#dz-hub">↑ Back to the zone menu</a></p>
+  </div>
+</section>
+
+<section class="section band-green tight">
+  <div class="wrap center">
+    <p class="eyebrow">Open science</p>
+    <h2>Built to be explored, remixed, and understood</h2>
+    <p class="lead">From Chantal Roth's open-source physics library to Andy Giger's phyllotaxis explorer, Bob Greenyer's resonance tool, and Basel Ashraf's Eigendrum — plus the INW learning tools on the way — these collections let anyone see how nature's wheelwork turns. Read the story behind the science, then keep exploring.</p>
+    <div style="margin-top:26px;display:flex;gap:14px;justify-content:center;flex-wrap:wrap">
+      <a class="btn btn-gold" href="books.html">Read Book 1</a>
+      <a class="btn btn-ghost" href="about.html">The science behind it</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================= -->
+<!-- P5 Sprint 10: User Guide slide-over                            -->
+<!-- ============================================================= -->
+<div class="dz-userguide-overlay" id="dz-userguide-overlay"></div>
+<aside class="dz-userguide-panel" id="dz-userguide-panel" role="dialog" aria-modal="true" aria-labelledby="dz-userguide-title" aria-hidden="true">
+  <div class="dz-userguide-header">
+    <h2 id="dz-userguide-title">User Guide</h2>
+    <button type="button" class="dz-userguide-close" aria-label="Close User Guide panel">&times;</button>
+  </div>
+  <div class="dz-userguide-body">
+    <p class="dz-userguide-intro">New to the Discovery Zone? These six short guides — narrated by your INW companions — cover everything you need to explore, derive, and experiment. Tap a section to expand it.</p>
+
+    <!-- Section 1 -->
+    <div class="ug-accordion">
+      <button type="button" class="ug-accordion-trigger" data-section="s1"
+              aria-expanded="true" aria-controls="ug-content-s1">
+        <span class="ug-accordion-label"><span class="ug-accordion-num" aria-hidden="true">1</span>Using the display toggle</span>
+        <span class="ug-accordion-chevron" aria-hidden="true">▾</span>
+      </button>
+      <div class="ug-accordion-content" id="ug-content-s1">
+        <div class="ug-callout" data-character="sophie">
+          <span class="ug-callout-avatar" aria-hidden="true">P</span>
+          <div class="ug-callout-text">
+            <p class="ug-callout-name">Sophie <span class="ug-callout-role">Intrepid Learner</span></p>
+            <p class="ug-callout-speech">What's the difference between <strong>Symbols</strong> and <strong>Numerics</strong>? When would I use each one?</p>
+          </div>
+        </div>
+        <div class="ug-callout" data-character="neil">
+          <span class="ug-callout-avatar" aria-hidden="true">N</span>
+          <div class="ug-callout-text">
+            <p class="ug-callout-name">Neil <span class="ug-callout-role">Socratic Guide</span></p>
+            <p class="ug-callout-speech">Great question. The toggle in the toolbar has three positions. <strong>Symbols</strong> shows the pure Sankhya notation, <strong>Numerics</strong> shows the resolved numbers, and <strong>Hybrid</strong> shows both side by side. Try this: read a formula in Symbols to see <em>how</em> it's built, then flip to Numerics to check <em>what</em> it computes to.</p>
+          </div>
+        </div>
+        <div class="ug-example">
+          <span class="ug-example-label">Live example — the same quantity in symbol form</span>
+          <div class="katex-expr">\( C_s \)</div>
+        </div>
+        <p>Switch to <strong>Numerics</strong> and that same symbol <span class="katex-expr">\( C_s \)</span> resolves to <strong>2.9657596692 × 10⁸ counts/cycle</strong> — Sankhya's axiomatic count rate, its own value for the speed of light (source: SoS1 Eq.[0.16]). Nothing is hidden — every number traces back to a first principle.</p>
+      </div>
+    </div>
+
+    <!-- Section 2 -->
+    <div class="ug-accordion">
+      <button type="button" class="ug-accordion-trigger" data-section="s2"
+              aria-expanded="true" aria-controls="ug-content-s2">
+        <span class="ug-accordion-label"><span class="ug-accordion-num" aria-hidden="true">2</span>Reading tri-guna brackets</span>
+        <span class="ug-accordion-chevron" aria-hidden="true">▾</span>
+      </button>
+      <div class="ug-accordion-content" id="ug-content-s2">
+        <div class="ug-callout" data-character="kappy">
+          <span class="ug-callout-avatar" aria-hidden="true">K</span>
+          <div class="ug-callout-text">
+            <p class="ug-callout-name">Kappy <span class="ug-callout-role">Ancient Sage</span></p>
+            <p class="ug-callout-speech">Three brackets means the most coherent state — matter compressed to its tightest, most stable form. As brackets fall away, the substratum loosens: two brackets is resonant, one is expansive. The bracket count tells you <em>how tightly wound</em> a state is at a glance.</p>
+          </div>
+        </div>
+        <p>Every state is shown three ways at once — bracket count, a text label, <em>and</em> a color — so you never rely on color alone:</p>
+        <div class="ug-colorkey">
+          <div class="ug-colorkey-row"><span class="ug-colorkey-swatch coherent" aria-hidden="true">3</span><span><strong>3 brackets</strong> — Coherent (Thama): compression, most stable</span></div>
+          <div class="ug-colorkey-row"><span class="ug-colorkey-swatch resonant" aria-hidden="true">2</span><span><strong>2 brackets</strong> — Resonant (Raja): rebounding, balanced</span></div>
+          <div class="ug-colorkey-row"><span class="ug-colorkey-swatch expansive" aria-hidden="true">1</span><span><strong>1 bracket</strong> — Expansive (Sathwa): expansion, most open</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 3 -->
+    <div class="ug-accordion">
+      <button type="button" class="ug-accordion-trigger" data-section="s3"
+              aria-expanded="true" aria-controls="ug-content-s3">
+        <span class="ug-accordion-label"><span class="ug-accordion-num" aria-hidden="true">3</span>Hovering for definitions</span>
+        <span class="ug-accordion-chevron" aria-hidden="true">▾</span>
+      </button>
+      <div class="ug-accordion-content" id="ug-content-s3">
+        <div class="ug-callout" data-character="sophie">
+          <span class="ug-callout-avatar" aria-hidden="true">P</span>
+          <div class="ug-callout-text">
+            <p class="ug-callout-name">Sophie <span class="ug-callout-role">Intrepid Learner</span></p>
+            <p class="ug-callout-speech">Whenever I spot a dotted-underlined symbol, I just hover over it (or tap and hold on my phone) and a little card pops up telling me what it is. Watch:</p>
+          </div>
+        </div>
+        <div class="ug-shot" role="img" aria-label="Example: hovering the symbol x shows a definition card reading golden mean conjugate, a pure geometric constant of about 0.618 that sets how the substratum folds and expands.">
+          <p>…everything grows from the golden mean conjugate <span class="ug-shot-term">x</span> which is where it starts…</p>
+          <div class="ug-shot-popup">
+            <div class="id">x</div>
+            <div class="name">golden mean conjugate</div>
+            <div class="def">A pure geometric constant (≈ 0.618033989) that sets how the substratum is allowed to fold and expand — one of Sankhya's two foundational geometric numbers. Source: SoS1 Eq.[1.2].</div>
+          </div>
+        </div>
+        <p>The card shows the symbol, its Sankhya and physics names, a one-line definition, its value, and a source. Press <kbd>Esc</kbd> or move away to dismiss it.</p>
+      </div>
+    </div>
+
+    <!-- Section 4 -->
+    <div class="ug-accordion">
+      <button type="button" class="ug-accordion-trigger" data-section="s4"
+              aria-expanded="true" aria-controls="ug-content-s4">
+        <span class="ug-accordion-label"><span class="ug-accordion-num" aria-hidden="true">4</span>Switching derivation paths</span>
+        <span class="ug-accordion-chevron" aria-hidden="true">▾</span>
+      </button>
+      <div class="ug-accordion-content" id="ug-content-s4">
+        <div class="ug-callout" data-character="neil">
+          <span class="ug-callout-avatar" aria-hidden="true">N</span>
+          <div class="ug-callout-text">
+            <p class="ug-callout-name">Neil <span class="ug-callout-role">Socratic Guide</span></p>
+            <p class="ug-callout-speech">Why would one quantity have two derivation paths? Because a truly axiomatic science lets you reach the same value from different starting points — and if both routes agree, that's powerful confirmation the value is real, not fitted. Some cards have a path switcher; click it to see the alternative route.</p>
+          </div>
+        </div>
+        <p>When two independent paths land on the same number, the card marks it:</p>
+        <p><span class="ug-badge" aria-label="Paths agree checkmark badge">✓ paths agree</span></p>
+        <p>That ✓ badge means every available derivation converges on the identical result — an internal consistency check you can watch happen live.</p>
+      </div>
+    </div>
+
+    <!-- Section 5 -->
+    <div class="ug-accordion">
+      <button type="button" class="ug-accordion-trigger" data-section="s5"
+              aria-expanded="true" aria-controls="ug-content-s5">
+        <span class="ug-accordion-label"><span class="ug-accordion-num" aria-hidden="true">5</span>Searching and autocomplete</span>
+        <span class="ug-accordion-chevron" aria-hidden="true">▾</span>
+      </button>
+      <div class="ug-accordion-content" id="ug-content-s5">
+        <div class="ug-callout" data-character="gopala">
+          <span class="ug-callout-avatar" aria-hidden="true">G</span>
+          <div class="ug-callout-text">
+            <p class="ug-callout-name">Gopala <span class="ug-callout-role">Living Master</span></p>
+            <p class="ug-callout-speech">Type the first digits of a value, not just a name. The search understands numbers too — so if you remember roughly what a constant equals but not what it's called, start typing the digits and the matching symbols surface. Names, physics terms, and numeric values are all searchable.</p>
+          </div>
+        </div>
+        <p>Use the search bar at the top of the hub. As you type, autocomplete suggestions appear; use the arrow keys to move through them and <kbd>Enter</kbd> to jump straight to that symbol, particle, or reference section.</p>
+      </div>
+    </div>
+
+    <!-- Section 6 -->
+    <div class="ug-accordion">
+      <button type="button" class="ug-accordion-trigger" data-section="s6"
+              aria-expanded="true" aria-controls="ug-content-s6">
+        <span class="ug-accordion-label"><span class="ug-accordion-num" aria-hidden="true">6</span>Opening a constant's card</span>
+        <span class="ug-accordion-chevron" aria-hidden="true">▾</span>
+      </button>
+      <div class="ug-accordion-content" id="ug-content-s6">
+        <div class="ug-callout" data-character="sophie">
+          <span class="ug-callout-avatar" aria-hidden="true">P</span>
+          <div class="ug-callout-text">
+            <p class="ug-callout-name">Sophie <span class="ug-callout-role">Intrepid Learner</span></p>
+            <p class="ug-callout-speech">So I don't have to leave the calculator to see where a number comes from — I just click the symbol and its whole card slides open right underneath?</p>
+          </div>
+        </div>
+        <ol class="ug-steps">
+          <li><strong>Enter an expression.</strong> Type any Sankhya expression into the calculator and read the result in symbolic, hybrid, or numeric form.</li>
+          <li><strong>Hover a symbol</strong> in the result to preview its Sankhya name, value, and source.</li>
+          <li><strong>Click the symbol.</strong> Its full Constant Explorer card slides open directly below the calculator — showing every derivation path, the state badge, and the source references — so you can verify the value without losing your place.</li>
+        </ol>
+        <div class="ug-callout" data-character="neil">
+          <span class="ug-callout-avatar" aria-hidden="true">N</span>
+          <div class="ug-callout-text">
+            <p class="ug-callout-name">Neil <span class="ug-callout-role">Socratic Guide</span></p>
+            <p class="ug-callout-speech">That's the whole discipline in one gesture: never take a number on faith. Click it, read how it's derived, and trace it back to first principles. The card gives you the reasoning; you supply the skepticism.</p>
+          </div>
+        </div>
+        <p><a href="#sankhya-calc">Open the Sankhya Calculator →</a></p>
+      </div>
+    </div>
+
+  </div>
+</aside>
+
+<!-- ============================================================= -->
+<!-- P5 Sprint 9: About Discovery Zone slide-over panel            -->
+<!-- ============================================================= -->
+<div class="dz-about-overlay" id="dz-about-overlay"></div>
+<aside class="dz-about-panel" id="dz-about-panel" role="dialog" aria-modal="true" aria-labelledby="dz-about-title" aria-hidden="true">
+  <div class="dz-about-header">
+    <h2 id="dz-about-title">About the Discovery Zone</h2>
+    <button type="button" class="dz-about-close" aria-label="Close About panel">&times;</button>
+  </div>
+  <div class="dz-about-body">
+    <p class="dz-about-tagline">Derive, don't believe.</p>
+    <p>The Discovery Zone is where you stop reading <em>about</em> Sankhya and start deriving it for yourself. Every constant, particle mass, and cosmic scale here is built up from a small handful of pure numbers — and each tool lets you change an input and watch the whole chain re-derive live, so you can check the reasoning rather than take it on faith.</p>
+
+    <h3>What you'll find</h3>
+    <p>Four zones work together: <strong>Sankhya Calc</strong> introduces the foundational symbols and constants — click any symbol to open its full Constant Explorer card inline; the <strong>Ladder of Phenomena</strong> (coming soon) will map every particle state to its place in Nature's hierarchy; <strong>Siddhi</strong> trains the observer behind every measurement; and the <strong>Simulation Lab</strong> gathers hundreds of runnable open-science models.</p>
+
+    <h3>Authoritative sources</h3>
+    <ul>
+      <li><em>Secret of Sankhya</em> (SoS1 + SoS2) by G. Srinivasan</li>
+      <li><a href="https://kapillavastu.in" target="_blank" rel="noopener">kapillavastu.in</a></li>
+      <li>MASS_ALL_PARTICLES 20210421 paper</li>
+    </ul>
+
+    <div class="dz-about-authenticity">
+      <p>This tool presents exclusively G. Srinivasan's Sankhya — the authentic axiomatic science decoded from Maharishi Kapila's 68 sutras. It is not related to any other interpretation of Sankhya, Samkhya, or Vedic science found elsewhere.</p>
+    </div>
+
+    <h3>Part of a bigger movement</h3>
+    <p>The Discovery Zone is a Science of Freedom initiative. Join fellow explorers in the community:</p>
+    <a class="dz-about-cta" href="https://grow.scienceoffreedom.life/products/communities/FFP" target="_blank" rel="noopener">Freedom First Pathfinders →</a>
+
+    <div class="dz-about-versions" aria-label="Data versions">
+      <span class="dz-about-version-chip"><span class="dot" aria-hidden="true"></span><span id="dz-registry-version">Registry v1.0</span></span>
+      <span class="dz-about-version-chip"><span class="dot" aria-hidden="true"></span><span id="dz-ssrg-version">SSRG v2.4</span></span>
+    </div>
+  </div>
+</aside>
+
+<!-- Tri-guna legend and the display-mode toggle were moved into the
+     Sankhya Calc section (see .dz-wing-tools). The only floating control
+     that remains is the "Top" button below. -->
+
+<!-- ============================================================= -->
+<!-- Always-available "Back to top" button (bottom-right)           -->
+<!-- ============================================================= -->
+<button type="button" id="dz-backtotop-float" class="dz-backtotop-float" aria-label="Back to the top of the Discovery Zone" hidden>
+  <span class="dz-backtotop-float-arrow" aria-hidden="true">↑</span>
+  <span class="dz-backtotop-float-label">Top</span>
+</button>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <div>
+        <div class="footer-brand">
+          <img src="assets/images/brand/explorer_star.png" alt="Explorer Star" />
+          <span class="brand-name">Imagine Nature's Wheelwork</span>
+        </div>
+        <p>Bridging Eastern and Western science through Sankhya — the axiomatic natural science. Think as nature intended.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="discoveryzone.html">Discovery Zone</a></li>
+          <li><a href="books.html">Books</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Connect</h4>
+        <ul>
+          <li><a href="educators.html">For Educators</a></li>
+          <li><a href="store.html">Store</a></li>
+          <li><a href="contact.php">Contact</a></li>
+          <!-- Community link temporarily hidden
+          <li><a class="ext" href="https://grow.scienceoffreedom.life/products/communities/INWCommunity" target="_blank" rel="noopener">Community ↗</a></li>
+          -->
+          <li><a class="ext" href="https://kapillavastu.in/" target="_blank" rel="noopener">kapillavastu.in ↗</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="terms.html">Terms of Use</a></li>
+          <li><a href="mailto:legal@imaginenatureswheelwork.com">DMCA Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Imagine Nature's Wheelwork &middot; An initiative of Freedom First Pathfinders &middot; <a href="terms.html">Terms</a> &middot; <a href="mailto:legal@imaginenatureswheelwork.com">DMCA</a></span>
+      <span class="tagline">Think As Nature Intended</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/sims-data.js?v=20260818-374"></script>
+<script src="assets/js/main.js?v=20260714"></script>
+<script>
+(function () {
+  var SIMS = window.INW_SIMS || [];
+  var ORDER = ["Quantum Mechanics","Bell, Entanglement & Eraser","Wave–Particle Duality","Spin-½","General Relativity","Special Relativity","Charge & Electromagnetism","Magnetism"];
+
+  // INW collection — coming soon, mapped to the four books
+  var INW_ITEMS = [
+    { live:true, t:"Nature's Calc Collection", d:"Connected explorations from the golden ratio to Pascal's triangle, Pingala's binary meters, and the 3D Maha Meru — all from one shared idea: simple rules generate infinite, beautiful structure.", u:"assets/labs/natures_calc_collection.html" },
+    { live:true, t:"Pendulum Lab Collection", d:"Five linked pendulum simulations progressing from basic oscillation to phase arrays, two-frequency traces, coupled pendulums, and linear–torsional energy exchange.", u:"assets/labs/pendulum_lab_collection.html" },
+    { live:true, t:"Waves Lab Collection", d:"Wave simulations exploring how oscillation travels and resonates — from mechanical traveling waves and superposition to the standing-wave eigenmodes of a vibrating membrane.", u:"assets/labs/waves_lab_collection.html" },
+    { live:true, t:"Thinking Lab Collection", d:"Two labs for the two thinking skills the whole series rests on: synthesis — seeing how separate discoveries connect — and inquiry — turning curiosity into a question worth chasing.", u:"assets/labs/thinking_lab_collection.html" },
+    { book:"Book 2 · Think Logically", type:"Simulation", t:"Perpetual Harmonic Oscillator Lab", d:"Tune the balanced expansion and compression of the substratum and see why space cannot be empty." },
+    { book:"Book 2 · Think Logically", type:"Calculator", t:"Balance Equation Calculator", d:"Assemble the six key numbers (7, 10, e, π, x, Rs) and check the Balance Equation for yourself." },
+    { book:"Book 2 · Think Logically", type:"Activity", t:"Prove Space Isn't Empty", d:"A step-by-step reasoning activity that walks you through the logic behind a filled, vibrating substratum." },
+    { book:"Book 3 · Think Axiomatically", type:"Calculator", t:"Speed-of-Light Derivation", d:"Derive the speed of light as nature's timeclock — 296,575,967 oscillations per cycle — from the axioms." },
+    { book:"Book 3 · Think Axiomatically", type:"Simulation", t:"68 Sutras Explorer", d:"Work through Kapila's axiomatic sutras and watch physical constants appear as results, not inputs." },
+    { book:"Book 3 · Think Axiomatically", type:"Activity", t:"Derive a Constant", d:"A hands-on challenge: pick a physical constant and build the derivation chain that produces it." },
+    { book:"Book 4 · Think Creatively", type:"Simulation", t:"Harmony & the Music of Ratios", d:"Play with musical intervals and see how the same ratios that shape matter also shape harmony." },
+    { book:"Book 4 · Think Creatively", type:"Simulation", t:"Cosmic Scale Explorer", d:"Zoom from the subatomic to the cosmic and watch one consistent set of axioms hold at every scale." },
+    { book:"Book 4 · Think Creatively", type:"Activity", t:"Create With the Framework", d:"An open-ended project prompt: use the whole framework to model something new and reflect on Kaivalya." }
+  ];
+
+  // Notable Others collection — structured by contributor
+  var NOTABLE_CONTRIBUTORS = [
+    {
+      id: "andy-giger",
+      name: "Andy Giger",
+      intro: '<p class="sim-contributor-intro"><strong>Dr. Andy Giger</strong> is a scientist, visual communicator, and digital artist whose career spans science, management, and consulting — with a persistent thread of building computer simulations and visualisations to explore how structure emerges from simple rules. His interactive science pages focus on <strong>phyllotaxis</strong>: the mathematical patterns that appear on sunflower heads, pinecones, and pineapples, rooted in the golden angle (137.5°) and the Fibonacci sequence. His tools let you manipulate divergence angle, reduction rate, and dot count to see for yourself why only the golden angle produces parastichy numbers that are always Fibonacci numbers — a direct window into the ratio φ at the heart of how nature organises itself. More of his work can be found at <a class="ext" href="https://andygiger.com/about.html" target="_blank" rel="noopener">andygiger.com ↗</a>.</p>',
+      items: [
+        { cat:"Growth & Ratio Patterns", t:"Parastichies Explorer", d:"Adjust divergence angle, reduction rate, and dot count to generate and explore the criss-crossing spiral patterns on sunflower heads and pinecones. See why only the golden angle (137.5°) produces parastichy numbers that are always Fibonacci numbers.", u:"https://andygiger.com/science/parastichies/" },
+        { cat:"Growth & Ratio Patterns", t:"Phyllotactic Zoetrope", d:"Spin phyllotactic spiral discs under a browser-frame stroboscope — the same technique used by 19th-century phenakistiscopes — to reveal the hidden rotational structure locked inside golden-angle growth patterns.", u:"https://andygiger.com/science/zoetrope/" }
+      ]
+    },
+    {
+      id: "bob-greenyer",
+      name: "Bob Greenyer",
+      intro: '<p class="sim-contributor-intro"><strong>Bob Greenyer</strong> is an independent researcher and a leading figure in the <strong>Martin Fleischmann Memorial Project (MFMP)</strong>, a "Live Open Science" effort that openly replicates and shares experiments in low-energy nuclear reactions and related energy phenomena. His work — and his broader thinking on resonance, structure, and how energy organizes itself in a medium — is documented across his Substack, <a class="ext" href="https://remoteview.substack.com" target="_blank" rel="noopener">Remote View ↗</a>, the MFMP site at <a class="ext" href="http://www.quantumheat.org/index.php/en/" target="_blank" rel="noopener">quantumheat.org ↗</a>, and the <a class="ext" href="https://www.youtube.com/@MFMP/featured" target="_blank" rel="noopener">MFMP YouTube channel ↗</a>. His <strong>Standing Wave Project</strong> is a free online 3D tool for exploring how resonant frequencies organize energy into stable, coherent structures — standing waves and toroidal modes — within a medium. Choose an object and a material, excite it, and watch the resonant patterns form: a vivid illustration of the oscillating substratum at the heart of Sankhya. Bob introduces and walks through the tool in <a class="ext" href="https://www.youtube.com/live/syXV10wBhbI" target="_blank" rel="noopener">this video ↗</a>.</p>',
+      items: [
+        { cat:"Standing Waves & Resonance", t:"Standing Wave Project", d:"An interactive 3D tool: choose an object and material, excite it, and watch resonant standing waves and toroidal modes form — a vivid look at how a medium organizes energy into stable structures.", u:"https://starfire.tech/StandingWaveProject/" }
+      ]
+    },
+    {
+      id: "basel-ashraf",
+      name: "Basel Ashraf",
+      intro: '<p class="sim-contributor-intro"><strong>Basel Ashraf</strong> created <strong>Eigendrum</strong> — an interactive web application for visualizing the vibrational modes of circular drum membranes. Watch how a struck membrane oscillates, see the eigenmode patterns emerge, and explore how boundary conditions and material properties shape standing-wave resonance in a real physical system. The tool is freely available at <a class="ext" href="https://eigendrum.com" target="_blank" rel="noopener">eigendrum.com ↗</a>, and the open-source code is hosted on GitHub at <a class="ext" href="https://github.com/BaselAshraf81/eigendrum" target="_blank" rel="noopener">github.com/BaselAshraf81/eigendrum ↗</a>.</p>',
+      items: [
+        { cat:"Vibrational Modes & Eigenmodes", t:"Eigendrum", d:"Visualize the vibrational modes of circular drum membranes — watch oscillation patterns, explore eigenmodes, and see how boundary conditions and material properties shape standing-wave resonance in a real physical system.", u:"https://eigendrum.com" }
+      ]
+    }
+  ];
+
+  var countEl = document.getElementById("simCount");
+  var searchEl = document.getElementById("simSearch");
+  var inwGrid = document.getElementById("inwGrid");
+  var crGrid = document.getElementById("crGrid");
+  var notableContributors = document.getElementById("notableContributors");
+  var filtersEl = document.getElementById("simFilters");
+  var globalEmpty = document.getElementById("simEmpty");
+  var srcInw = document.getElementById("src-inw");
+  var srcCr = document.getElementById("src-cr");
+  var srcNotable = document.getElementById("src-notable");
+  var activeCat = "All";
+  var query = "";
+
+  function esc(s){ return (s||"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;"); }
+  function match(hay){ return !query || hay.toLowerCase().indexOf(query) !== -1; }
+
+  // Chantal Roth filter buttons
+  var counts = {}; SIMS.forEach(function(s){ counts[s.c]=(counts[s.c]||0)+1; });
+  var cats = ["All"].concat(ORDER.filter(function(c){ return counts[c]; }));
+  filtersEl.innerHTML = cats.map(function(c){
+    var n = c==="All" ? SIMS.length : counts[c];
+    return '<button class="filter-btn'+(c==="All"?" active":"")+'" data-cat="'+esc(c)+'">'+esc(c)+' <span class="count">'+n+'</span></button>';
+  }).join("");
+  filtersEl.addEventListener("click", function(e){
+    var btn = e.target.closest(".filter-btn"); if(!btn) return;
+    activeCat = btn.getAttribute("data-cat");
+    filtersEl.querySelectorAll(".filter-btn").forEach(function(b){ b.classList.toggle("active", b===btn); });
+    render();
+  });
+  searchEl.addEventListener("input", function(){ query = searchEl.value.trim().toLowerCase(); render(); });
+
+  function renderINW(){
+    var list = INW_ITEMS.filter(function(s){ return match(s.t+" "+s.d+" "+(s.book||"")+" "+(s.type||"")+" INW Imagine Nature's Wheelwork"); });
+    inwGrid.innerHTML = list.map(function(s){
+      if (s.live){
+        return '<article class="sim-card">'
+          + '<h4>'+esc(s.t)+'</h4><p>'+esc(s.d)+'</p>'
+          + '<a class="sim-launch" href="'+esc(s.u)+'" target="_blank" rel="noopener">Launch →</a></article>';
+      }
+      return '<article class="sim-card coming">'
+        + '<div><span class="sim-book-tag">'+esc(s.book)+'</span><span class="sim-type">'+esc(s.type)+'</span></div>'
+        + '<h4>'+esc(s.t)+'</h4><p>'+esc(s.d)+'</p>'
+        + '<span class="sim-soon-note">Coming soon</span></article>';
+    }).join("");
+    srcInw.classList.toggle("hidden", list.length===0);
+    return list.length;
+  }
+
+  function renderCR(){
+    var list = SIMS.filter(function(s){
+      if (activeCat!=="All" && s.c!==activeCat) return false;
+      return match(s.t+" "+s.d+" "+s.c+" Chantal Roth");
+    });
+    var byCat = {}; list.forEach(function(s){ (byCat[s.c]=byCat[s.c]||[]).push(s); });
+    var html = "";
+    var groups = activeCat==="All" ? ORDER.filter(function(c){return byCat[c];}) : [activeCat];
+    groups.forEach(function(cat){
+      var items = byCat[cat]; if(!items||!items.length) return;
+      if (activeCat==="All") html += '<h3 class="cat-section-title">'+esc(cat)+'</h3>';
+      items.forEach(function(s){
+        html += '<article class="sim-card"><span class="sim-cat">'+esc(s.c)+'</span>'
+          + '<h4>'+esc(s.t)+'</h4><p>'+esc(s.d)+'</p>'
+          + '<a class="sim-launch" href="'+esc(s.u)+'" target="_blank" rel="noopener">Launch →</a></article>';
+      });
+    });
+    crGrid.innerHTML = html;
+    srcCr.classList.toggle("hidden", list.length===0);
+    return list.length;
+  }
+
+  function renderNotable(){
+    var totalMatches = 0;
+    var html = "";
+    
+    NOTABLE_CONTRIBUTORS.forEach(function(contrib, idx){
+      // Filter this contributor's items based on search query
+      var filteredItems = contrib.items.filter(function(s){
+        return match(s.t+" "+s.d+" "+s.cat+" "+contrib.name+" Notable Others");
+      });
+      
+      // Skip this contributor if no items match
+      if (filteredItems.length === 0) return;
+      
+      totalMatches += filteredItems.length;
+      
+      // Build contributor sub-block: divider (if not first) + heading + intro + grid
+      if (idx > 0) {
+        html += '<div class="sim-contributor-divider"></div>';
+      }
+      html += '<div class="sim-contributor" data-id="'+esc(contrib.id)+'">';
+      html += '<h3 class="sim-contributor-name">'+esc(contrib.name)+'</h3>';
+      html += contrib.intro;
+      html += '<div class="sim-grid">';
+      filteredItems.forEach(function(s){
+        html += '<article class="sim-card"><span class="sim-cat">'+esc(s.cat)+'</span>'
+          + '<h4>'+esc(s.t)+'</h4><p>'+esc(s.d)+'</p>'
+          + '<a class="sim-launch" href="'+esc(s.u)+'" target="_blank" rel="noopener">Launch →</a></article>';
+      });
+      html += '</div>'; // close .sim-grid
+      html += '</div>'; // close .sim-contributor
+    });
+    
+    notableContributors.innerHTML = html;
+    srcNotable.classList.toggle("hidden", totalMatches === 0);
+    return totalMatches;
+  }
+
+  function render(){
+    var nInw = renderINW();
+    var nCr = renderCR();
+    var nNotable = renderNotable();
+    var total = nInw + nCr + nNotable;
+    globalEmpty.style.display = total===0 ? "block" : "none";
+    
+    // Calculate total Notable Others items across all contributors
+    var notableTotal = 0;
+    NOTABLE_CONTRIBUTORS.forEach(function(c){ notableTotal += c.items.length; });
+    var totalAll = INW_ITEMS.length + SIMS.length + notableTotal;
+    
+    if (query){
+      countEl.textContent = "Showing " + total + " result" + (total===1?"":"s") + " across all collections for \u201c" + query + "\u201d.";
+    } else {
+      var inwLive = INW_ITEMS.filter(function(s){ return s.live; }).length;
+      var inwSoon = INW_ITEMS.length - inwLive;
+      countEl.textContent = inwLive + " INW Book 1 collections live (" + inwSoon + " more coming) · " + SIMS.length + " Chantal Roth simulations · " + notableTotal + " Notable Others tools.";
+    }
+  }
+  render();
+})();
+</script>
+</body>
+</html>

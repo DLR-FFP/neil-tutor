@@ -1,0 +1,375 @@
+#,Simulation (title),Play URL (jsfiddle),Collection,Description
+1,Before Quantum Erazer,https://jsfiddle.net/Chenopdodium/6rokn7ts/show/,"Bell, Entanglement & Eraser",Delayed-choice sorting (I) | Quantum eraser (extra views) 1
+2,Bell Experiment,https://jsfiddle.net/Chenopdodium/v4yc96nt/show/,"Bell, Entanglement & Eraser",Bell Experiment | Detection loophole
+3,Bell Models,https://jsfiddle.net/Chenopdodium/1m6a0cgr/show/,"Bell, Entanglement & Eraser",Three models
+4,Bell Test Correlation and Detection Fraction,https://jsfiddle.net/Chenopdodium/c6jbarv5/show/,"Bell, Entanglement & Eraser",Bell Test Correlation and Detection Fraction | Efficiency sensitivity
+5,Bell-CHSH Simulation (Faithful JS Port from Pierre Leroy),https://jsfiddle.net/Chenopdodium/mceLur1k/show/,"Bell, Entanglement & Eraser",Bell-CHSH Simulation (Faithful JS Port from Pierre Leroy) | Experiment model without entanglement
+6,Bell: Time Window Loophole,https://jsfiddle.net/Chenopdodium/83b95zmu/show/,"Bell, Entanglement & Eraser",Bell: Time Window Loophole | Time-window effect (1)
+7,Chaotic Ball Game (EPR),https://jsfiddle.net/Chenopdodium/c7xj12uy/show/,"Bell, Entanglement & Eraser",Basic Bell setup | Chaotic Ball Game (EPR)
+8,Correlation E vs Angle Difference,https://jsfiddle.net/Chenopdodium/3on2qxja/show/,"Bell, Entanglement & Eraser",CHSH | Correlation E vs Angle Difference
+9,Detecting photons,https://jsfiddle.net/Chenopdodium/zf3tgkxj/show/,"Bell, Entanglement & Eraser",Detecting photons | Detecting photons (clicks)
+10,"Double Slit, Which Path",https://jsfiddle.net/Chenopdodium/sr57vd02/show/,"Bell, Entanglement & Eraser","Double Slit, Which Path | Double slit + which-path | Double slit/which path | Quantum eraser (waves)"
+11,Eberhard (J) Fixed Time windows,https://jsfiddle.net/Chenopdodium/sj1myng7/show/,"Bell, Entanglement & Eraser",Time-window effect (2)
+12,Eberhard Mechanism,https://jsfiddle.net/Chenopdodium/x923dnvw/show/,"Bell, Entanglement & Eraser",Eberhard inequality (1)
+13,"Eberhard Mechanism (""Tax"")",https://jsfiddle.net/Chenopdodium/7uoa3cs4/show/,"Bell, Entanglement & Eraser","Eberhard Mechanism (""Tax"") | Eberhard inequality (2)"
+14,Mach Zehnder Interference,https://jsfiddle.net/Chenopdodium/597gbxLz/show/,"Bell, Entanglement & Eraser",Interference + beam splitter intuition | Mach Zehnder Interference
+15,Malus Law,https://jsfiddle.net/Chenopdodium/9p1f8bkw/show/,"Bell, Entanglement & Eraser",Malus Law | Malus law
+16,Malus Law with Polarizers,https://jsfiddle.net/Chenopdodium/8vhqL243/show/,"Bell, Entanglement & Eraser",Malus Law with Polarizers | Polarizers (Malus)
+17,Non-Entangled CHSH test,https://jsfiddle.net/Chenopdodium/oq9xt2bd/show/,"Bell, Entanglement & Eraser",QM-looking results without entanglement
+18,Orthogonal: different frequencies,https://jsfiddle.net/Chenopdodium/s59cauzm/show/,"Bell, Entanglement & Eraser",Orthogonal: different frequencies | Orthogonality (frequency tagging)
+19,Polarizer magic,https://jsfiddle.net/Chenopdodium/739tg6jx/show/,"Bell, Entanglement & Eraser",Polarizer magic | Three polarizers (projection demo)
+20,Quantum Erazer (V) (improve it),https://jsfiddle.net/Chenopdodium/os79yz3e/show/,"Bell, Entanglement & Eraser",Delayed-choice sorting (II) | Quantum Erazer (V) (improve it) | Quantum eraser (extra views) 2
+21,Quantum Erazer Optmized (VI),https://jsfiddle.net/Chenopdodium/kaswqxvf/show/,"Bell, Entanglement & Eraser",Quantum Erazer Optmized (VI) | Quantum eraser (waves)
+22,SPCD Demo,https://jsfiddle.net/Chenopdodium/7vyfLert/show/,"Bell, Entanglement & Eraser",Double slit + SPDC (variant 1) | SPCD Demo
+23,SPDC Wave Cones,https://jsfiddle.net/Chenopdodium/ecgu19hy/show/,"Bell, Entanglement & Eraser",Double slit + SPDC (variant 2) | SPDC Wave Cones
+24,SPDC with double slit,https://jsfiddle.net/Chenopdodium/krdwsxv8/show/,"Bell, Entanglement & Eraser",SPDC / entanglement intuition | SPDC with double slit
+25,1D Transverse Wave (Elasticity),https://jsfiddle.net/Chenopdodium/pbzhdy5x/show/,Charge & Electromagnetism,1D Transverse Wave (Elasticity) | Elasticity and Transverse Waves (Discrete Demo) | Wave equation (curvature acceleration)
+26,2 Volume Defects (charges),https://jsfiddle.net/Chenopdodium/rgz1kLap/show/,Charge & Electromagnetism,2 Volume Defects (charges)
+27,"2 Wires (3D, Jello)",https://jsfiddle.net/Chenopdodium/4ea5yvpz/show/,Charge & Electromagnetism,BiotSavart / AmpreMaxwell (B around a wire)
+28,"2 Wires (3D, Jello)",https://jsfiddle.net/Chenopdodium/4ea5yvpz/5/show/,Charge & Electromagnetism,Two wires (alternate view)
+29,2 Wires witih current,https://jsfiddle.net/Chenopdodium/yr2b03md/show/,Charge & Electromagnetism,2 Wires witih current
+30,2 volume defects (charges) (II),https://jsfiddle.net/Chenopdodium/bL230edp/show/,Charge & Electromagnetism,2 volume defects (charges) (II)
+31,"2 wires (lattice, twist pressure)",https://jsfiddle.net/Chenopdodium/a1psy7t5/show/,Charge & Electromagnetism,Two wires (field superposition)
+32,3D Lattice,https://jsfiddle.net/Chenopdodium/p8z1a6vk/show/,Charge & Electromagnetism,3D Lattice | Microstructure illustration 4
+33,3D vector fields,https://jsfiddle.net/Chenopdodium/8mosa51w/show/,Charge & Electromagnetism,3D vector fields (curl) 1
+34,AB Phase (Elastic Wavepacket),https://jsfiddle.net/Chenopdodium/mutfb3p2/show/,Charge & Electromagnetism,Aharonov-Bohm (phase view 2)
+35,Accelerated Charge (2D),https://jsfiddle.net/Chenopdodium/sf4hxqbk/show/,Charge & Electromagnetism,Accelerated Charge (2D)
+36,Accelerating Charges (Multiple),https://jsfiddle.net/Chenopdodium/kv0mx41n/show/,Charge & Electromagnetism,Accelerating Charges (Multiple)
+37,Accelerating Volume Eigenstrains,https://jsfiddle.net/Chenopdodium/kur9opy8/show/,Charge & Electromagnetism,Accelerating Volume Eigenstrains
+38,Aharonov Bohm,https://jsfiddle.net/Chenopdodium/9cbpjvmx/show/,Charge & Electromagnetism,Aharonov Bohm | Aharonov-Bohm (source and outside A)
+39,Aharonov Bohm witih Phase,https://jsfiddle.net/Chenopdodium/kwtb31qy/show/,Charge & Electromagnetism,Aharonov Bohm witih Phase | Aharonov-Bohm (phase view 1)
+40,Biot Savart Law,https://jsfiddle.net/Chenopdodium/v745fh8n/show/,Charge & Electromagnetism,Biot Savart Law
+41,Biot Savart law (circular),https://jsfiddle.net/Chenopdodium/2gf3hr46/show/,Charge & Electromagnetism,Biot Savart law (circular)
+42,Charge as Volume Defect (III),https://jsfiddle.net/Chenopdodium/ecLyxbjo/show/,Charge & Electromagnetism,Charge as Volume Defect (III)
+43,"Charge as dV defect, 2 charges (drag)",https://jsfiddle.net/Chenopdodium/zrgeh4um/show/,Charge & Electromagnetism,"Charge as dV defect, 2 charges (drag)"
+44,Charge as defect 2D,https://jsfiddle.net/Chenopdodium/0e1w4csg/show/,Charge & Electromagnetism,Charge as defect 2D
+45,Charge as volume defect (Cartoon),https://jsfiddle.net/Chenopdodium/789ntkfr/show/,Charge & Electromagnetism,Charge as volume defect (Cartoon) | Charge eigenstrain (+)
+46,Charge movement: Mexican Wave,https://jsfiddle.net/Chenopdodium/hepuLfm4/show/,Charge & Electromagnetism,Charge eigenstrain (-) | Charge movement: Mexican Wave
+47,Charge with People (II),https://jsfiddle.net/Chenopdodium/0a31u9co/show/,Charge & Electromagnetism,Charge with People (II)
+48,Charge with People (III),https://jsfiddle.net/Chenopdodium/Ldnvg6w4/show/,Charge & Electromagnetism,Charge with People (III)
+49,Circular Eigenstrain Pump (2),https://jsfiddle.net/Chenopdodium/xst87de6/show/,Charge & Electromagnetism,Circular Eigenstrain Pump (2) | Moving charge (view 1)
+50,Circular Eshelby Transport,https://jsfiddle.net/Chenopdodium/prwgfks2/show/,Charge & Electromagnetism,Circular Eshelby Transport
+51,"Circular wire (Vacancy Flux), Lattice",https://jsfiddle.net/Chenopdodium/xL2oug1w/show/,Charge & Electromagnetism,"Circular wire (Vacancy Flux), Lattice"
+52,E and B around wire (standard),https://jsfiddle.net/Chenopdodium/1gj4xn5c/show/,Charge & Electromagnetism,3D vector fields (curl) 2
+53,EM Wave,https://jsfiddle.net/Chenopdodium/yt41zxoh/show/,Charge & Electromagnetism,Maxwell equations overview
+54,EM wave through accelerated charge,https://jsfiddle.net/Chenopdodium/g1w86jsy/show/,Charge & Electromagnetism,EM wave through accelerated charge | Electromagnetic wave
+55,Eigenstrain movement (pressure),https://jsfiddle.net/Chenopdodium/k8e4bsm7/show/,Charge & Electromagnetism,Eigenstrain migration
+56,Elastic Transport Field,https://jsfiddle.net/Chenopdodium/7jrfoagt/show/,Charge & Electromagnetism,Elastic Transport Field
+57,Elastic Transport Field,https://jsfiddle.net/Chenopdodium/cq2vdLfj/show/,Charge & Electromagnetism,Elastic Transport Field | Elastic pseudomomentum
+58,Electric Field,https://jsfiddle.net/Chenopdodium/kd1wr68f/show/,Charge & Electromagnetism,E=-grad phi visualization | Electric Field
+59,FCC Grid (with tensor),https://jsfiddle.net/Chenopdodium/tzdxLuer/show/,Charge & Electromagnetism,FCC Grid (with tensor) | Microstructure illustration 3 | Microstructure intuition (2)
+60,Fluid vs Elastic,https://jsfiddle.net/Chenopdodium/L1kz6jws/show/,Charge & Electromagnetism,Elastic vs fluid
+61,Hedgehog Charge (twist field) (3D),https://jsfiddle.net/Chenopdodium/0dz35e7L/show/,Charge & Electromagnetism,Hedgehog Charge (twist field) (3D)
+62,Jello Eigenstrain Pump,https://jsfiddle.net/Chenopdodium/5vtk48sy/show/,Charge & Electromagnetism,Jello Eigenstrain Pump | Moving charge (view 2)
+63,Jello with clock,https://jsfiddle.net/Chenopdodium/6h8wme7s/show/,Charge & Electromagnetism,Jello with clock | Microstructure illustration 2 | Time dilation (mechanical)
+64,"Lenz Law (3D, jello)",https://jsfiddle.net/Chenopdodium/fvjoxrdq/show/,Charge & Electromagnetism,Lenz / induction (view 3)
+65,Lenz Law II,https://jsfiddle.net/Chenopdodium/z1n3gxp2/show/,Charge & Electromagnetism,Lenz / induction (view 2)
+66,Lenz Law in an elastic solid (old version),https://jsfiddle.net/Chenopdodium/h7sbw5pr/show/,Charge & Electromagnetism,Lenz Law in an elastic solid (old version)
+67,Lenz law of induction,https://jsfiddle.net/Chenopdodium/rp3ohacb/show/,Charge & Electromagnetism,Lenz / induction (view 1)
+68,Lenz’s law illustration,https://jsfiddle.net/Chenopdodium/5reL2v3g/show/,Charge & Electromagnetism,Lenz’s law illustration
+69,Lorentz Force,https://jsfiddle.net/Chenopdodium/9u2prq1c/show/,Charge & Electromagnetism,Lorentz force
+70,Moving Charge,https://jsfiddle.net/Chenopdodium/u8pvk5Lx/show/,Charge & Electromagnetism,Moving Charge
+71,Moving Charge (Circular) (Biot Savart),https://jsfiddle.net/Chenopdodium/zcek0xs9/show/,Charge & Electromagnetism,Moving Charge (Circular) (Biot Savart)
+72,Moving Charges (Biot Savart Law),https://jsfiddle.net/Chenopdodium/1er29qy4/show/,Charge & Electromagnetism,Moving Charges (Biot Savart Law)
+73,Moving Volume Eigenstrain (jello),https://jsfiddle.net/Chenopdodium/7wkyghrc/show/,Charge & Electromagnetism,Moving Volume Eigenstrain (jello)
+74,Newton's Cradle,https://jsfiddle.net/Chenopdodium/87ygb9vo/show/,Charge & Electromagnetism,Newton's Cradle
+75,Retarded Oscillating Current,https://jsfiddle.net/Chenopdodium/06j3eLwg/show/,Charge & Electromagnetism,Oscillating current / radiation
+76,Scalar Potential,https://jsfiddle.net/Chenopdodium/btkvyu8g/show/,Charge & Electromagnetism,Scalar Potential
+77,Spherical Scalar and Vector Harmonics (With Spin 1/2 and Charge) 2,https://jsfiddle.net/Chenopdodium/r6fpyd4e/show/,Charge & Electromagnetism,Spherical Scalar and Vector Harmonics (With Spin 1/2 and Charge) 2
+78,"Spherical Standing waves passing (""charge"" model)",https://jsfiddle.net/Chenopdodium/cqLebyxh/show/,Charge & Electromagnetism,"Spherical Standing waves passing (""charge"" model)"
+79,Static Energy Flow (Lorentz),https://jsfiddle.net/Chenopdodium/93ry2two/show/,Charge & Electromagnetism,Static energy flow
+80,"Two Eigenstrains (2D, bulge)",https://jsfiddle.net/Chenopdodium/jrxy7291/show/,Charge & Electromagnetism,"Gauss-law intuition | Two Eigenstrains (2D, bulge)"
+81,Two component w field (charge),https://jsfiddle.net/Chenopdodium/9cngk14q/show/,Charge & Electromagnetism,Two component w field (charge)
+82,Two team people lattice (charge),https://jsfiddle.net/Chenopdodium/tjrpo3eg/show/,Charge & Electromagnetism,Two team people lattice (charge)
+83,Vacancy Flux II (Biot Savart Law),https://jsfiddle.net/Chenopdodium/51j9n6zq/show/,Charge & Electromagnetism,BiotSavart / AmpreMaxwell (circulation picture) | Vacancy Flux II (Biot Savart Law)
+84,Vibrating Diamond Structure,https://jsfiddle.net/Chenopdodium/9wov6dyc/show/,Charge & Electromagnetism,Microstructure illustration 1 | Microstructure intuition (1)
+85,Wave Pump,https://jsfiddle.net/Chenopdodium/2ykon789/show/,Charge & Electromagnetism,Wave Pump
+86,Wave pump,https://jsfiddle.net/Chenopdodium/7kLxmbq0/show/,Charge & Electromagnetism,Wave Pump
+87,3D Refraction,https://jsfiddle.net/Chenopdodium/bn8r20mf/show/,General Relativity,3D Refraction
+88,FCC Grid (with tensor),https://jsfiddle.net/Chenopdodium/2o49e03b/show/,General Relativity,FCC Grid (with tensor)
+89,Fabric of spacetime,https://jsfiddle.net/Chenopdodium/wbdz3u9n/show/,General Relativity,Curvature / geometry | Fabric of spacetime
+90,GRIN Optics,https://jsfiddle.net/Chenopdodium/bw691pdg/show/,General Relativity,GRIN Optics | Gradient refraction
+91,"Gas, Liquid, Solid",https://jsfiddle.net/Chenopdodium/fmsjbnkx/show/,General Relativity,"Gas, Liquid, Solid | Wave Physics Lab (solid/liquid/gas, transverse/longitudinal)"
+92,General Relativity,https://jsfiddle.net/Chenopdodium/n879e5dh/show/,General Relativity,General Relativity | Gravity as refraction (latest build)
+93,Gravitational Potential Around Different Objects,https://jsfiddle.net/Chenopdodium/vgbtcmep/show/,General Relativity,Gravitational Potential Around Different Objects | Inertia vs gravity
+94,Gravitational Waves,https://jsfiddle.net/Chenopdodium/tgaez3pf/show/,General Relativity,Gravitational Waves | Gravitational waves
+95,Jello,https://jsfiddle.net/Chenopdodium/sozhbd6g/show/,General Relativity,Jello | Metric mapping
+96,Jello with GR waves,https://jsfiddle.net/Chenopdodium/n453j608/show/,General Relativity,Jello with GR waves | Mass as wave energy
+97,Jello with Gravity Well and Light Beam,https://jsfiddle.net/Chenopdodium/fke6Ldua/show/,General Relativity,Frequency / wave speed | Jello with Gravity Well and Light Beam
+98,Jello: frequency shift,https://jsfiddle.net/Chenopdodium/9jcoL1m7/show/,General Relativity,Frequency & wavelength | Jello: frequency shift
+99,Le Sage Shadowing,https://jsfiddle.net/Chenopdodium/6vu1k7p3/show/,General Relativity,Le Sage Shadowing | Push gravity intuition
+100,Matter Wave in GR Field,https://jsfiddle.net/Chenopdodium/yu21mnp8/show/,General Relativity,Matter Wave in GR Field
+101,Matter wave in GR (2),https://jsfiddle.net/Chenopdodium/hk4fugct/show/,General Relativity,Matter wave in GR (2)
+102,Matter wave in GR (3),https://jsfiddle.net/Chenopdodium/td2arc8h/show/,General Relativity,Matter wave in GR (3)
+103,Optical Analogy of GR,https://jsfiddle.net/Chenopdodium/j1bqavt4/show/,General Relativity,Optical Analogy of GR
+104,Optical Analogy of GR,https://jsfiddle.net/Chenopdodium/sn3dqr12/show/,General Relativity,Optical Analogy of GR
+105,Phase of 2 beams,https://jsfiddle.net/Chenopdodium/Ly3wnufb/show/,General Relativity,Phase of 2 beams
+106,Refraction,https://jsfiddle.net/Chenopdodium/4pe5jx0s/show/,General Relativity,Refraction
+107,Refraction,https://jsfiddle.net/Chenopdodium/yb4oj3hu/show/,General Relativity,Refraction
+108,Refraction,https://jsfiddle.net/Chenopdodium/zv5gw9qk/show/,General Relativity,Refraction
+109,Refraction (Snell's Law),https://jsfiddle.net/Chenopdodium/3mLt1wsa/show/,General Relativity,Refraction (Snell's Law) | Snell's law (A)
+110,Refraction (Twist Tension),https://jsfiddle.net/Chenopdodium/Lwtgkp50/show/,General Relativity,Refraction (Twist Tension)
+111,Refraction in jello (3D),https://jsfiddle.net/Chenopdodium/npkd47b5/show/,General Relativity,Refraction in 3D | Refraction in jello (3D)
+112,Refraction with People,https://jsfiddle.net/Chenopdodium/w6oLz79x/show/,General Relativity,Refraction with People
+113,River Model,https://jsfiddle.net/Chenopdodium/15tqafns/show/,General Relativity,River Model | River model intuition
+114,Rubber Band,https://jsfiddle.net/Chenopdodium/fpo0uLk4/show/,General Relativity,Rubber Band
+115,Scalar to Tensor,https://jsfiddle.net/Chenopdodium/umcvkbr2/show/,General Relativity,Scalar to Tensor
+116,Scalar vs Tensor,https://jsfiddle.net/Chenopdodium/x09maL8z/show/,General Relativity,Scalar vs Tensor
+117,Spiral wave in GR,https://jsfiddle.net/Chenopdodium/1du37r0p/show/,General Relativity,Spiral wave in GR
+118,Spiral wave in a refractive gradient,https://jsfiddle.net/Chenopdodium/69m2Lofq/show/,General Relativity,Matter / potential / refraction | Spiral wave in a refractive gradient
+119,Steinberg Cochran Guinan relation,https://jsfiddle.net/Chenopdodium/9rt5naL7/show/,General Relativity,Acceleration as n | Steinberg Cochran Guinan relation
+120,Steinberg Energy Field,https://jsfiddle.net/Chenopdodium/cg097t3z/show/,General Relativity,Steinberg Energy Field
+121,Stiffness vs Density,https://jsfiddle.net/Chenopdodium/2edwra9j/show/,General Relativity,Stiffness vs Density | Wave speed in solids
+122,Wave creates longer path,https://jsfiddle.net/Chenopdodium/L0a17ewh/show/,General Relativity,Slower waves gravity | Wave creates longer path
+123,1D Oscillation,https://jsfiddle.net/Chenopdodium/25n67rhm/show/,Quantum Mechanics,1D Oscillation
+124,2 Charges in elastic solid (Radial),https://jsfiddle.net/Chenopdodium/1v9u4od2/show/,Quantum Mechanics,2 Charges in elastic solid (Radial)
+125,2D Fourier spectrum,https://jsfiddle.net/Chenopdodium/wesxo2hq/show/,Quantum Mechanics,2D Fourier spectrum
+126,3D Grid Wave Simulation,https://jsfiddle.net/Chenopdodium/87xyaLor/show/,Quantum Mechanics,3D Grid Wave Simulation
+127,3D Lattice Simulation,https://jsfiddle.net/Chenopdodium/bL4nms50/show/,Quantum Mechanics,3D Lattice Simulation
+128,4 Rings (Jeff),https://jsfiddle.net/Chenopdodium/jx70erm1/show/,Quantum Mechanics,4 Rings (Jeff)
+129,Advanced Gas Dynamics (Extended),https://jsfiddle.net/Chenopdodium/zjkn3c27/show/,Quantum Mechanics,Advanced Gas Dynamics (Extended)
+130,Aharanov Bohm: phase gradient,https://jsfiddle.net/Chenopdodium/nm23aogz/show/,Quantum Mechanics,Aharanov Bohm: phase gradient
+131,Aharonov Bohm,https://jsfiddle.net/Chenopdodium/fubw0cmr/show/,Quantum Mechanics,Aharonov Bohm
+132,"Aharonov Bohm ""Pump""",https://jsfiddle.net/Chenopdodium/79ed3ysc/show/,Quantum Mechanics,"Aharonov Bohm ""Pump"""
+133,Aharonov Bohm (Berry Phase),https://jsfiddle.net/Chenopdodium/k2498cfg/show/,Quantum Mechanics,Aharonov Bohm (Berry Phase)
+134,Aharonov Bohm (beam spread slider),https://jsfiddle.net/Chenopdodium/mv6p2L0a/show/,Quantum Mechanics,Aharonov Bohm (beam spread slider)
+135,Aharonov Bohm Effect (phase shift),https://jsfiddle.net/Chenopdodium/g4ayrnc7/show/,Quantum Mechanics,Aharonov Bohm Effect (phase shift)
+136,Aharonov Bohm w Phase Flow,https://jsfiddle.net/Chenopdodium/8gs7qad3/show/,Quantum Mechanics,Aharonov Bohm w Phase Flow
+137,Aharonov Bohm with Phase Shift,https://jsfiddle.net/Chenopdodium/8xcdzj9t/show/,Quantum Mechanics,Aharonov Bohm with Phase Shift
+138,Aharonov Bohm with interference,https://jsfiddle.net/Chenopdodium/ovLte7f9/show/,Quantum Mechanics,Aharonov Bohm with interference
+139,Aharonovh Bohm with Electron Model,https://jsfiddle.net/Chenopdodium/n8gcf5so/show/,Quantum Mechanics,Aharonovh Bohm with Electron Model
+140,Aharonov–Bohm effect — and what this ESU-style demo is showing,https://jsfiddle.net/Chenopdodium/snr4dtp3/show/,Quantum Mechanics,Aharonov–Bohm effect — and what this ESU-style demo is showing
+141,Angular Momentum vs H,https://jsfiddle.net/Chenopdodium/86db3njr/show/,Quantum Mechanics,Meaning of h 2
+142,Antenna simulation (grid),https://jsfiddle.net/Chenopdodium/q8tx691L/show/,Quantum Mechanics,Antenna simulation (grid)
+143,Beach (Photons),https://jsfiddle.net/Chenopdodium/fxcpmj3b/show/,Quantum Mechanics,Photon as detection
+144,"Beam Splitter (Reflection, Transmission)",https://jsfiddle.net/Chenopdodium/L6asnvx8/show/,Quantum Mechanics,"Beam Splitter (Reflection, Transmission)"
+145,Bell Eberhard,https://jsfiddle.net/Chenopdodium/qbc0L6r1/show/,Quantum Mechanics,Bell Eberhard
+146,Bell Experiment (3D view),https://jsfiddle.net/Chenopdodium/k97to2c3/show/,Quantum Mechanics,Bell Experiment (3D view)
+147,Bell-CHSH Simulation (Faithful JS Port from Pierre Leroy),https://jsfiddle.net/Chenopdodium/oq3pvfw7/show/,Quantum Mechanics,Bell-CHSH Simulation (Faithful JS Port from Pierre Leroy)
+148,Bohmian Empty Wave,https://jsfiddle.net/Chenopdodium/asg5cwpk/show/,Quantum Mechanics,Bohmian Empty Wave
+149,Bohmian Mechanics: Cavities,https://jsfiddle.net/Chenopdodium/35qamvug/show/,Quantum Mechanics,Bohmian Mechanics: Cavities
+150,CH-Eberhard Inequality,https://jsfiddle.net/Chenopdodium/6yqbarun/show/,Quantum Mechanics,CH-Eberhard Inequality
+151,Charge as Cosserat microrotations (3D),https://jsfiddle.net/Chenopdodium/fb9572ha/show/,Quantum Mechanics,Charge as Cosserat microrotations (3D)
+152,Charge in an elastic solid (radial),https://jsfiddle.net/Chenopdodium/0gL3cv9j/show/,Quantum Mechanics,Charge in an elastic solid (radial)
+153,"Cicular waves, helical modes (Williamson)",https://jsfiddle.net/Chenopdodium/uzos1jLw/show/,Quantum Mechanics,"Cicular waves, helical modes (Williamson)"
+154,Coherent State Simulator,https://jsfiddle.net/Chenopdodium/r8s9vxe7/show/,Quantum Mechanics,Coherent State Simulator
+155,Compton Scattering,https://jsfiddle.net/Chenopdodium/exmzdk16/show/,Quantum Mechanics,Compton Scattering
+156,"Cosserat 3D, 2 charges",https://jsfiddle.net/Chenopdodium/7j28dLsy/show/,Quantum Mechanics,"Cosserat 3D, 2 charges"
+157,Cosserat Charge,https://jsfiddle.net/Chenopdodium/xpb4rgq1/show/,Quantum Mechanics,Cosserat Charge
+158,Coupled Swing Resonance,https://jsfiddle.net/Chenopdodium/v1s0prt7/show/,Quantum Mechanics,Coupled Swing Resonance
+159,Defintion of A and E,https://jsfiddle.net/Chenopdodium/zkfLhepx/show/,Quantum Mechanics,Defintion of A and E
+160,Defintion of A in grid,https://jsfiddle.net/Chenopdodium/6kbfL4qv/show/,Quantum Mechanics,Defintion of A in grid
+161,Di Electron,https://jsfiddle.net/Chenopdodium/p8290kcu/show/,Quantum Mechanics,Di Electron
+162,Dielectric Charge,https://jsfiddle.net/Chenopdodium/z9Ln8wto/show/,Quantum Mechanics,Dielectric Charge
+163,Double Slit With Vortices,https://jsfiddle.net/Chenopdodium/u0cg9hmt/show/,Quantum Mechanics,Double Slit With Vortices
+164,Double Slit with People,https://jsfiddle.net/Chenopdodium/9ezhntL3/show/,Quantum Mechanics,Double Slit with People | Double slit with people
+165,Dumbbell model of charge,https://jsfiddle.net/Chenopdodium/L7y9te6m/show/,Quantum Mechanics,Dumbbell model of charge
+166,E and A Field in elastic solid,https://jsfiddle.net/Chenopdodium/wez50fgn/show/,Quantum Mechanics,E and A Field in elastic solid
+167,"ESU ""Pump"" Mechanism",https://jsfiddle.net/Chenopdodium/rfyLx9gb/show/,Quantum Mechanics,"ESU ""Pump"" Mechanism"
+168,ESU Aharonov-Bohm,https://jsfiddle.net/Chenopdodium/ejksqnf0/show/,Quantum Mechanics,ESU Aharonov-Bohm
+169,"Eberhard Powerdrift (""Excel"")",https://jsfiddle.net/Chenopdodium/9p16Lv5q/show/,Quantum Mechanics,"Eberhard Powerdrift (""Excel"")"
+170,Elastic Ether - AB Phase,https://jsfiddle.net/Chenopdodium/5tumLkzo/show/,Quantum Mechanics,Elastic Ether - AB Phase
+171,Elastic Solid Ether (ESU),https://jsfiddle.net/Chenopdodium/hrqu0n9f/show/,Quantum Mechanics,Elastic Solid Ether (ESU)
+172,Elastic Transport Fields,https://jsfiddle.net/Chenopdodium/5dzpLsa4/show/,Quantum Mechanics,Elastic Transport Fields
+173,Elastic Universe: The Mechanical Origin of Length Contraction,https://jsfiddle.net/Chenopdodium/n4c02doq/show/,Quantum Mechanics,Elastic Universe: The Mechanical Origin of Length Contraction
+174,Elastic-Wave Memory and Resonant Orbits,https://jsfiddle.net/Chenopdodium/62gwyptv/show/,Quantum Mechanics,Elastic-Wave Memory and Resonant Orbits
+175,Elastic-Wave Memory and Resonant Orbits,https://jsfiddle.net/Chenopdodium/wqoycabp/show/,Quantum Mechanics,Elastic-Wave Memory and Resonant Orbits
+176,Elastic–EM Mapping (ESU),https://jsfiddle.net/Chenopdodium/n8f314dp/show/,Quantum Mechanics,Elastic–EM Mapping (ESU)
+177,Electron Shell Filling,https://jsfiddle.net/Chenopdodium/axekL97q/show/,Quantum Mechanics,Electron Shell Filling
+178,Electron Shell Filling,https://jsfiddle.net/Chenopdodium/nugt6ozb/show/,Quantum Mechanics,Electron Shell Filling
+179,Electron Shell Filling,https://jsfiddle.net/Chenopdodium/s17369Lm/show/,Quantum Mechanics,Electron Shell Filling
+180,Electron Shell Filling with Probability Current,https://jsfiddle.net/Chenopdodium/a095o2rb/show/,Quantum Mechanics,Electron Shell Filling with Probability Current
+181,Euler-Korteweg vortex - Schrödinger (far-field) demo,https://jsfiddle.net/Chenopdodium/pghnzeqr/show/,Quantum Mechanics,Euler-Korteweg vortex - Schrödinger (far-field) demo
+182,"Expanding Medium, Expanding Wave",https://jsfiddle.net/Chenopdodium/z0jfhk42/show/,Quantum Mechanics,"Expanding Medium, Expanding Wave"
+183,Faraday Effect,https://jsfiddle.net/Chenopdodium/g39fh1bs/show/,Quantum Mechanics,Faraday Effect
+184,Folding Light Paths,https://jsfiddle.net/Chenopdodium/94j3roqg/show/,Quantum Mechanics,Folding Light Paths
+185,Free Electron (De Broglie),https://jsfiddle.net/Chenopdodium/qxncdgwu/show/,Quantum Mechanics,Free electron
+186,Gas Dynamics,https://jsfiddle.net/Chenopdodium/6sw2fxLr/show/,Quantum Mechanics,Gas Dynamics
+187,General Relativity,https://jsfiddle.net/Chenopdodium/n879e5dh/38/show/,Quantum Mechanics,Gravity as refraction (rev 38)
+188,Graft style Coincidence Window (Eberhard),https://jsfiddle.net/Chenopdodium/thj53am6/show/,Quantum Mechanics,Graft style Coincidence Window (Eberhard)
+189,Grangier–Roger–Aspect 1986 Antibunching,https://jsfiddle.net/Chenopdodium/c402r1gs/show/,Quantum Mechanics,Grangier–Roger–Aspect 1986 Antibunching
+190,HOM Dip,https://jsfiddle.net/Chenopdodium/7fsaeuvn/show/,Quantum Mechanics,HOM Dip
+191,HOM Dip,https://jsfiddle.net/Chenopdodium/8u65zgx7/show/,Quantum Mechanics,HOM Dip
+192,HOM Dip (simple),https://jsfiddle.net/Chenopdodium/68nbced2/show/,Quantum Mechanics,HOM Dip (simple)
+193,HOM with Phonons,https://jsfiddle.net/Chenopdodium/6rm3gvnL/show/,Quantum Mechanics,HOM with Phonons
+194,HOM with Phonons,https://jsfiddle.net/Chenopdodium/o4stx6mh/show/,Quantum Mechanics,HOM with Phonons
+195,Hedgehog Charge,https://jsfiddle.net/Chenopdodium/hzjfLr25/show/,Quantum Mechanics,Hedgehog Charge
+196,Helical mode on a vortex ring,https://jsfiddle.net/Chenopdodium/b9012yrz/show/,Quantum Mechanics,Helical mode on a vortex ring
+197,Helmholtz Breakdown,https://jsfiddle.net/Chenopdodium/6poe98wb/show/,Quantum Mechanics,Helmholtz Breakdown
+198,Hong–Ou–Mandel (HOM) Dip (Lab view),https://jsfiddle.net/Chenopdodium/hvL58owj/show/,Quantum Mechanics,Hong–Ou–Mandel (HOM) Dip (Lab view)
+199,Hopf,https://jsfiddle.net/Chenopdodium/p4mxs32t/show/,Quantum Mechanics,Hopf
+200,Hula Hoop Person,https://jsfiddle.net/Chenopdodium/qtomva2s/show/,Quantum Mechanics,Hula Hoop Person
+201,Hula Hoop Person (II),https://jsfiddle.net/Chenopdodium/f20zhy8t/show/,Quantum Mechanics,Hula Hoop Person (II)
+202,Hydrogen Wave Function / Spherical Harmonics,https://jsfiddle.net/Chenopdodium/ym40b9cj/show/,Quantum Mechanics,Hydrogen Wave Function / Spherical Harmonics
+203,Interactive Lattice,https://jsfiddle.net/Chenopdodium/1sjar09L/show/,Quantum Mechanics,Interactive Lattice
+204,Interactive Lattice,https://jsfiddle.net/Chenopdodium/gqukcw2x/show/,Quantum Mechanics,Interactive Lattice
+205,Jazz Band,https://jsfiddle.net/Chenopdodium/dbefpwzt/show/,Quantum Mechanics,Uncertainty
+206,John Macken 3D (Chantal),https://jsfiddle.net/Chenopdodium/2peho7qj/show/,Quantum Mechanics,John Macken 3D (Chantal)
+207,John Macken's wave (2 overlapping spirals),https://jsfiddle.net/Chenopdodium/3z0sjy2g/show/,Quantum Mechanics,John Macken's wave (2 overlapping spirals)
+208,Lagrangian vs Eulerian,https://jsfiddle.net/Chenopdodium/t2h139ze/show/,Quantum Mechanics,Lagrangian vs Eulerian
+209,Left: Micropolar / orientation medium,https://jsfiddle.net/Chenopdodium/L8sqzofh/show/,Quantum Mechanics,Left: Micropolar / orientation medium
+210,Left: Micropolar / orientation medium,https://jsfiddle.net/Chenopdodium/vd2f7rt5/show/,Quantum Mechanics,Left: Micropolar / orientation medium
+211,Light Clock Triangle,https://jsfiddle.net/Chenopdodium/dkc56sax/show/,Quantum Mechanics,Light clock time dilation (derivation)
+212,Math and what this demo is actually simulating,https://jsfiddle.net/Chenopdodium/r39mcdh7/show/,Quantum Mechanics,Math and what this demo is actually simulating
+213,Matter Antimatter,https://jsfiddle.net/Chenopdodium/L6x3s7ot/show/,Quantum Mechanics,Matter Antimatter
+214,"Matter Antimatter (3D, Circular Waves)",https://jsfiddle.net/Chenopdodium/oadetv2z/show/,Quantum Mechanics,"Matter Antimatter (3D, Circular Waves)"
+215,Matter Antimatter (C),https://jsfiddle.net/Chenopdodium/bxqzvjy9/show/,Quantum Mechanics,Matter Antimatter (C)
+216,Matter‑Wave Length Contraction (Elastic‑Solid Universe intuition),https://jsfiddle.net/Chenopdodium/rwabsy28/show/,Quantum Mechanics,Matter‑Wave Length Contraction (Elastic‑Solid Universe intuition)
+217,Maxwell's Molecular Vortex,https://jsfiddle.net/Chenopdodium/s1jynra7/show/,Quantum Mechanics,Maxwell's Molecular Vortex
+218,Multi Swing Demo,https://jsfiddle.net/Chenopdodium/dnxkpem4/show/,Quantum Mechanics,Multi Swing Demo
+219,Multiple Electrons,https://jsfiddle.net/Chenopdodium/4sfmprwn/show/,Quantum Mechanics,Multiple Electrons
+220,Multiple Electrons (II),https://jsfiddle.net/Chenopdodium/pz1mcysu/show/,Quantum Mechanics,Multiple Electrons (II)
+221,Negative Eigenstrain Soliton,https://jsfiddle.net/Chenopdodium/5xt2gfep/show/,Quantum Mechanics,Negative Eigenstrain Soliton
+222,Negative Eigenstrain Soliton,https://jsfiddle.net/Chenopdodium/yxbaw2g0/show/,Quantum Mechanics,Negative Eigenstrain Soliton
+223,Non-Linear Optics,https://jsfiddle.net/Chenopdodium/ecy3pr87/show/,Quantum Mechanics,Non-Linear Optics
+224,Oil Droplet Experiment,https://jsfiddle.net/Chenopdodium/5mby8oac/show/,Quantum Mechanics,Oil Droplet Experiment
+225,PBR Pairing Test Simulator,https://jsfiddle.net/Chenopdodium/oc7fj1b5/show/,Quantum Mechanics,PBR Pairing Test Simulator
+226,People Refraction Demo,https://jsfiddle.net/Chenopdodium/3147ekco/show/,Quantum Mechanics,People Refraction Demo
+227,Phonon Quantization (Modes),https://jsfiddle.net/Chenopdodium/5L2zkx1p/show/,Quantum Mechanics,Phonon Quantization (Modes)
+228,Photon single emission,https://jsfiddle.net/Chenopdodium/4e1t5vjs/show/,Quantum Mechanics,Photon single emission
+229,Physics of Phonons,https://jsfiddle.net/Chenopdodium/oyf2vxew/show/,Quantum Mechanics,Physics of Phonons
+230,"Quantum Entanglement Simulator (CHSH, whithout magic)",https://jsfiddle.net/Chenopdodium/qv2o49wy/show/,Quantum Mechanics,"Quantum Entanglement Simulator (CHSH, whithout magic)"
+231,Quantum Erazer (V),https://jsfiddle.net/Chenopdodium/q2snjah0/show/,Quantum Mechanics,Quantum Erazer (V)
+232,Refraction (2D),https://jsfiddle.net/Chenopdodium/5473d6fs/show/,Quantum Mechanics,Snell's law (B)
+233,Resonant Mode Coupling to Fermi’s Golden Rule,https://jsfiddle.net/Chenopdodium/6bwpaL84/show/,Quantum Mechanics,Resonant Mode Coupling to Fermi’s Golden Rule
+234,Rope Analogue (Fermi's Golden Rule),https://jsfiddle.net/Chenopdodium/4su03Lc9/show/,Quantum Mechanics,Rope Analogue (Fermi's Golden Rule)
+235,Sagnac Effect (DRAFT),https://jsfiddle.net/Chenopdodium/5wuv2tfo/show/,Quantum Mechanics,Sagnac effect
+236,Sea of standing waves,https://jsfiddle.net/Chenopdodium/ox29p4f6/show/,Quantum Mechanics,Sea of standing waves
+237,Simulation Overview (fast build),https://jsfiddle.net/Chenopdodium/7tasf3d9/show/,Quantum Mechanics,Simulation Overview (fast build)
+238,Skyrmions,https://jsfiddle.net/Chenopdodium/wvp6qm7g/show/,Quantum Mechanics,Skyrmions
+239,Smoke Ring,https://jsfiddle.net/Chenopdodium/jf7b9wm5/show/,Quantum Mechanics,Smoke Ring
+240,Smoke Ring (II),https://jsfiddle.net/Chenopdodium/ju2o5rvt/show/,Quantum Mechanics,Smoke Ring (II)
+241,Smoke Ring Collision,https://jsfiddle.net/Chenopdodium/rdpnsv3m/show/,Quantum Mechanics,Smoke Ring Collision
+242,Smoke Rings and Knots in an Elastic Continuum,https://jsfiddle.net/Chenopdodium/ja3mL8pt/show/,Quantum Mechanics,Smoke Rings and Knots in an Elastic Continuum
+243,"Smoke Rings and Trefoils, Knots",https://jsfiddle.net/Chenopdodium/t1qu7zbo/show/,Quantum Mechanics,"Smoke Rings and Trefoils, Knots"
+244,Sonar Clocks (Time and Length),https://jsfiddle.net/Chenopdodium/mju6dc7n/show/,Quantum Mechanics,Sonar Clocks (Time and Length)
+245,Space Expansion (3 modes),https://jsfiddle.net/Chenopdodium/eudvkp1w/show/,Quantum Mechanics,Space Expansion (3 modes)
+246,Spherical Harmonics,https://jsfiddle.net/Chenopdodium/0m2ocpaf/show/,Quantum Mechanics,Spherical Harmonics
+247,Spherical Harmonics,https://jsfiddle.net/Chenopdodium/2nfvLo7r/show/,Quantum Mechanics,Spherical Harmonics
+248,Spherical Harmonics,https://jsfiddle.net/Chenopdodium/L3uy289d/show/,Quantum Mechanics,Spherical Harmonics
+249,Spherical Harmonics,https://jsfiddle.net/Chenopdodium/ktgchqrx/show/,Quantum Mechanics,Spherical Harmonics
+250,Spherical Harmonics (Hydrogen),https://jsfiddle.net/Chenopdodium/2L3ofqu1/show/,Quantum Mechanics,Spherical Harmonics (Hydrogen)
+251,Spherical Harmonics in an Elastic Solid,https://jsfiddle.net/Chenopdodium/wx3ztcur/show/,Quantum Mechanics,Spherical Harmonics in an Elastic Solid
+252,Spherical Wave (Electron model of some people),https://jsfiddle.net/Chenopdodium/y4n1mwgc/show/,Quantum Mechanics,Spherical Wave (Electron model of some people)
+253,Standing Wave Double Slit,https://jsfiddle.net/Chenopdodium/peofm325/show/,Quantum Mechanics,Standing Wave Double Slit
+254,"Stern Gerlach Simulation (Classical, based on R. Rashkovskiy)",https://jsfiddle.net/Chenopdodium/g02a3qnL/show/,Quantum Mechanics,"Stern Gerlach Simulation (Classical, based on R. Rashkovskiy)"
+255,Superconducting Qubits (Bell),https://jsfiddle.net/Chenopdodium/edb6qhto/show/,Quantum Mechanics,Superconducting Qubits (Bell)
+256,Superconducting Qubits (Bell),https://jsfiddle.net/Chenopdodium/vz3k49sr/show/,Quantum Mechanics,Superconducting Qubits (Bell)
+257,The Corrected Physics,https://jsfiddle.net/Chenopdodium/oqtnd3k8/show/,Quantum Mechanics,The Corrected Physics
+258,The ESU Wave Pump,https://jsfiddle.net/Chenopdodium/L2q57azt/show/,Quantum Mechanics,The ESU Wave Pump
+259,"The Limits of Classical ""Particles""",https://jsfiddle.net/Chenopdodium/tw9co5yx/show/,Quantum Mechanics,"The Limits of Classical ""Particles"""
+260,"The Limits of Classical ""Particles""",https://jsfiddle.net/Chenopdodium/zjs5h1my/show/,Quantum Mechanics,"The Limits of Classical ""Particles"""
+261,Topological Charge (Duda),https://jsfiddle.net/Chenopdodium/f8kqg4eu/show/,Quantum Mechanics,Topological Charge (Duda)
+262,Unified Field Mechanics,https://jsfiddle.net/Chenopdodium/d9rzeo1c/show/,Quantum Mechanics,Unified Field Mechanics
+263,Vector Harmonics,https://jsfiddle.net/Chenopdodium/p0x9Lzwr/show/,Quantum Mechanics,Vector Harmonics
+264,Visualize a rotating spiral electron core,https://jsfiddle.net/Chenopdodium/madvg7k2/show/,Quantum Mechanics,Visualize a rotating spiral electron core
+265,Vortex Mathematical Models,https://jsfiddle.net/Chenopdodium/fz8guyo5/show/,Quantum Mechanics,Vortex Mathematical Models
+266,Vortex Ring in Fluid Ether,https://jsfiddle.net/Chenopdodium/t69hnmas/show/,Quantum Mechanics,Vortex Ring in Fluid Ether
+267,Vortex Sponge,https://jsfiddle.net/Chenopdodium/q7rbexyt/show/,Quantum Mechanics,Vortex Sponge
+268,Wave Based Charge,https://jsfiddle.net/Chenopdodium/bo0gca7f/show/,Quantum Mechanics,Wave Based Charge
+269,Wave Package = one h,https://jsfiddle.net/Chenopdodium/27chw80k/show/,Quantum Mechanics,Wave Package = one h
+270,Wave Physics Lab,https://jsfiddle.net/Chenopdodium/rznsykq0/show/,Quantum Mechanics,Wave Physics Lab
+271,Wave Physics Lab,https://jsfiddle.net/Chenopdodium/vdwrLa1o/show/,Quantum Mechanics,Wave Physics Lab
+272,WebGL Demo,https://jsfiddle.net/Chenopdodium/mwjnt8pv/show/,Quantum Mechanics,WebGL Demo
+273,What this demo is doing,https://jsfiddle.net/Chenopdodium/t5fwk9dr/show/,Quantum Mechanics,What this demo is doing
+274,What this demo is illustrating,https://jsfiddle.net/Chenopdodium/p16zv8yu/show/,Quantum Mechanics,What this demo is illustrating
+275,Zeeman Effect in the ESU Model,https://jsfiddle.net/Chenopdodium/drf58phw/show/,Quantum Mechanics,Zeeman Effect in the ESU Model
+276,Zeeman Effect in the ESU model,https://jsfiddle.net/Chenopdodium/uesxrn8j/show/,Quantum Mechanics,Zeeman Effect in the ESU model
+277,h as angular momentum,https://jsfiddle.net/Chenopdodium/0bg2xjqm/show/,Quantum Mechanics,h as angular momentum
+278,3 Clocks,https://jsfiddle.net/Chenopdodium/2gnydpmk/show/,Special Relativity,3 Clocks | 3 clocks visual light paths
+279,3D Lattice,https://jsfiddle.net/Chenopdodium/zym9q13a/show/,Special Relativity,3D Lattice
+280,Aberration Simulation,https://jsfiddle.net/Chenopdodium/4wndyhz5/show/,Special Relativity,Aberration Simulation | Aberration simulation
+281,Doppler Effect (Moving Source/Detector),https://jsfiddle.net/Chenopdodium/wfsypoq3/show/,Special Relativity,Doppler Effect (Moving Source/Detector) | Doppler Effect Simulation
+282,Doppler Effect (people),https://jsfiddle.net/Chenopdodium/rn7syqja/show/,Special Relativity,Doppler Effect (people)
+283,Doppler with people,https://jsfiddle.net/Chenopdodium/b26h8des/show/,Special Relativity,Doppler with people
+284,Hooke's Law,https://jsfiddle.net/Chenopdodium/qrs0xk65/show/,Special Relativity,Hooke's Law | Hookes Law Interactive Lab
+285,Lenght Contraction (1-6),https://jsfiddle.net/Chenopdodium/frkbzgwj/show/,Special Relativity,Lenght Contraction (1-6)
+286,Length Contraction,https://jsfiddle.net/Chenopdodium/Lzku56dp/show/,Special Relativity,Length Contraction
+287,Length Contraction,https://jsfiddle.net/Chenopdodium/r40qg5bv/show/,Special Relativity,Length Contraction
+288,Length Contraction,https://jsfiddle.net/Chenopdodium/vcfdqwbn/show/,Special Relativity,Length Contraction | Length contraction (standing waves)
+289,Length Contraction (How and Why),https://jsfiddle.net/Chenopdodium/62o987qg/show/,Special Relativity,Length Contraction (How and Why) | Wave density and unit systems
+290,Length Contraction (II),https://jsfiddle.net/Chenopdodium/nmrwpsuz/show/,Special Relativity,Length Contraction (II)
+291,Length contraction (circle) with people,https://jsfiddle.net/Chenopdodium/njg9empc/show/,Special Relativity,Length contraction (circle) with people
+292,"Length contraction (wave ""crystal"")",https://jsfiddle.net/Chenopdodium/r01gbd4c/show/,Special Relativity,"Length contraction (wave ""crystal"")"
+293,Michelson Morley,https://jsfiddle.net/Chenopdodium/ybadzkwf/show/,Special Relativity,Michelson Morley | Michelson-Morley
+294,Moving Oscillators are Slower,https://jsfiddle.net/Chenopdodium/rn4xgh6L/show/,Special Relativity,Moving Oscillators are Slower
+295,One way speed of light,https://jsfiddle.net/Chenopdodium/yqa1476t/show/,Special Relativity,One way speed of light | One-way speed of light
+296,Person Clock,https://jsfiddle.net/Chenopdodium/matyxk7q/show/,Special Relativity,Person Clock
+297,Relativistic Doppler Symmetry Demo,https://jsfiddle.net/Chenopdodium/u2bh5owr/show/,Special Relativity,Relativistic Doppler & time dilation symmetry demo | Relativistic Doppler Symmetry Demo
+298,Relativistic Spiral: A Lorentz-Contracted Wave Packet Explorer,https://jsfiddle.net/Chenopdodium/yjnfqL4r/show/,Special Relativity,Lorentz-Contracted Wave Packet Explorer | Relativistic Spiral: A Lorentz-Contracted Wave Packet Explorer
+299,Rod Length Contraction (People),https://jsfiddle.net/Chenopdodium/2870sdba/show/,Special Relativity,Rod Length Contraction (People)
+300,Simulate three-ship clock-relay thought-experiment,https://jsfiddle.net/Chenopdodium/dergu6ws/show/,Special Relativity,Simulate three-ship clock-relay thought-experiment | Three-ship clock relay
+301,Sonar Clock (Time Dilation),https://jsfiddle.net/Chenopdodium/y21q8gsz/show/,Special Relativity,Sonar Clock (Time Dilation) | Sonar clocks & length measurement
+302,Sonar Clock Time Dilation and Constant c,https://jsfiddle.net/Chenopdodium/t8nj5L74/show/,Special Relativity,Sonar Clock Time Dilation and Constant c
+303,Sonar Length Measurement,https://jsfiddle.net/Chenopdodium/2tv4e0yf/show/,Special Relativity,Sonar Length Measurement
+304,Special Relativity (Wave based),https://jsfiddle.net/Chenopdodium/nxpagswk/show/,Special Relativity,Special Relativity (Wave based) | Special Relativity (Wave based) 3D dashboard | What is a clock
+305,Toward Length Contraction,https://jsfiddle.net/Chenopdodium/k8d31ftL/show/,Special Relativity,Toward Length Contraction
+306,Twin Paradox,https://jsfiddle.net/Chenopdodium/8k9rfdop/show/,Special Relativity,Twin Paradox | Twin paradox
+307,2 magnets,https://jsfiddle.net/Chenopdodium/cxenf5so/show/,Spin-½,2 magnets
+308,3D Spinor with Field Vectors,https://jsfiddle.net/Chenopdodium/4upeL1bq/show/,Spin-½,3D Spinor with Field Vectors | Field vectors
+309,3D Spinor with Field Vectors (with E),https://jsfiddle.net/Chenopdodium/nca7urmg/show/,Spin-½,3D Spinor with Field Vectors (with E)
+310,About Zitterbewegung and Electron Structure,https://jsfiddle.net/Chenopdodium/7hyp4d9o/show/,Spin-½,About Zitterbewegung and Electron Structure
+311,Belt Trick,https://jsfiddle.net/Chenopdodium/tjdfns2L/show/,Spin-½,Belt Trick
+312,"Circular current (lattice, spin 1/2)",https://jsfiddle.net/Chenopdodium/mxdfbn0j/show/,Spin-½,"Circular current (lattice, spin 1/2)"
+313,Cirular Wave Pump (torus),https://jsfiddle.net/Chenopdodium/28hrcqz0/show/,Spin-½,Cirular Wave Pump (torus)
+314,Cirular Wave Pump (torus),https://jsfiddle.net/Chenopdodium/v0nd5aL3/show/,Spin-½,Cirular Wave Pump (torus)
+315,Cup Trick with Person,https://jsfiddle.net/Chenopdodium/L8h1bfrj/show/,Spin-½,Cup Trick with Person
+316,Cup trick with person (II),https://jsfiddle.net/Chenopdodium/x6m5eqtw/show/,Spin-½,Cup trick with person (II)
+317,Double Loop EM Wave,https://jsfiddle.net/Chenopdodium/3dq6uk90/show/,Spin-½,Double Loop EM Wave
+318,Double Slit with spin 1/2 (and people),https://jsfiddle.net/Chenopdodium/ozqsad4h/show/,Spin-½,Double Slit with spin 1/2 (and people)
+319,Electron Spin Resonance,https://jsfiddle.net/Chenopdodium/Lwq4obey/show/,Spin-½,Electron Spin Resonance
+320,Electron Wave Function,https://jsfiddle.net/Chenopdodium/8mn0tabx/show/,Spin-½,Electron Wave Function
+321,Electron Wave Function (II),https://jsfiddle.net/Chenopdodium/rpzxb1aL/show/,Spin-½,Electron Wave Function (II)
+322,Field rotation in elastic solid,https://jsfiddle.net/Chenopdodium/uhspjoL1/show/,Spin-½,Field rotation in elastic solid
+323,Folding light (shows B),https://jsfiddle.net/Chenopdodium/97esjhfw/show/,Spin-½,Folding light (shows B)
+324,Free Electron (I),https://jsfiddle.net/Chenopdodium/3nwboqxm/show/,Spin-½,Free Electron (I)
+325,Intrinsic versus Orbital,https://jsfiddle.net/Chenopdodium/e9s6zjha/show/,Spin-½,Intrinsic versus Orbital
+326,Multi-twist Möbius Strip,https://jsfiddle.net/Chenopdodium/jd1ue67L/show/,Spin-½,Multi-twist Möbius Strip
+327,Neutron Interferometry,https://jsfiddle.net/Chenopdodium/a7kLuhx0/show/,Spin-½,Neutron Interferometry
+328,Non linear spinnor collision,https://jsfiddle.net/Chenopdodium/xry84f1v/show/,Spin-½,Non linear spinnor collision
+329,R.Close version of 2 waves,https://jsfiddle.net/Chenopdodium/ngq56f04/show/,Spin-½,R.Close version of 2 waves
+330,R.Close version of waves,https://jsfiddle.net/Chenopdodium/hymvefnj/show/,Spin-½,R.Close version of waves
+331,Rashkovskiy Spin Dynamics,https://jsfiddle.net/Chenopdodium/ua2gjk30/show/,Spin-½,Rashkovskiy Spin Dynamics
+332,Spherical Harmonics and Vector Harmonics,https://jsfiddle.net/Chenopdodium/zs10n452/show/,Spin-½,Spherical Harmonics and Vector Harmonics
+333,Spherical Harmonics with Spin Density and Momentum Density,https://jsfiddle.net/Chenopdodium/tmpc1a7o/show/,Spin-½,Spherical Harmonics with Spin Density and Momentum Density
+334,Spin 1/2 Sim with Spinor Details,https://jsfiddle.net/Chenopdodium/L7h3b2dm/show/,Spin-½,Spin 1/2 Sim with Spinor Details
+335,Spin 1/2 Simulation and g-factor (Chantal Roth),https://jsfiddle.net/Chenopdodium/tw4ednqa/show/,Spin-½,Spin 1/2 Simulation and g-factor (Chantal Roth)
+336,"Spin 1/2 Simulation in Elastic Solid (Close version, Chantal Roth)",https://jsfiddle.net/Chenopdodium/u5e1zv4g/show/,Spin-½,"Spin 1/2 Simulation in Elastic Solid (Close version, Chantal Roth)"
+337,"Spin 1/2 Simulation in Elastic Solid (Simplified Version, Chantal Roth)",https://jsfiddle.net/Chenopdodium/nte9vdyr/show/,Spin-½,"Spin 1/2 Simulation in Elastic Solid (Simplified Version, Chantal Roth)"
+338,"Spin 1/2 Simulation with charge (""phone cords"")",https://jsfiddle.net/Chenopdodium/d8bkumer/show/,Spin-½,"Spin 1/2 Simulation with charge (""phone cords"")"
+339,Spin 1/2 Simulation with off diagonal terms,https://jsfiddle.net/Chenopdodium/ejy8movb/show/,Spin-½,Spin 1/2 Simulation with off diagonal terms
+340,Spin 1/2 Torus visualization (3),https://jsfiddle.net/Chenopdodium/x14Lub2o/show/,Spin-½,Spin 1/2 Torus visualization (3)
+341,"Spin 1/2 in Elastic Solid (3D, Close)",https://jsfiddle.net/Chenopdodium/gtc35beq/show/,Spin-½,"Spin 1/2 in Elastic Solid (3D, Close) | Spin-1/2 3D"
+342,Spin 1/2 with torus (1),https://jsfiddle.net/Chenopdodium/pqzdr426/show/,Spin-½,Spin 1/2 with torus (1)
+343,Spin 1/2 with torus (2),https://jsfiddle.net/Chenopdodium/L1t9cesx/show/,Spin-½,Spin 1/2 with torus (2)
+344,Spin Field,https://jsfiddle.net/Chenopdodium/x9po5cze/show/,Spin-½,Spin Field
+345,Stern Gerlach Animation (Rashkovskiy),https://jsfiddle.net/Chenopdodium/nt7zLh5q/show/,Spin-½,Stern Gerlach Animation (Rashkovskiy)
+346,Stern Gerlach Mystery,https://jsfiddle.net/Chenopdodium/ur0epcx3/show/,Spin-½,Stern Gerlach Mystery
+347,Toroidal Peristalgic Pump,https://jsfiddle.net/Chenopdodium/xv762hg1/show/,Spin-½,Toroidal Peristalgic Pump
+348,Two Spin 1/2 (fluid),https://jsfiddle.net/Chenopdodium/owdqzxtk/show/,Spin-½,Two Spin 1/2 (fluid)
+349,Two spin 1/2 (elastic mode and fluid),https://jsfiddle.net/Chenopdodium/cntuydvq/show/,Spin-½,Two spin 1/2 (elastic mode and fluid)
+350,Blackbody Spectrum,https://jsfiddle.net/Chenopdodium/n8crmzwh/show/,Wave–Particle Duality,Blackbody / Compton
+351,Compton Scattering,https://jsfiddle.net/Chenopdodium/L6g9oef0/show/,Wave–Particle Duality,Compton Scattering | Single pulse (one photon emission)
+352,"Double Slit (Rashkovskiy, Monte Carlo)",https://jsfiddle.net/Chenopdodium/4she27ax/show/,Wave–Particle Duality,"Double Slit (Rashkovskiy, Monte Carlo) | Double slit Monte Carlo | Double slit detections"
+353,Double Slit from top,https://jsfiddle.net/Chenopdodium/kx0dtp7h/show/,Wave–Particle Duality,Double Slit from top | Double slit intensity
+354,Drum Head Harmonics,https://jsfiddle.net/Chenopdodium/95bLo6uc/show/,Wave–Particle Duality,2D harmonics | Spherical harmonics (I)
+355,Drum Head Harmonics Transitions (Fermi's Golden Rule),https://jsfiddle.net/Chenopdodium/yg4fcdxm/show/,Wave–Particle Duality,Drum head transitions | Drumhead transitions
+356,Electron Level Transitions,https://jsfiddle.net/Chenopdodium/z0repod7/show/,Wave–Particle Duality,Harmonic transitions 1 | Spherical directivity (I)
+357,Electron Transitions II,https://jsfiddle.net/Chenopdodium/wu10pLkn/show/,Wave–Particle Duality,Harmonic transitions 2 | Spherical directivity (II)
+358,Heisenberg,https://jsfiddle.net/Chenopdodium/cLfrs7tm/show/,Wave–Particle Duality,Heisenberg/Fourier | Matter meets antimatter
+359,Kids Swing (Resonance),https://jsfiddle.net/Chenopdodium/o9Lund76/show/,Wave–Particle Duality,Kids Swing (Resonance) | Swing resonance | Swing resonance 1
+360,Matter Antimatter (1D),https://jsfiddle.net/Chenopdodium/1c7a58nf/show/,Wave–Particle Duality,Conclusions recap | Matter and antimatter
+361,Phonon Vibrational Modes,https://jsfiddle.net/Chenopdodium/29t8dmhu/show/,Wave–Particle Duality,Phonon vs photon | Quantized modes
+362,Phonons vs Photons,https://jsfiddle.net/Chenopdodium/vd9ym6gx/show/,Wave–Particle Duality,Phonon modes | Phonon vs photon | Phonons vs Photons
+363,Photoelectric Effect,https://jsfiddle.net/Chenopdodium/z8bd51of/show/,Wave–Particle Duality,Photoelectric Effect | Photoelectric effect
+364,Radial Pulse (single emission),https://jsfiddle.net/Chenopdodium/2cphue8w/show/,Wave–Particle Duality,Radial Pulse (single emission) | Single emission pulse | What is H?
+365,Resonance (Photoelectric effect),https://jsfiddle.net/Chenopdodium/ujsmLf1t/show/,Wave–Particle Duality,Pendulum driving | Resonance (Photoelectric effect) | Swing resonance 2
+366,Spherical Harmonics (Point Cloud),https://jsfiddle.net/Chenopdodium/kng286d7/show/,Wave–Particle Duality,Continuous transitions (I) | Spherical harmonics 2
+367,"Spherical Harmonics (l, m)",https://jsfiddle.net/Chenopdodium/apx1hu2q/show/,Wave–Particle Duality,Spherical harmonics (II) | Spherical harmonics 1
+368,Spherical Scalar and Vector Harmonics (With Spin 1/2 and Charge),https://jsfiddle.net/Chenopdodium/rwnevc6a/show/,Wave–Particle Duality,Continuous transitions (II) | Spherical Scalar and Vector Harmonics (With Spin 1/2 and Charge)
+369,String Energy Transfer,https://jsfiddle.net/Chenopdodium/37zqmd0s/show/,Wave–Particle Duality,Fermi golden rule intuition | Fermi's Golden Rule
+370,Trees and Earthquake,https://jsfiddle.net/Chenopdodium/8z5ub9aq/show/,Wave–Particle Duality,Resonance examples | Waves as detection events
+371,What is h (analogy),https://jsfiddle.net/Chenopdodium/7zhkop0j/show/,Wave–Particle Duality,Meaning of h 1 | What is ħ?
+372,What is h (standing wave),https://jsfiddle.net/Chenopdodium/bLw0s81y/show/,Wave–Particle Duality,2D harmonics | Quantized trapped wave
+373,Wiener Experiment (Standing wave interference),https://jsfiddle.net/Chenopdodium/bhnLe08s/show/,Wave–Particle Duality,Wiener Experiment (Standing wave interference) | Wiener experiment
+374,Magnetic Configuration,https://jsfiddle.net/Chenopdodium/cxenf5so/show/,Magnetism,Four magnetic field configurations (linear and side attraction/repulsion) rendered with field-stress color mapping and field-line streamlines. Zoom and pan to explore.

@@ -1,0 +1,8 @@
+ID,Obligation (source),Evidence location,Owner,Status,Date
+REG-01,Customer ownership of IP in Customer Data / Application (Abacus ToS §4),compliance/abacus-terms-verification.md,,Verified,2026-09-18
+REG-02,Termination for convenience + data deletion (Abacus ToS §6.3–6.4),compliance/abacus-terms-verification.md,,Verified,2026-09-18
+REG-03,No training on customer content (Abacus Privacy Policy),compliance/abacus-terms-verification.md,,Verified (standard terms); written confirmation pending,2026-09-18
+REG-04,LoRA / fine-tuned weight export capability,support ticket (Abacus support),,Pending product verification,2026-09-18
+REG-05,Base-model license documented (Qwen-family Apache-2.0 preferred; Llama deprioritized per >700M-MAU clause),compliance/base-model-license.md,,TBD,
+REG-06,Corpus rights cleared (rights-holder/license/status per item),data/corpus-inventory.csv,,In progress,2026-09-18
+REG-07,No under-18 session data through any vendor training loop,compliance/,,TBD,
