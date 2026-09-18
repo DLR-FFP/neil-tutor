@@ -1,0 +1,699 @@
+Nature's Calc Collection
+Nature's Calc STEM Explorer
+Nature's Calc Collection
+Connected explorations from the golden ratio to Pascal's triangle, Pingala's binary meters, and the 3D Maha Meru — all from one shared idea: simple rules generate infinite, beautiful structure. Choose any lab below to open it with its full controls.
+About
+User Guide
+Teacher Guide
+← Home
+Finding Phi
+Phi Division Lab
+Phi Spiral Lab
+Phi Derivation Lab
+Pascal Pattern Lab
+Pingala Meter / Binary Lab
+Mod-n Coloring Lab
+3D Maha Meru Lab
+Phi Construction Lab
+DIY Caliper & Ruler Guide
+Log Spiral Snail Shell
+Phi Growth
+Parastichy Explorer
+Golden Angle Plant
+Fractal Branching & Root System
+Phyllotaxis Spiral
+Spiral Zoetrope
+PHO State
+Phi Division Lab
+About
+User Guide
+Teacher Guide
+Reset
+Mode
+Linear (nested segments)
+Circular (nested arc sectors)
+Linear: nested golden cuts on a line. Circular: arc sectors with φ-power angles.
+Nesting depth7
+Levels of xn. Diagram builds to 7 (linear) / 10 (circular); the Σ readout keeps summing to the slider value (up to 25) to show convergence to φ.
+Construction type
+Square construction (φ)
+Golden triangle construction (φ)
+Equilateral Triangle Construction
+Squares: golden rectangle. Triangles: 36°/72° gnomon. Padovan: equilateral triangles, sides 1,1,1,2,2,3,4,5,7,… — a log spiral built from the plastic number ρ≈1.3247, not φ.
+10
+Perspective
+First Quantum Change
+Balanced Linear Interchange
+Balanced Circular Interchange
+Perpetual Guna Exchange
+Four linked views of x = 1/φ: the initiating slope, linear balance, decagon-to-π circular balance, and the perpetual tri-guna oscillation.
+Construction
+1 · Golden Rectangle (1 × x)
+2 · Golden Spiral (whirling x² squares)
+3 · Rectangle → Triangle → Gnomon
+4 · Golden Triangle & Gnomon
+5 · Pentagon & Pentagram
+Step-by-step ruler-and-compass constructions. Every length is written with the golden conjugate x = 1/φ ≈ 0.618, never φ.
+Display mode
+Numbers
+nCk
+Bars
+Dots
+Highlight pattern
+None
+Symmetry
+Figurate diagonals
+Fibonacci slashes
+Row sums = powers of 2
+Binomial coefficients
+Odd / even fractal
+Prime-row divisibility
+Square-number links
+Hockey-stick identity
+Lattice paths
+Combination explorer
+Probability lens
+p = 0.50
+Pattern labels
+Laghu / Guru
+Short / Long
+Syllable length4
+Color mode
+All residues
+Focus one residue
+Highlight multiples of n
+Residue focus
+Node labels
+Original values
+Residues only
+No labels
+Modulo n2
+n = 2 gives the classic odd/even fractal.
+View mode
+Layer slice
+Stacked layers
+3D tetrahedron
+Drag canvas to rotate in 3D views.
+Max level5
+Level n = all trinomial coefficients from (x+y+z)^n.
+PNG
+Depth
+10
+Growth (g)
+1.618
+Reset to φ
+Construction step
+1
+Drag to reveal the construction one move at a time.
+Deviation  y = x³/2  about 0.5
+0.118034
+Move the two indicators symmetrically around 0.5. The tri-guna system closes only at y = x³/2 ≈ 0.118.
+Snap to golden y = x³/2
+Detune (damping δ)
+0.00
+7Σn=1
+xn
+=
+0
+Rows
+14
+Zoom
+1.00×
+Focused item
+C(6, 2) = 15
+Ways to choose 2 objects from 6.
+Quick readouts
+Row sum
+64
+Power check
+2^6
+Probability
+0.3125
+Fib slash
+8
+Construction step6
+Quantum and linear views use this as a guided construction step; circular view uses it as the decagon-halving refinement n + 1.
+Initiating slope  (rise : run)
+1 : 1
+1 : 2 — golden
+1 : 3
+Custom...
+Custom run g2.0
+Pick the slope that starts the interaction. Only 1 : 2 closes to x + x² = 1 (the golden root); other slopes give metallic-family roots that miss unity.
+Direction
+Spiral outward
+Spiral inward
+Binomial expression
+Try (x+y)^8.
+Focus node
+Pattern insight
+Choose a mode.
+Live math notebook
+Note 1
+Note 2
+Note 3
+Note 4
+The Golden Section Gauge (Caliper)
+A Golden Section Gauge automatically divides any span into the golden ratio φ ≈ 1.618. The device has four physical arm segments pinned together. Points B and C sit on the two long arms (AF and AH respectively); AB and AC are not separate pieces — they are just the upper portions of the long arms, marked as virtual reference lengths.
+Parts list (340 mm design)
+Arm 1: AF = 340 mm — left long arm, pivot at A (top) and F (bottom tip). Pivot B is a marked point on this arm, 130 mm from A.
+Arm 2: AH = 340 mm — right long arm, pivot at A (top) and H (bottom tip). Pivot C is a marked point on this arm, 130 mm from A.
+Arm 3: BE–EG = 210 mm total — inner cross arm from B through pivot E to tip G. BE = 130 mm, EG = 80 mm.
+Arm 4: CE–EG — inner cross arm from C through the same pivot E. CE = 130 mm.
+Pivots: A (shared top of both long arms), B (on arm AF), C (on arm AH), E (crossing point of inner arms), G (lower tip, between B and C tips).
+AF / BG = 340 / 210 ≈ 1.619 ≈ φ
+AB / BE = 130 / 130 — same length
+BE / EG = 130 / 80 ≈ 1.625 ≈ φ
+Step-by-step construction
+Cut two long arms 340 mm each (6 mm × 20 mm hardwood strip). Mark point A at one end. Mark pivot point B (arm 1) and C (arm 2) at 130 mm from A. Drill pivot holes at A, B (arm 1), C (arm 2), and at the tip ends F and H.
+Cut two inner cross arms: both 210 mm. Mark E at 130 mm from one end (giving BE = CE = 130 mm, EG = 80 mm). Drill pivot holes at B-end, E (crossing point), and G-tip.
+Assemble: bolt A (top, shared). Bolt B through arm 1 and inner arm 3. Bolt C through arm 2 and inner arm 4. Bolt E where the two inner arms cross. G is the free lower tip.
+Open the caliper — F and H spread apart; BG and AH stay in the golden ratio at all opening widths.
+① Individual Arms
+A (0)
+B (130)
+F (340)
+A (0)
+C (130)
+H (340)
+B (0)
+E (130)
+G (210)
+C (0)
+E (130)
+340 mm
+130
+80
+arm 3
+210 mm
+arm 4 130 mm
+5 pivot bolts: A · B · C · E · G
+Long arms × 2 (AF = AH = 340 mm)
+Arm 3 BEG = 210 mm (B·E·G holes)
+Arm 4 CE = 130 mm (C·E holes only)
+A/B/C pivot at 130 mm from top end
+E: shared crossing bolt — lies on segment BG
+G: arm-3 tip — marks golden section of FH
+② Assembled Caliper
+A
+B
+C
+E
+G
+F
+H
+AF = AH = 340 mm
+BG = 210 mm (AF/BG ≈ φ)
+AB = AC = BE = CE = 130 mm
+EG = 80 mm (BE/EG ≈ φ)
+AB, AC = virtual refs (on long arms)
+G marks the golden section of FH (FG : GH ≈ φ : 1)
+The Phi Scissor Caliper
+The Phi Scissor Caliper needs only two identical pointed bars and one pivot. Wherever the short tips pinch together, the long tips automatically span exactly φ ≈ 1.618 times wider — at every opening angle — because both tip pairs swing through the same angle at pivot P, keeping the two triangles similar and the gap ratio equal to long ÷ short.
+Parts list (34 cm ★ recommended)
+2 identical bars, each 34 cm total — mark and punch one hole at P, exactly 13 cm from one pointed end (21 cm from the other). Choose: poster-board strip pointed at both ends, wooden kabob skewer (already pointed), or drinking straw (snip ends to points).
+1 pivot at P — choose: brass paper fastener (split pin), push pin + eraser cap, or rubber band tied figure-8 through both holes.
+Tools — ruler, pencil, push pin for punching holes.
+Fibonacci size options (short + long = bar): 3+5=8 cm · 5+8=13 cm · 8+13=21 cm · 13+21=34 cm ★ · 21+34=55 cm. Higher pairs give a ratio closer to true φ = 1.6180…
+bar = short + long = 13 + 21 = 34 cm (Fibonacci ★)
+big gap ÷ small gap = long ÷ short = 21 ÷ 13 ≈ 1.615 ≈ φ
+ratio holds at every opening angle
+Step-by-step construction
+Cut or select two identical bars, each 34 cm. Both ends must come to a point (skewers and straws are already pointed).
+Stack the two bars perfectly on top of each other, both ends flush. Measure 13 cm from one end and mark point P. Double-check: P must be 21 cm from the other end.
+Hold both bars together and push a push pin straight through both at P simultaneously — this guarantees the holes align. Wiggle the pin to widen the hole until your pivot fastener passes through smoothly.
+Fit the pivot: thread the brass split pin (or rubber band in a figure-8) through both holes and secure. The bars should swing freely around P.
+Calibrate: squeeze the short tips until the small gap is 5 cm → confirm the long tips span ≈ 8 cm (8 ÷ 5 = 1.6 ≈ φ ✓). Closed check: both short tips meet and both long tips meet.
+① Single Bar — 34 cm (★ size)
+F (short tip, 0 cm)
+P (pivot, 13 cm)
+H (long tip, 34 cm)
+34 cm
+13 cm
+21 cm
+Make TWO identical bars like this.
+Both ends pointed. One hole at P.
+Short arm (F / G tips) — 13 cm from P · small gap end
+Long arm (H / E tips) — 21 cm from P · big gap end
+P: single pivot — one hole per bar, 13 cm from one end
+② Assembled Scissors
+F
+G
+P
+E
+H
+small gap = d
+big gap ≈ 1.615 × d ≈ φ × d
+bar = 13 + 21 = 34 cm (Fibonacci ★)
+big gap ÷ small gap = 21 ÷ 13 ≈ 1.615 ≈ φ
+ratio holds at every opening angle
+The Golden Ruler Grid
+The Golden Ruler is a transparent overlay with converging lines radiating from the lower-left. When printed on a transparency, it lets you locate golden-section divisions in any object or design.
+The Golden Ruler
+©2000 PhiPoint Solutions
+The mathematics behind the caliper
+φ = (1 + √5) / 2 ≈ 1.6180339887…
+x = 1/φ ≈ 0.6180339887…
+Identity 1: 1/x = 1 + x (φ = 1 + 1/φ)
+Identity 2: x + x² = 1
+Identity 3: xⁿ = xⁿ⁺¹ + xⁿ⁺² (for all integer n)
+Caliper: AF/BG = 340/210 ≈ 1.619 ≈ φ ✓
+Caliper: BE/EG = 130/80 ≈ 1.625 ≈ φ ✓
+Parastichy Explorer
+Phi Stream · Lab 6b — pattern formation in space
+φ-lab
+Controls
+Divergence angle α 137.508°
+turn fraction = 0.38197 ( = x² , golden )
+golden x²
+1/3
+1/4
+√2−1
+1/π
+138°
+Seeds (dots) 100
+Watch the parastichy pair climb the Fibonacci ladder as the head grows.
+Dot size 0.50
+Surface
+Planar disk
+Cylinder
+Cylinder model: φ = n·α, r = const, H = n·h — Fowler–Hanan–Prusinkiewicz (1989); ABOP Ch. 4.
+Vertical step h 0.50
+Tilt: top ↔ side 0°
+Rotation 0°
+Pine cone · 137.5°
+Pineapple · 138.1395°
+Pineapple's measured angle (5,8,13 parastichies) is not the golden angle; pine cone uses (5,8). With auto-detect on, the visible families (5, 8, 13 at the golden angle) are connected and labeled.
+Parastichy highlight
+auto-detect
+clear
+Click any dot to trace its spiral arm families. Green pair = both Fibonacci.
+▶ Animate sweep
+Save PNG
+Reset
+Learn
+About this lab
+Parastichies are the criss-crossing spiral arms on sunflower heads, pinecones and pineapples. Each seed sits at polar coordinates r = c·√n, θ = n·α. Only the golden angle (137.508°, turn fraction x² = 1/φ² ≈ 0.38197) makes every visible arm-number pair a consecutive Fibonacci pair.
+Rational angles collapse the head into spokes; irrational-but-near-rational angles give spokes with a slow twist. Sweep α and watch order emerge and dissolve.
+The Cylinder surface switches to the cylindrical model (φ = n·α, r = const, H = n·h) of Fowler, Hanan & Prusinkiewicz (Modelling Spiral Phyllotaxis, 1989) — the same divergence mathematics wrapped around a stalk, as in pine cones and pineapples. Vertical step h and tilt become visible controls.
+User guide
+Angle slider / presets — change how far each new seed turns from the last.
+Click a dot — highlights the two arm families through it and shows the pair (m, n).
+Auto-detect — continuously estimates the dominant parastichy pair.
+Animate sweep — sweeps α through the golden angle so spokes melt into packing.
+Save PNG — export the current head for a lab report.
+Surface → Cylinder — wrap the pattern around a cylinder; adjust vertical step h to change how the spiral arms lean, and tilt to view from top to side.
+Pine cone / Pineapple chips (cylinder mode) — jump to the measured divergence angles 137.5° and 138.1395°.
+Teacher guide
+Predict first: ask what 120° (1/3) will look like before showing 3 spokes.
+Link to the Pascal / Fibonacci labs: the pairs (3,5)→(5,8)→(8,13) are the same ladder.
+Pair with the Spiral Zoetrope: freeze the spinning head and connect time-sampling to these arm numbers.
+Convention: phi-quantities are written as x = 1/φ ≈ 0.618 (golden angle = 360°·x²).
+Cylinder mode: ask students why the same α can show different conspicuous arm pairs when h changes — both α and h decide which parastichies are visible. Pineapple (138.1395°) shows 5, 8 and 13 simultaneously; each scale has six neighbours.
+Inspired by Andy Giger's Parastichies explorer — re-implemented natively for the INW Nature's Calc Collection. Planar model after Vogel (1979); cylinder model after Fowler–Hanan–Prusinkiewicz (1989) and Prusinkiewicz & Lindenmayer, ABOP Ch. 4.
+α = 137.508°
+turn = 0.38197
+parastichies (13, 21)
+seeds = 400
+Spiral Zoetrope
+Phi Stream · Lab 6c — pattern perception in time
+φ-lab
+⚠ Motion notice: spinning disks can affect photosensitive viewers. The disk starts paused — press Animate to spin.
+Controls
+Disk pattern
+golden spiral
+concentric rings
+12-spoke wheel
+bloom (Edmark)
+The spiral disk is generated in-canvas from the same Vogel model as the Parastichy Explorer — no image assets needed.
+Rotation per frame +137.508°
+Near a resonance the pattern appears to freeze or crawl — that is aliasing.
+golden /frame
+30°
+120°
+0 (freeze)
+180°
+Spiral seeds 300
+▶ Animate
+⇄ Reverse
+Save PNG
+Reset
+Learn
+About this lab
+A zoetrope turns a sequence of stills into motion by showing them one at a time. Here the browser's own frame rate (~60 fps) is the stroboscope: each frame the disk is rotated by a fixed angle. When that angle matches a harmonic of the disk's symmetry, successive frames line up and the disk seems to freeze, crawl, or run backwards.
+This is observational sampling of a dynamic process — the same aliasing that makes wagon wheels spin backward on film. Spin the golden spiral at 137.508°/frame and each seed lands where the previous seed was: the head appears to hold still while new seeds bloom outward, like John Edmark's Blooms.
+User guide
+Animate — start / pause the spin. Reverse flips direction.
+Rotation per frame — degrees the disk turns each frame; try the presets.
+Resonance — near whole-number ratios of the symmetry the motion locks; the HUD names it.
+Save PNG — capture the current frame.
+Keyboard: A speed up, Z slow down, space pause.
+Teacher guide
+Connect to the Parastichy Explorer: the freeze angle equals the golden angle — same math, one lab in space, one in time.
+Ask: "The disk really turns 137.5°/frame — why does it look still?" Introduce sampling & Nyquist informally.
+History link: 19th-century phenakistiscope / zoopraxiscope disks used the same principle with slits.
+Convention: phi-quantities in x = 1/φ ≈ 0.618 (golden angle = 360°·x²).
+Inspired by Andy Giger's online zoetrope and John Edmark's Blooms — re-implemented natively for the INW Nature's Calc Collection.
+step = +137.508°/frame
+fps ≈ 60
+sampling golden lock
+true rpm = 1375
+Golden Spiral Phyllotaxis Simulator
+Standalone STEM sandbox for sunflower seed packing, golden-angle spacing, formula-based turn entry, live auxiliary plots, turn sweeps, and guided experimentation.
+User Guide
+Core model
+Seed count
+visible: 1400
+Turn fraction per new seed
+222.49°
+Equivalent botany convention: 137.51° in the opposite direction.
+Golden preset (0.618034 turns)
+Golden angle (137.50776°)
+1/4
+1/3
+2/5
+Radial spacing scale
+r = c√n
+Seed radius
+pixels
+Display rotation
+degrees
+Expression-based turn entry
+Turn fraction formula
+Apply
+Accepted: fractions like 2/3, decimals, scientific notation, and formulas like (sqrt(5)-1)/2, 1/(2*pi), phi-1.
+Ready.
+Saved preset library
+Named fractions & famous irrationals
+Load
+Use in sweep min
+Choose a preset to see its expression and why it is interesting.
+Animation & growth
+Mode
+Static final arrangement
+Center-out growth
+Center-out mode introduces seeds at the center and eases them outward toward their final phyllotaxis positions.
+Growth rate
+seeds/s
+Pause
+Reset growth
+Fit view
+Visualization
+Color mode
+Sunflower
+Index gradient
+Angle hue
+Radius heatmap
+Monochrome
+Connect successive seeds
+Concentric guides
+Show first seed labels
+Rational spoke overlay
+Parastichy overlays
+Growth front ring
+Dark center vignette
+Live auxiliary plots
+Parastichy denominator cap
+Used to choose the nearest low-denominator rational and derive the two static spiral families.
+Live diagnostics
+Formula
+r = c√n
+Angle rule
+θ = 2π·τ·n
+Nearest rational
+—
+Rational error
+—
+Parastichy pair
+—
+Fibonacci hint
+—
+Growth state
+—
+Phase spread
+—
+Continued fraction
+—
+CF convergents
+—
+Exact rational test
+—
+Sweep position
+—
+PNG
+seed n → (r, θ) = (c√n, 2π⋅τ⋅n)
+Radius plot: seed index n vs r = c√n
+Phase plot: seed index n vs frac(nτ)
+Turn sweep animation
+Scrubbable sweep timeline
+min: 0.333333
+current: 0.333333
+max: 0.666667
+Drag the slider to scrub through the sweep range manually. Great for freeze-framing interesting spoke and parastichy patterns.
+Sweep range
+Use exact fractions or formulas for the sweep endpoints.
+Sweep mode
+Off
+Loop
+Bounce
+Once
+Sweep speed level
+Levels 1–9
+Slowest to fastest.
+Mapped to reliable increments from 1e-7 up to 1e-4 turns per 60 fps frame.
+Use the arrow buttons or type a whole number directly.
+−
++
+Level 5
+Increment: 2e-6 turns/frame
+Apply sweep settings
+Start sweep
+Reset to min
+Sweep idle.
+Preset library: jump quickly to classic rational turns and famous irrational values.
+Timeline scrubber: drag through your sweep window to stop on patterns worth discussing.
+Speed level control: use + / − or type an integer from 1 to 9 for reliable sweep speeds from 1e-7 to 1e-4.
+Phyllotaxis User Guide
+A friendly STEM guide for ages 13–18: experiment, notice patterns, ask why they happen, and test ideas like a mathematician and scientist.
+Close
+1) What are you looking at?
+This simulator places each new “seed” a little farther from the center and turns it by the same fraction of a full circle each time. That simple rule can create spoke-like patterns, spiral families, and remarkably even packing—just like the seed heads you see in sunflowers and daisies.
+2) Fast start
+Choose the Golden preset.
+Set Seed count above 1000.
+Switch between Center-out growth and Static final arrangement.
+Turn on Parastichy overlays in static mode.
+Watch the phase plot, continued fraction, and nearest rational boxes as you change the turn fraction.
+3) Formula entry and presets
+Type exact fractions like 2/7 or 5/13.
+Type formulas like (sqrt(5)-1)/2 or 1/pi.
+Use the preset library to jump to famous values quickly and compare how they spread seeds.
+4) Sweep range, rotary speed, and scrubbing
+Set a minimum and maximum turn fraction for the sweep window. Decimal endpoints like 0.6 and 0.667 are accepted, and accidental repeated dots are cleaned up safely.
+Use the speed level control from 1 to 9. Level 1 is slowest; level 9 is fastest.
+The dial maps to reliable sweep increments from 1e-7 up to 1e-4 turns per frame.
+Use the scrub slider to stop exactly where a pattern becomes interesting.
+5) What to investigate
+Rational turns like 1/3 or 2/5 create obvious spokes because the angle repeats after only a few steps.
+Irrational turns avoid repeating exactly, which spreads seeds around the circle more evenly.
+The golden-related turns are special because they are unusually hard to imitate with simple fractions.
+6) Try these mini challenges
+Can you find a turn fraction that gives exactly 7 strong spokes?
+Can you use the scrubber to stop at a pattern that looks almost radial but is not exactly repeating?
+Which preset gives the most even-looking fill at 2000 seeds?
+How does changing the denominator cap affect the parastichy overlay you see?
+7) Reading the diagnostics
+Nearest rational: the simple fraction closest to your current turn.
+Parastichy pair: the two step sizes used to draw visible spiral families.
+Continued fraction: a compact code that reveals the best nested rational approximations.
+CF convergents: the sequence of fractions that get closer and closer to your current turn.
+8) Suggested STEM discussion prompts
+Why would a plant benefit from not stacking too many seeds along the same ray?
+How does a local rule produce a large-scale pattern?
+What is the difference between “looks random” and “is evenly distributed”?
+Why are some irrational numbers better at avoiding repetition than others?
+🔮
+PHO State
+The Perpetual Harmonic Oscillator — Hadronic & Leptonic states breathing via Sankhya constants k=∛2, PR, RS. Imagine Nature's Wheelwork.
+View Controls
+Level Display
+Hadronic
+Leptonic
+Both
+Drag canvas to rotate & tilt · Scroll to zoom
+Oscillation
+Animation Speed1.0×
+Hadronic Opacity0.60
+Leptonic Opacity0.40
+Oscillation Amplitude1.0
+Actions
+⏸Pause
+⟲Reset All
+Dynamic Readouts
+🔢 Fundamental Constants
+k = ∛21.259921
+k − 10.259921
+PR = 100/283.571429
+RS = 100/981.020408
+PR = 100/28 = 10² / [(7−(−7))+(7−(−7))]
+RS = 100/98 = Σ(2/100)ⁿ
+🔴 Hadronic States (Core)
+Pn (Neutron)1.6749×10⁻²⁷ kg
+PM (Coherent)1.6744×10⁻²⁷ kg
+Pm (Proton)1.6726×10⁻²⁷ kg
+Current Radius1.0000
+Current Volume4.1888
+(PM−Pm)/(Pn−PM)3.571429
+Pn/Pm = 1 + ((k−1)/7)² = 1.0013787541
+🔵 Leptonic States (Boundary at k)
+Mep9.114×10⁻³¹ kg
+Me9.110×10⁻³¹ kg
+Mee (Electron)9.109×10⁻³¹ kg
+Current Radius1.2599
+Current Surface19.95
+(Mep−Me)/(Me−Mee)4.499718
+(Mep−Me)/(Me−Mee) = PR × k = 4.4997180353
+Hadronic
+Leptonic
+t = 0.000s
+Phase0.000rad
+|
+Cycles0
+|
+Wave2:1
+|
+ModeExpanding
+🐚
+Phi Growth
+Watch the golden ratio govern a 3D snail shell — the logarithmic conchospiral. Imagine Nature's Wheelwork.
+Shell Parameters
+Expansion Rate (W)1.00φ
+0.25φ
+0.50φ
+1.00φ
+1.50φ
+2.00φ
+How much larger each whorl is than the previous one, in multiples of φ. 1.00φ gives golden self-similarity.
+Whorls5.0
+Number of complete revolutions the shell makes.
+Tube Thickness1.00
+Radius of the aperture tube relative to the local whorl radius.
+Tube Opacity0.50
+0 = fully transparent shell, 1 = fully opaque. Try 0.3–0.6 to see inner whorls.
+Vertical Stretch0.40
+0 = flat coil (ammonite / ram's horn). Higher = tall spire (turret snail).
+View Angle100°
+Tilt the 3D shell, −180° to +180°. 0° = side profile, +90° = down the apex, −90° = up from below.
+r(θ) = ekθ,  k = ln(W) / 2π
+Current k = 0.0766. Every full revolution (θ → θ + 2π) scales the radius by exactly W — so W = φ makes the shell self-similar at every scale.
+⬇Download PNG
+W=1.00φ, whorls=5.0, tilt=100°
+φ
+Finding Phi
+Measure nature's proportions — discover φ hiding in shells, galaxies & growth. Imagine Nature's Wheelwork.
+Ratio notation
+φ = 1.618
+x = 0.618
+Measurement Tools
+📏Caliper
+▭Rectangle
+🌀Spiral
+🌻Parastichy
+Chain family
+● Family A
+● Family B
+● Family C
+Spiral turns
+3
+Pick a tool, then click on the image to place it. Spiral: click center → click outer ring edge → click next ring inward to fit and place. Growth G is measured from your two ring clicks (press Esc to cancel). Switch to Select to drag handles & adjust. Right-click an overlay to delete it.
+✥Select / Move
+🧹Clear All
+⬇Download PNG
+Image Library
+⤒Upload your own image
+Uploaded images stay in your browser only — nothing is sent anywhere.
+Image: — none —
+φ
+Choose an image from the library
+or upload your own to begin measuring.
++
+1×
+−
+↺
+Tip: scroll over a spiral or rectangle to resize it. Drag the purple handle on a spiral to rotate & adjust its growth. Scroll on empty canvas to zoom; drag to pan when zoomed. Segments turn green where growth matches φ.
+Shell geometry
+Number of turns
+Whorl expansion per turn (W)
+Spire rise per turn (T)
+Opening growth per turn (G)
+Smoothness (steps / turn)
+Appearance & camera
+Growth bands: every Nth step (0 = off)
+Shell opacity
+Camera pitch
+⟳ Auto-rotate
+Drag the shell to orbit. WebGL renderer: true depth buffer, two-sided lighting, fused tube mesh, open aperture.
+Species presets
+Garden snail
+Tower shell
+Ramshorn (flat)
+Nautilus-like
+Animation & export
+▶ Grow shell
+Reset
+Save PNG
+Print
+About Nature's Calc
+Close
+Nature's Calc is an integrated set of visual explorations of the mathematics found in nature's patterns — from the golden ratio φ to Pascal's triangle, Pingala's ancient meter counting, and the 3D Maha Meru. The collection is built in the spirit of Imagine Nature's Wheelwork (INW): making nature's patterns clear, visual, and usable for students, teachers, and curious learners.
+The unifying thread
+Every lab in this collection is connected by a single principle: simple rules generate infinite, beautiful structure. The golden ratio x = 1/φ ≈ 0.618 satisfies 1/x = 1 + x — so dividing a unit into x and x² preserves the whole. Pingala's enumeration of long and short syllables builds the same triangle that Blaise Pascal made famous in Europe. The spiral in a sunflower and the Fibonacci sequence both emerge from the same counting. These labs make those connections visible and interactive.
+Phi labs — the golden conjugate x
+All phi-related labs express lengths as powers of x = 1/φ ≈ 0.618, never as φ directly. φ appears only through the identity 1/x = 1 + x = φ. This choice keeps the fractions honest: x + x² = 1, xⁿ = xⁿ⁺¹ + xⁿ⁺².
+Pascal / Meru-prastāra
+Pingala's Chandaḥśāstra (c. 300 BCE) enumerated poetic meter patterns using L (laghu, short) and G (guru, long) syllables. Halāyudha's 10th-century commentary arranged them as meru-prastāra, a staircase of numbers equivalent to what Europe later called Pascal's triangle. This collection foregrounds the older Indian story while showing all of the same combinatorial structure.
+Related INW pages
+INW About
+INW Discovery Zone
+INW Educators
+Source: Sacred Geometry — Golden Ratio
+User Guide — Nature's Calc Collection
+Close
+Each lab opens in its own full-controls view. Use ← Home (top-right button) to return to the landing page and choose another lab. Inside each lab, the sidebar shows that lab's own About, User Guide, and Teacher Guide buttons.
+Phi stream (Labs 1–6)
+Phi Division: Linear or circular views. Depth slider controls how many x-power levels are shown. Animate reveals segments one at a time.
+Phi Spiral: Three construction types — square (golden rectangle), golden triangle, and equilateral Padovan. Toggle guide edges and the true logarithmic spiral overlay.
+Phi Derivation: Three perspectives — quantum change, linear balance, and circular decagon convergence. Step through the derivation.
+Phi Construction: Five step-by-step ruler-and-compass constructions. Use the Step slider at the bottom of the canvas to advance through each construction.
+DIY Caliper & Ruler: Instructions for building physical golden-ratio measurement tools.
+Phyllotaxis Spiral: Adjust the angle fraction and see how packing changes. Compare irrational and rational turns.
+Number pattern stream (Labs 7–10)
+Pascal: Choose display mode, highlight pattern, and click cells. Animate builds row by row.
+Pingala: Set syllable length, choose encoding (L/G or S/L), click pattern cards. Animate cycles through them.
+Mod-n: Drag the n slider. All-residues mode shows the full color landscape; Focus mode highlights one residue class.
+3D Maha Meru: Layer slice → Stacked → Tetrahedron. Drag the canvas to rotate in 3D modes.
+General controls (inside any lab)
+Animate — triggers a context-sensitive step-through animation for the active lab.
+Save PNG — exports the current canvas view.
+Reset — restores all controls to their defaults for the current lab.
+Teacher Guide — Nature's Calc Collection
+Close
+Use this collection as an integrated unit on pattern, structure, and number. The strongest strategy is to return to a small set of ideas — ratio, self-similarity, recursion, enumeration, symmetry — while changing the representation from lab to lab. Students who predict before running and revise after observing learn more than those who simply adjust sliders.
+Suggested progression
+Phi Division Lab — introduce the golden ratio through a concrete partition: one unit splits into x ≈ 0.618 and x² ≈ 0.382, with x + x² = 1. Establish the language of x-powers before anything else.
+Phi Spiral Lab — show how the same ratio generates a spiral from repeated geometric subdivision. Compare the constructed spiral to the true logarithmic spiral overlay.
+Phi Derivation Lab — move from geometry to algebra: where does x come from? The three perspectives (quantum, linear, circular) each offer a different route to the same identity 1/x = 1 + x.
+Phi Construction Lab — step through ruler-and-compass constructions. Students can replicate these physically. Ask them to identify x-lengths in real objects using the DIY Caliper instructions.
+Phyllotaxis Spiral — connect φ to biology. Why does the golden angle pack seeds optimally? What happens with rational turns?
+Pascal Pattern Lab — shift from ratio to counting. Introduce Pascal's triangle through the Fibonacci slashes, then explore parity, primes, and row sums.
+Pingala Meter Lab — show that the same triangle was derived independently in ancient India through poetic meter enumeration. This provides historical breadth and a non-European framing.
+Mod-n Lab — explore number theory through color. n = 2 gives the familiar Sierpiński pattern; larger n reveals new structures.
+3D Maha Meru — extend the 2D triangle to three dimensions. Introduce trinomial coefficients as a natural generalization.
+Instructional goals
+Help students move from describing structure to explaining it.
+Encourage prediction before running and evidence-based revision afterward.
+Use multiple representations: geometric, numeric, algebraic, verbal.
+Ask students to find the same pattern across labs (e.g. Fibonacci numbers appear in both the Phi Division and the Pascal labs).
+Where possible, connect to physical measurement — the DIY Caliper lab supports this directly.
+Lab Guide
+Close

@@ -1,0 +1,45 @@
+Pendulum Lab Collection
+Pendulum Lab Collection
+An integrated set of five pendulum simulations arranged as a progression from basic oscillation to phase arrays, two-frequency traces, coupled pendulums, and linear–torsional energy exchange. Choose any lab below to open it in a near full-screen view that preserves the standalone lab appearance.
+About
+User Guide
+Teacher Guide
+← Home
+About
+×
+This collection is framed in the spirit of Imagine Nature's Wheelwork (INW): making nature's patterns clear, visual, and usable for students, teachers, and curious learners. INW describes its purpose as bringing Sankhya into mainstream learning through resources that help people think as nature intended, and its educator materials emphasize understanding rather than memorization, curriculum alignment, and hands-on discovery.
+Within that broad educational vision, this pendulum set focuses on one especially powerful idea: oscillation reveals structure. Across the five labs, learners move from a single pendulum to phase arrays, two-frequency traces, coupled oscillators, and linear–torsional energy exchange. The common thread is that ratios, waves, beats, mode shapes, and energy flow become visible when students can manipulate a system directly.
+The collection also reflects INW's educator-facing emphasis on progression: begin with observation, move toward explanation, then compare related systems. The included sequence is therefore deliberate: Basic → Wave → Blackburn → Coupled → Wilberforce. It starts with familiar motion and grows toward richer multi-mode behavior.
+Related INW pages
+INW About
+INW Discovery Zone
+INW Educators
+kapillavastu.in
+Science of Freedom
+User Guide
+×
+Start on the landing page and click any large lab card to open that lab.
+Use Home to return to the collection landing page.
+Once a lab is open, it fills the screen so it behaves much more like the original standalone file.
+Open the collection-level About, User Guide, and Teacher Guide from the landing page for the overall rationale.
+Inside each lab, use that lab’s own About, User Guide, and Teacher Guide for simulation-specific help.
+Recommended progression
+Basic: period, energy, amplitude, and measurement habits.
+Wave: phase drift in an array of uncoupled oscillators.
+Blackburn: two perpendicular motions, ratios, and trace geometry.
+Coupled: normal modes, beats, and energy transfer.
+Wilberforce: exchange between linear and torsional modes.
+Teacher Guide
+×
+Use this collection as a progressive oscillations unit. The strongest strategy is to revisit a small set of ideas repeatedly — restoring force, period, phase, damping, resonance, normal modes, and energy storage — while changing the physical arrangement from lab to lab.
+Suggested sequence
+Basic Pendulum Lab: establish measurement routines, small-angle reasoning, and energy language.
+Pendulum Wave: distinguish true coupling from apparent large-scale patterns caused by many independent oscillators.
+Blackburn: show that two perpendicular oscillations can produce rich geometry without adding new forces.
+Coupled Pendulum: introduce normal modes, beats, and transfer between oscillators.
+Wilberforce: extend coupling ideas to different kinds of energy storage within one apparatus.
+Instructional goals
+Help students move from describing motion to explaining motion.
+Encourage prediction before running the simulation and evidence-based revision afterward.
+Use multiple representations: apparatus view, graphs, equations, verbal explanation, and saved trial data.
+Ask students to compare what is truly coupled, what is merely simultaneous, and what only appears wave-like.

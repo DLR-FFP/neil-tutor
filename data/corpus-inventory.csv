@@ -31,11 +31,11 @@ INV-029,SANKHYA_SCIENCE_REFERENCE_GUIDE_v2.4.pdf,Sankhya pack,corpus/Sankhya/SAN
 INV-030,Secret_Of_Sankhya_Part_2.pdf,Sankhya pack,corpus/Sankhya/Secret_Of_Sankhya_Part_2.pdf,PDF,2000,Srinivasan,none,Public,No — convert first,PDF → extract text/markdown before chunking,One of the two 'Secret of Sankhya' texts
 INV-031,SecretofSankhyaAcmeofAxiomaticUnification download 20210421.pdf,Sankhya pack,corpus/Sankhya/SecretofSankhyaAcmeofAxiomaticUnification download 20210421.pdf,PDF,2192.7,Srinivasan,none,Public,No — convert first,PDF → extract text/markdown before chunking,One of the two 'Secret of Sankhya' texts; filename hints it was downloaded from a URL — verify original provenance/license
 INV-032,sankhya_modern_physics_bridge_v2.8.pdf,Sankhya pack,corpus/Sankhya/sankhya_modern_physics_bridge_v2.8.pdf,PDF,779.3,FFP,none,Owner,No — convert first,PDF → extract text/markdown before chunking,
-INV-033,discoveryzone.html,Discovery Zone,corpus/discovery-zone/discoveryzone.html,HTML,66.3,FFP,none,Owner,Partial,"Extract readable text, then chunk",
-INV-034,natures_calc_collection-dev-v2.html,Discovery Zone,corpus/discovery-zone/natures_calc_collection-dev-v2.html,HTML,658.6,FFP,none,Owner,Partial,"Extract readable text, then chunk",
-INV-035,pendulum_lab_collection.html,Discovery Zone,corpus/discovery-zone/pendulum_lab_collection.html,HTML,449.9,FFP,none,Owner,Partial,"Extract readable text, then chunk",
+INV-033,discoveryzone.html,Discovery Zone,corpus/discovery-zone/discoveryzone.html,HTML,66.3,FFP,none,Owner,Yes,"Text extracted → data/discovery-zone-text/discoveryzone.txt (P2 prep)",
+INV-034,natures_calc_collection-dev-v2.html,Discovery Zone,corpus/discovery-zone/natures_calc_collection-dev-v2.html,HTML,658.6,FFP,none,Owner,Yes,"Text extracted → data/discovery-zone-text/natures_calc_collection-dev-v2.txt (P2 prep)",
+INV-035,pendulum_lab_collection.html,Discovery Zone,corpus/discovery-zone/pendulum_lab_collection.html,HTML,449.9,FFP,none,Owner,Yes,"Text extracted → data/discovery-zone-text/pendulum_lab_collection.txt (P2 prep)",
 INV-036,sims-data.js,Discovery Zone,corpus/discovery-zone/sims-data.js,JS,68.2,FFP,none,Owner,No,Script/data file — reference only,
-INV-037,thinking_lab_collection.html,Discovery Zone,corpus/discovery-zone/thinking_lab_collection.html,HTML,44.9,FFP,none,Owner,Partial,"Extract readable text, then chunk",
-INV-038,waves_lab_collection.html,Discovery Zone,corpus/discovery-zone/waves_lab_collection.html,HTML,155.5,FFP,none,Owner,Partial,"Extract readable text, then chunk",
+INV-037,thinking_lab_collection.html,Discovery Zone,corpus/discovery-zone/thinking_lab_collection.html,HTML,44.9,FFP,none,Owner,Yes,"Text extracted → data/discovery-zone-text/thinking_lab_collection.txt (P2 prep)",
+INV-038,waves_lab_collection.html,Discovery Zone,corpus/discovery-zone/waves_lab_collection.html,HTML,155.5,FFP,none,Owner,Yes,"Text extracted → data/discovery-zone-text/waves_lab_collection.txt (P2 prep)",
 INV-039,ch05_v3.5.md,Book 2 (chapters),corpus/inw/book2/ch05_v3.5.md,MD,21.5,FFP,none,Owner,Yes,Text — chunk directly,"NOT in uploaded corpus.zip — added 2026-09-18; verify provenance before public release",
 INV-040,ch08_v3.5.md,Book 2 (chapters),corpus/inw/book2/ch08_v3.5.md,MD,23.4,FFP,none,Owner,Yes,Text — chunk directly,"NOT in uploaded corpus.zip — added 2026-09-18; verify provenance before public release",

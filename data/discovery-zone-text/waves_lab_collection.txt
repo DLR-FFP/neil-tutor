@@ -1,0 +1,39 @@
+Waves Lab Collection
+Waves Lab Collection
+An integrated set of wave simulations exploring how oscillation travels and resonates. Begin with mechanical traveling waves and their superposition, then move to the standing-wave eigenmodes of a vibrating membrane. Choose any lab below to open it in a near full-screen view that preserves the standalone lab appearance.
+About
+User Guide
+Teacher Guide
+← Home
+About
+×
+This collection is framed in the spirit of Imagine Nature's Wheelwork (INW): making nature's patterns clear, visual, and usable for students, teachers, and curious learners. INW describes its purpose as bringing Sankhya into mainstream learning through resources that help people think as nature intended, and its educator materials emphasize understanding rather than memorization, curriculum alignment, and hands-on discovery.
+Within that broad educational vision, this wave set focuses on one especially powerful idea: oscillation propagates and resonates. The labs move from mechanical traveling waves — where amplitude, frequency, wavelength, and speed combine and superpose — to the standing-wave eigenmodes of a vibrating membrane, where confinement turns motion into discrete patterns of nodes and antinodes.
+The collection reflects INW's educator-facing emphasis on progression: begin with observation, move toward explanation, then compare related systems. The included sequence is therefore deliberate: Mechanical Waves → Standing Waves. It starts with familiar traveling motion and grows toward richer resonant, multi-mode behavior.
+Related INW pages
+INW About
+INW Discovery Zone
+INW Educators
+kapillavastu.in
+Science of Freedom
+User Guide
+×
+Start on the landing page and click any large lab card to open that lab.
+Use Home to return to the collection landing page.
+Once a lab is open, it fills the screen so it behaves much more like the original standalone file.
+Open the collection-level About, User Guide, and Teacher Guide from the landing page for the overall rationale.
+Inside each lab, use that lab’s own About, User Guide, and Teacher Guide for simulation-specific help.
+Recommended progression
+Mechanical Waves: amplitude, frequency, wavelength, speed, and how multiple traveling waves superpose and interfere.
+Standing Waves: how a confined membrane resonates into eigenmodes, with fixed nodes and oscillating antinodes.
+Teacher Guide
+×
+Use this collection as a progressive waves unit. The strongest strategy is to revisit a small set of ideas repeatedly — restoring force, amplitude, frequency, wavelength, phase, superposition, resonance, and energy — while changing the physical arrangement from traveling waves to confined standing waves.
+Suggested sequence
+Mechanical Waves: establish the vocabulary of wave motion and show how independent waves add through superposition and interference.
+Standing Waves: show how boundaries and confinement select discrete resonant modes, turning continuous motion into stable node/antinode patterns.
+Instructional goals
+Help students move from describing wave motion to explaining it.
+Encourage prediction before running the simulation and evidence-based revision afterward.
+Use multiple representations: waveform view, parameters, equations, and verbal explanation.
+Ask students to connect traveling-wave superposition to the formation of standing-wave modes.
