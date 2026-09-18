@@ -37,3 +37,5 @@ INV-035,pendulum_lab_collection.html,Discovery Zone,corpus/discovery-zone/pendul
 INV-036,sims-data.js,Discovery Zone,corpus/discovery-zone/sims-data.js,JS,68.2,FFP,none,Owner,No,Script/data file — reference only,
 INV-037,thinking_lab_collection.html,Discovery Zone,corpus/discovery-zone/thinking_lab_collection.html,HTML,44.9,FFP,none,Owner,Partial,"Extract readable text, then chunk",
 INV-038,waves_lab_collection.html,Discovery Zone,corpus/discovery-zone/waves_lab_collection.html,HTML,155.5,FFP,none,Owner,Partial,"Extract readable text, then chunk",
+INV-039,ch05_v3.5.md,Book 2 (chapters),corpus/inw/book2/ch05_v3.5.md,MD,21.5,FFP,none,Owner,Yes,Text — chunk directly,"NOT in uploaded corpus.zip — added 2026-09-18; verify provenance before public release",
+INV-040,ch08_v3.5.md,Book 2 (chapters),corpus/inw/book2/ch08_v3.5.md,MD,23.4,FFP,none,Owner,Yes,Text — chunk directly,"NOT in uploaded corpus.zip — added 2026-09-18; verify provenance before public release",

@@ -1,0 +1,3087 @@
+SANKHYA SCIENCE REFERENCE
+GUIDE v2.4
+Quick Reference for INW Series Content Creators & Educators Document:
+ARCH-002-SRG-004 | Date: July 16, 2026 | Version: 2.4
+
+Source Authority: All content derived exclusively from G. Srinivasan's authentic works:
+- Secret of Sankhya: Acme of Axiomatic Unification, Part I (SoS1) — canonical edition
+2021-04-21 (189 pp.), stored in-repo under sources/ - Secret of Sankhya, Part II (SoS2)
+— canonical edition (571 pp.), stored in-repo under sources/ - PHOSTATE.pdf,
+PHOscillator.pdf, PHO-GENETICS.pdf - SANKHYAABSTRACT.pdf, SANKEINSTEIN1.pdf -
+MEDITATION.pdf, SIDDHI.pdf
+
+Audience: INW series writers, editors, educators — accessible for young adults (13–16)
+
+Version History: | Version | Date | Changes | |---------|------|---------| | 1.0 | June 2026 |
+Initial release | | 2.0 | June 24, 2026 | Category 7 analysis reports integrated;
+consolidated | | 2.1 | June 26, 2026 | 17 recommendations implemented (REC-3A–3F,
+REC-4A–4K); Parts 3 & 4 substantially expanded; new sections on Logic of Detection,
+PHO derivation chain, C-Power Ladder, hadronic/leptonic triads, Planck's constant
+derivation, field impedance, ferromagnetism, scale invariance | | 2.2 | June 27, 2026 |
+PHO Ratio = Gyromagnetic Ratio clarification; "Product Ratio" → "PHO Ratio"
+throughout | | 2.3 | June 28, 2026 | 14 technical corrections: §1.2 natural number
+counting; §2.2–2.3 terminology; §2.5 symbols; golden mean conjugate distinction
+throughout; §3.0a renumbered §3.1; Atho pre-polarized clarification; §4.5 kx/C³ equation;
+§4.11 dark matter/energy rewrite incl. Hidden Two-Thirds paragraph; §10.4 Porous Pot
+analogy; §10.5 Mly count ladder; Changelog added | | 2.4 | July 16, 2026 | Aligned to
+canonical sources (SoS1 189 pp. + SoS2 571 pp., locked in-repo) and the new Master
+Symbol & Terminology Registry v1.0. Added §2.8a "The Two Light Speeds: C (Cs) vs c
+(CL)" reconciling the axiomatic count-rate with the measured light speed and
+documenting the SoS2 C-value inconsistency; added Appendix A: Extended Derived
+Constants (Vetted) with EM/atomic constants; §2.8 C row annotated as C = Cs;
+Registry cross-reference added throughout |
+
+
+
+TABLE OF CONTENTS
+
+    • Part 1: The Axiomatic Foundation (§1.1–1.4)
+    • Part 2: The Mathematics of Dynamism (§2.1–2.9, incl. §2.8a Two Light Speeds)
+    • Part 3: The Substratum and Its Properties (§3.0–3.9)
+    • Part 4: The PHO State — Engine of the Substratum (§4.1–4.12)
+   • Part 5: The Tri-Guna — Three Modes of Interaction (§5.1–5.3)
+   • Part 6: Key Sankhya Concepts (§6.1–6.8)
+   • Part 7: Siddhi — Direct Knowing Through Resonance (§7.1–7.4)
+   • Part 8: Sankhya vs. Modern Physics (§8.1–8.2)
+   • Part 9: Terminology Standards for INW (§9.1–9.3)
+   • Part 10: Teaching Analogies for INW (§10.1–10.6)
+   • Part 11: Common Misconceptions & Corrections
+   • Part 12: Quick Reference Tables
+   • Part 13: Core Principles — When in Doubt
+   • Appendix A: Extended Derived Constants (Vetted)
+
+
+
+PART 1: THE AXIOMATIC FOUNDATION
+
+1.1 What Is Sankhya?
+
+Sankhya (Sanskrit: counting, number, ratio, axiomatic reasoning) is an axiomatic science
+of counted interaction in a real, dynamic, coherent substratum. Created by Maharishi
+Kapila in a pre-Vedic period (~32,000 years ago), Sankhya forms the scientific core of
+the Bhagavadgita, embedded in the Mahabharata.
+
+
+
+  "It is the only unified field theory in existence that offers a complete scientific and
+  mathematical solution to every aspect of reality, manifest or unmanifest, in space
+  comprising substantial components." — G. Srinivasan, SoS1, Abstract/Overview
+
+
+
+Critical distinction: Sankhya is spelled with the anuswara (ascending nasal sound),
+meaning "numbers, counting, reasoning." The common spelling "Samkhya" uses a
+descending labial sound that classifies it into a different category. We always use
+Sankhya per G. Srinivasan's authentic transliteration. (Source: SoS2, Preface, pp. 12–
+13)
+
+1.2 The Core Axiom: 1 + 1 = 2
+
+Everything in Sankhya derives from a single, provable truth:
+
+ Statement        Meaning
+
+ 1+1=2            Natural number counting logic — the only axiom needed
+
+
+This is the ONLY truth that: - Cannot be argued with - Needs no outside authority - Can
+be proven immediately - Contains within itself the seed of all complexity
+The precise axiomatic significance of 1: The numeral "1" represents a real whole
+object — not an abstraction. Its properties are fully determined by counting logic alone:
+
+   • 1 is scale-invariant: 1/1 = 2/2 = ∞/∞ = 1. Any coherent whole, at any scale,
+     counts as one. This is the foundation of Sankhya's scale-invariant law.
+   • 1/2 is the maximum change increment — the largest single rate of change
+     possible from a whole unit. Dividing the whole by 2 preserves a fixed center and
+     produces the fundamental standing-wave ratio of all harmonic systems.
+   • 1/3, 1/4, 1/5, ... 1/n represent progressively smaller change rates — decreasing
+     incremental ratios as the denominator increases. The larger the denominator, the
+     less change each increment represents.
+
+This counting logic is why nature selects specific ratios, not arbitrary ones: only those
+that satisfy the balance equation 1/x = 1 + x are self-sustaining.
+
+1.3 Criteria for a Correct Theory
+
+G. Srinivasan establishes that a correct theory must be:
+
+   1. Simple, logically & numerically consistent and in consonance with reality
+   2. Based on an axiomatic foundation so causality is not violated
+   3. Non-dimensional and scale-invariant to fulfil universality
+   4. Restricted to a single controlling variable (time — the interval between
+      activities)
+   5. Self-evolving — the definition of the substratum must evolve from within the
+      theory
+   6. Amenable to observation and practical verification
+   7. Proof generated from within — not dependent on arbitrary external parameters
+
+(Source: SoS1, Abstract/Overview; SANKHYAABSTRACT, p. 1)
+
+1.4 The Sage Mindset vs. Modern Scientific Assumptions
+
+G. Srinivasan identifies key intellectual errors in modern science and contrasts them
+with the Sankhya approach:
+
+ Modern Assumption        Sankhya Correction                     Source
+
+ Space is a vacuum/void   Space is substantial, dynamic,         SoS1, Overview; SoS2,
+                          coherent, holographic                  Sutra 1
+
+ Constants are            Constants are derived axiomatically    SoS1, Abstract
+ measured empirically     from within
+
+ Uncertainty is           Counting interactions is certain and   SoS1, pp. 8–9
+ fundamental              accurate
+ Modern Assumption       Sankhya Correction                        Source
+
+ Forces come in          There are no groups of forces — only      SoS2, Preface, p. 8
+ separate domains        different levels of simultaneous
+                         interactions
+
+ Perpetual motion        PHO is nature's balanced condition in     PHOSTATE.pdf
+ violates energy         a substantial continuum
+ conservation
+
+ The universe is         Axiomatically impossible in substantial   SoS1, Abstract;
+ expanding               space; Hubble's redshift has a            SANKHYAABSTRACT, p. 8
+                         different explanation
+
+ Growth patterns are     Patterns are derived as                   SoS1, Axiomatic
+ observed, not           mathematically inevitable                 Derivations
+ explained
+
+
+
+  "A classical example of a conundrum in Physics and Cosmology is the assumption
+  that space is a vacuum, void or devoid of substantiality because of the failure of
+  experiments to detect the presumed characteristics of space." — G. Srinivasan,
+  SoS1, Abstract/Overview
+
+  "Since Universal phenomena existed long before the advent of human life, a correct
+  theory must not depend on logic structured through intellectual analysis that is
+  contrary to the observed characteristics of natural phenomena." — G. Srinivasan,
+  SoS1, Overview
+
+
+
+
+PART 2: THE MATHEMATICS OF DYNAMISM
+
+2.1 The Balance Equation: 1/x = 1 + x
+
+At the transition point between collision, reversal, and separation in any interaction: -
+The simultaneous state (ratio within the instant) must equal a numerical ratio: 1/x -
+The sequential state (interval of separation) must equal the sum: 1 + x
+
+For balanced dynamism, they must be equal:
+
+1/x = 1 + x — Equation [1.1]
+
+Solving with the axiomatic value 1 + 1 = 2:
+
+x = [√(1 + 2²) − 1] / 2 = (√5 − 1) / 2 = 0.618034 — Equation [1.2]
+Then: 1/x = 1 + x = 1.618034 — Equation [1.3]
+
+(Source: SoS1, Axiomatic Concepts, pp. 9–10; SANKHYAABSTRACT, pp. 4–5)
+
+Why this number? It is the ONLY ratio that perfectly balances simultaneous activity (1/
+x) with sequential activity (1 + x). No other number satisfies this balance. Therefore,
+nature MUST use this ratio.
+
+2.2 The First Slope of Interaction
+
+SoS2 introduces the "first slope of an interaction." At the elemental level, the first
+meaningful relational difference is from one to two. The gradient can vary as 1:1 or 1:2.
+Taking the slope of 2 as a cyclic relational value:
+
+Draw a right triangle with sides 1 and 2. The diagonal is √5. Remove the original unit 1,
+then share the remaining increment:
+
+x = [√(1 + 2²) − 1] / 2 = (√5 − 1) / 2 = 0.618034 — Equation [1.2a]
+
+This is a visual derivation pathway: the first measurable relative change ratio between
+unity and duality. It is not merely geometry — it is the first visual signature of dynamism.
+
+INW teaching phrase: "The first differential rate between one and two creates
+Nature's just-right dynamism share."
+
+(Source: SoS2, First Slope of Interaction)
+
+2.3 The √5 Connection Back to the Axiom
+
+x = (√5 − 1) / 2 = 0.618034, where √5 = √(1² + 2²)
+
+This connects the golden mean conjugate x directly back to the axiom 1 + 1 = 2: - 1 =
+unity - 2 = duality (from 1 + 1) - √5 = the geometric bridge between unity and duality - x
+= (√5 − 1) / 2 — the golden mean conjugate; the primary cyclic variable in all Sankhya
+derivations - φ = 1/x = (1 + √5) / 2 — the golden mean; derived from x as its reciprocal
+
+In Sankhya's axiomatic system, x is the primary variable (the golden mean conjugate
+= 0.618034), and φ = 1/x is the derived reciprocal (the golden mean = 1.618034). The
+foundational balance equation 1/x = 1 + x is expressed directly in terms of x — φ
+appears only as 1/x. This distinction matters: when G. Srinivasan writes equations using
+the variable x, he is working with the conjugate throughout.
+
+x vs. φ — the key distinction: | Symbol | Value | Identity | Role in Sankhya |
+|--------|-------|----------|-----------------| | x | 0.618034 | Golden mean conjugate = 1/φ = φ − 1 |
+Primary cyclic variable in all derivations | | φ | 1.618034 | Golden mean = 1/x = 1 + x |
+Expansion/reciprocal ratio; derived from x |
+(Source: SoS1, Axiomatic Concepts)
+
+2.4 The Self-Similar Loop
+
+Transposing x: 1 = x + x² — Equation [1.4]
+
+Raising as powers (simultaneous ratios): xⁿ = xⁿ⁺¹ + xⁿ⁺² — Equation [1.5]
+
+The sum of infinite powers forms a loop: Σxⁿ = 1/x = 1 + x — Equation [1.6]
+
+The combinatorial sum with Pascal triangle coefficients equals one: Super-symmetric
+series — Equation [1.7]
+
+
+
+  "The above sequence of derivational changes form an extraordinary and unique
+  logical-loop, based on combinatorial values. It defines the characteristics of self-
+  similarity and scale invariance." — G. Srinivasan, SANKHYAABSTRACT, p. 4
+
+
+
+2.5 Disciplined Definitions: Self-Similar vs. Scale-Invariant
+
+In G. Srinivasan's intended usage, self-similar and scale-invariant are disciplined
+technical terms — not casual synonyms. They are tied to Sankhya's logic of cyclic
+interaction-counts in a coherent substratum.
+
+              Primary
+ Term                             Sankhyan Emphasis                  INW Plain-Language
+              Meaning
+
+ Self-        Same internal       The process derives change from    "The same balancing
+ similar      proportional rule   within itself                      rule works inside the
+                                                                     cycle."
+
+ Scale-       Same rule across    The rule remains valid when        "When many become
+ invariant    coherent levels     many synchronised interactions     one, the same rule still
+                                  become a new unit                  works."
+
+
+Self-similar interaction (disciplined definition): A self-similar interaction is one whose
+expansion, compression, and resonant exchange are all governed by the same internally
+generated proportional rule. The golden mean relation 1/x = 1 + x is self-similar because
+the same ratio repeats through powers of x and keeps cyclic exchange balanced without
+requiring an external scale or force.
+
+   • Avoid reducing to: "looks the same at different sizes" or "fractal-like"
+   • Technical meaning: internal proportional exchange in cyclic interaction
+Scale-invariant law (disciplined definition): A scale-invariant law is a dimensionless
+interaction-count law that remains valid when the coherent unit changes scale. When
+many interactions synchronise and act as one, the same rule applies to that new unit.
+
+   • Avoid reducing to: "size does not matter"
+   • More accurate: "The same proportional law applies at each coherent level"
+
+Swabhava (self-nature): The internally generated law of an interaction. In Srinivasan's
+usage, Swabhava is closely tied to self-similarity — the interaction derives its rule from
+its own internal condition rather than from an external agency.
+
+Standing editorial rule: In INW, "self-similar" must always refer to an internally
+generated proportional rule of cyclic interaction. "Scale-invariant" must always refer to
+that same dimensionless rule applying when a coherent unit is redefined at another
+level. The golden mean equation 1/x = 1 + x is the anchor for both terms. Do not use
+the terms interchangeably.
+
+(Source: SoS1, Axiomatic Concepts; SoS2, Self-Similar Derivations; Self-Similar Scale-
+Invariant Analysis)
+
+2.6 Internal Exchange and Third-Order Damping
+
+The golden mean conjugate (x = 0.618034) is an internally generated ratio. The unit
+exchanges from within itself around the central half:
+
+ Guna Mode                      Operation                               Expression
+
+ Thaama (compression)           Inward, density-forming                 x² = 1/2 − x³/2
+
+ Raja (resonance)               Reversal, balancing, damping            x³ = x − x²
+
+ Sathwa (expansion)             Outward, sequential, radiant            x = 1/2 + x³/2
+
+
+The x³ term is the third-order damping constraint — it prevents collapse or runaway
+expansion and enables perpetual dynamism.
+
+(Source: SoS2, Third Order Damping Constraint; Golden Mean Dynamism Insights)
+
+2.7 The Ten-Count Cycle
+
+Axiomatically, a resonant interactive cycle is limited to ten interactions:
+
+   • cos(2π/10) = 0.809017 = (1 + x)/2
+   • A simultaneous cycle of 10 interactions = logarithmic index of 1
+   • All numerical values in Sankhya are presented as logarithmic indices to cyclic base
+     ten
+When sequential counting (1, 3, 6, 10, 15, 21, 28, 36, 45, 55) meets simultaneous
+counting (0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89), they converge at the ten-count cycle at
+55. The next simultaneous ratio 89/55 ≈ 1.618 = 1/x.
+
+(Source: SoS1, Axiomatic Concepts; SANKHYAABSTRACT, p. 5)
+
+2.8 Key Axiomatic Constants
+
+ Constant          Value          Meaning                                 Source
+
+ x                 0.618034       Golden mean conjugate — the             SoS1, Eq. [1.2]
+                                  cyclic interaction variable
+
+ 1/x = φ           1.618034       Golden mean — the expansion ratio       SoS1, Eq. [1.3]
+
+ k = 2^(1/3)       1.259921       Cube root of 2 — volumetric             SoS1, Eq. [1.19]
+                                  incremental ratio
+
+ Kx                0.9149879      Purusha — maximum density               SoS1, Eq. [1.15]
+                                  boundary; equivalent to Catalan's
+                                  constant
+
+ C = Cs            296,575,967    Axiomatic count rate per cycle          SoS1, Eq. [1.16]
+                                  (C_sankhya) = 10^(2/x³); the true
+                                  field "speed of light." Distinct from
+                                  the measured c = CL — see §2.8a
+
+ Mly               1.34462 ×      Minimum cyclic interval — smallest      SANKHYAABSTRACT,
+ (Moolaprakriti)   10⁻⁵¹          quantum unit                            p. 9
+
+ Mps (Mahad        2.20369 ×      Largest dynamic mass — equals           SoS2, Symbols
+ Prakriti)         10⁻⁸           Planck mass
+
+ PM (Prakriti      1.67442 ×      Active nuclear spectrum —               SoS2, Symbols
+ Saptha)           10⁻²⁷          neutron/proton domain
+
+ Me (Mahad         9.11023 ×      Reactive/observable unit —              SoS2, Symbols
+ Vikrithi)         10⁻³¹          electron mass
+
+ Si                377.0376       Impedance to stress transmigration      SoS1, Eq. [1.20]
+
+
+2.8a The Two Light Speeds: C (Cs) vs c (CL)
+
+Sankhya distinguishes two "speeds of light," and keeping them separate resolves a long-
+standing point of confusion:
+
+ Symbol     Name               Value                 What it is
+
+ C = Cs     Axiomatic count-                         The fundamental field interaction rate,
+            rate (C_sankhya)                         derived purely from the axioms as C =
+ Symbol     Name                  Value                  What it is
+
+                                  296,575,967            10^(2/x³). Used in all Sankhya
+                                  (2.9657596692 ×        derivations.
+                                  10⁸)
+
+ c = CL     Measured light        299,792,458            The laboratory/terrestrial value physicists
+            speed on Earth        (2.99792458 × 10⁸)     measure. It is the axiomatic rate blue-
+                                                         shifted by the correction factor Fc ≈
+                                                         1.010845: CL = Cs × Fc.
+
+
+Why they differ. The measured speed of light is not the bare field rate. Light
+propagating to a terrestrial observer is blue-shifted by the local gravitational/field
+gradient. In SoS1 the blue-shift factor is Fc ≈ 1.010845 (its logarithm equals Rs/Ro), so
+the measured value CL = Cs × Fc ≈ 299,792,458 — exactly the CODATA figure. The
+axiomatic count-rate Cs is the physically primary quantity; CL is what an instrument on
+Earth reads.
+
+Convention (per Registry §2.2). Uppercase C = Cs is the axiomatic count-rate;
+lowercase c = CL is the measured terrestrial speed of light. Always use C =
+296,575,967 in derivations.
+
+
+
+  Note on the SoS2 inconsistency. SoS2 is not internally consistent on the value of
+  C. Its Symbols/Definitions table and some passages quote C = 2.99792459 × 10⁸
+  (the measured value), whereas every axiomatic derivation in the same volume uses
+  C = 296,575,967. The discrepancy is visible across SoS2 pp. 198, 295, 514 and
+  567. This is an editorial inconsistency, not two different constants: read the
+  Symbols-table figure as c = CL (measured) and the derivation figure as C = Cs
+  (axiomatic). The Master Symbol & Terminology Registry v1.0 (§2.2) records this
+  resolution.
+
+
+
+2.9 The Fibonacci Sequence
+
+Definition: Each number is the sum of the two preceding numbers.
+
+F(n) = F(n−1) + F(n−2)
+
+ Position                    Value               Ratio F(n+1)/F(n)
+
+ F(8)                        21                  1.615
+
+ F(9)                        34                  1.619
+
+ F(10)                       55                  1.618
+
+ F(11)                       89                  1.618
+ Position                Value              Ratio F(n+1)/F(n)
+
+ F(12)                   144                1.618
+
+
+As n increases, F(n+1)/F(n) → φ. The Fibonacci sequence is the discrete manifestation of
+the continuous golden ratio.
+
+
+
+PART 3: THE SUBSTRATUM AND ITS PROPERTIES
+
+3.0 Why Sutra 1 Is the Master-Key
+
+The very first Sutra of the Sankhya Karika is not a simple opening line. It is the
+compressed seed of the entire 68-sutra system — the core theorem from which all else
+follows.
+
+
+
+  "The very first Suthra in almost all important Sanskrit works contains the core
+  theorem." — G. Srinivasan, SoS2, p. 141
+
+  "Suthra 1 is a pivotal theorem and provides the basis to understand subsequent
+  Suthras." — G. Srinivasan, SoS2, p. 142
+
+
+
+G. Srinivasan devotes significant space in SoS2 to establishing that Sutra 1 already
+contains "the essential core mathematical principles in brief from all the Suthras." The
+explanation of this single sutra spans pp. 141–176, covering the definition of the
+substratum, the three stress modes, the four required field conditions, and the logical
+chain from detection to holographic manifestation.
+
+Structural closure: Sutra 68, the final theorem, closes the system by repeating the key
+terms "aikanthikam–aathyanthikam" — confirming that the entire treatise is a self-
+consistent logical loop returning to its starting point. (Source: SoS2, p. 44, Tribute to
+Kapila)
+
+INW teaching framing: "The first sutra states the model; the remaining 67 sutras
+unpack it."
+
+Four questions for students: 1. What is seen? → Vibrations and changes 2. What is not
+directly seen? → The balanced background substratum 3. What creates the visible world?
+→ Three recurring modes of interaction (stress) 4. Why does the first sutra matter so
+much? → Because it names the hidden base, the visible effects, and the rule that
+connects them
+
+(Source: SoS2, pp. 141–142; Sutra 1 Report)
+3.1 The Detection Principle
+
+Before examining the substratum's properties, a foundational axiom must be stated
+explicitly:
+
+Only a change can be detected.
+
+
+
+  "Only a change can be detected and an interaction between components or objects
+  causes a change that can be observed." — G. Srinivasan, SoS2, p. 143
+
+
+
+An interaction that IS observable causes a detectable vibration. An interaction that is
+NOT observable causes a stress — a hidden force or pressure that remains real but
+undetected.
+
+This is the reason non-detection does not mean non-existence. If the fundamental
+components of space are in perfectly balanced interaction, they produce no net change
+to detect — yet they remain real, substantial, and active.
+
+INW teaching point: "You can only see what changes. If something is perfectly
+balanced, it's invisible — but it doesn't stop being there."
+
+(Source: SoS2, p. 143)
+
+3.2 The Four Properties of the Substratum (Sutra 1)
+
+The very first Sutra defines the substratum by four axiomatic properties. In Sanskrit:
+"Aikaantha-Athyantha-Atho-Abhavath"
+
+ Sanskrit    Meaning                         Physical Implication
+
+ Aikaantha   Coherent, synchronised, solid   Many interactions acting as one unit
+
+ Athyantha   Perpetual, endless,             The field never decays — eternally dynamic
+             omnipresent
+
+ Atho        Dynamic, oscillating, moving    Continuously vibrating and interacting
+
+ Abhavath    Unmanifest, undetectable,       In balanced state, both intervals equal — hence
+             quiescent                       undetectable
+
+
+
+  "The most important axiomatic definition of space in the first Suthra, 'Aikaantha-
+  Athyantha-Atho-Abhavath' (Coherent, Perpetual, Dynamic but Unmanifest) as the
+  substratum of phenomenon was overlooked completely by all the previous authors."
+  — G. Srinivasan, SoS2, Preface, pp. 12–13
+(Source: SoS2, Preface pp. 12–13; confirmed by repetition in Sutra 68)
+
+3.2.1 Aikaantha — Coherence and Synchronisation
+
+Aikaantha describes the coherent or synchronised state of the substratum. It is active
+internally but outwardly stable and hard to detect because its internal exchanges
+balance perfectly.
+
+Key characteristics: - Multiple interactions act as a single unified entity - Internal
+activity is intense but self-cancelling from the outside - This is why the substratum
+appears "solid" or "still" — not because nothing is happening, but because everything is
+happening in perfect unison - Connects directly to the "vanishing counts" principle (see
+§3.4): when many claps occur simultaneously, they merge into one — nine counts vanish
+into hidden density
+
+Physical analogy: An orchestra playing in perfect unison produces one coherent sound,
+not a hundred separate notes. The individual instruments are all active, but their
+synchronisation makes them function as one.
+
+Connection to Sutra 68: The closing theorem repeats "aikanthikam" to confirm that
+coherence is both the starting and ending condition of the treatise.
+
+(Source: SoS2, Sutra 1 analysis, pp. 161–169)
+
+3.2.2 Aathyantha — Perpetual Continuity
+
+Aathyantha establishes that the substratum's cyclic activity is perpetual. It does not
+simply run down, decay, or stop. This is not an assumption imposed from outside — it
+follows axiomatically from the balanced nature of the substratum itself.
+
+Key characteristics: - The field's oscillation is self-sustaining because reactive
+displacement never exceeds interactive displacement - No energy "leaks out" — the
+balanced exchange is a closed, self-renewing cycle - This property is the foundation for
+the PHO state (forward-link to Part 4) - Perpetuity is a mathematical consequence of the
+golden mean balance, not a philosophical assertion
+
+INW teaching point: "The substratum doesn't run down like a battery. Its balanced
+beat IS what 'being' means — it has no reason to stop, because stopping would require
+an external cause, and nothing is outside it."
+
+(Source: SoS2, Sutra 1 analysis, pp. 170–171)
+3.2.3 Atho — Pre-Polarized Latent State
+
+Atho is the pre-manifestation, pre-polarization, pre-radiation state of the substratum. It
+is not yet differentiated into Sathwa/Raja/Thaama — it exists as an undifferentiated,
+latent potential condition that precedes all observable interaction.
+
+Key characteristics: - Atho is a pre-polarized state — it has not yet differentiated into
+the three Guna modes - It is latent, potential, undifferentiated — containing the seed
+of manifestation without yet manifesting - Without Atho, the field would remain perfectly
+hidden forever — no universe could manifest - The Atho state is not a flaw or defect — it
+is the indispensable pre-radiated condition through which the unmanifest becomes
+manifest - Atho is the undifferentiated potential that, when conditions are right, tips
+into polarization and allows the universe to become visible
+
+INW teaching point: "If the substratum had no latent pre-polarized potential at all,
+nothing would ever appear. Atho is the undifferentiated state before manifestation — the
+field's dormant readiness, not yet a force but ready to become one."
+
+(Source: SoS2, Sutra 1 analysis, pp. 171–172)
+
+3.2.4 Abhaavath — Balanced Unmanifestation
+
+Abhaavath describes the condition in which all internal exchanges remain perfectly
+balanced, producing zero net displacement. In this state, the substratum is unmanifest —
+real but undetectable.
+
+Key characteristics: - When simultaneous and sequential intervals are equal, there is
+no difference to detect - This explains directly why the Michelson-Morley experiment and
+all similar experiments failed to detect space as "aether" - Non-detection is the expected
+result of a perfectly balanced substratum, not evidence of non-existence - Abhaavath is
+the complementary condition to Atho: where Atho opens manifestation, Abhaavath closes
+it back into hiddenness
+
+The detection chain: - Balanced interaction (Abhaavath) = zero difference in count - →
+prevents stress-transmigratory states - → therefore prevents radiant/manifest states
+
+INW teaching point: "The field doesn't hide because it's shy. It hides because it's so
+perfectly balanced that there's nothing to see. Like a spinning top balanced on its point
+— all the action is there, but from outside it looks like nothing is happening."
+
+The 2×3 Guna matrix in the Atho state: In the 2×3 matrix of Guna interactions
+describing the Atho (pre-polarized) state, the Sathwa component equals zero. Only
+Thaama and Raja components are present — compressive density and resonant shuttling
+— but no expansive/radiant mode. The required balance condition is:
+
+(π × x) / e = (7 × RS) / 10
+where π = 3.14159..., x = 0.618034, e = 2.71828..., RS = 1.020408. In this state there is
+no observable mass, charge, or radiation — only pre-polarized, latent stress activity that
+has not yet differentiated into manifest form.
+
+(Source: SoS2, Sutra 1 analysis, pp. 173–174)
+
+3.3 Why Space Cannot Be Detected
+
+In a balanced state, the simultaneous and sequential intervals remain equal. There is no
+difference to detect. This is why Michelson, Morley and others failed totally to detect
+space (as aether) — the substratum is self-cancelling in its balanced state.
+
+
+
+  "In a balanced state both intervals remain equal. Hence space must remain
+  undetectable. It is the main reason why all efforts to detect space (as aether) failed
+  totally." — G. Srinivasan, SANKHYAABSTRACT, p. 9
+
+
+
+Key INW teaching: Non-detection is not non-existence. Invisible is not unreal.
+
+3.4 Simultaneity and Sequence
+
+These are the two fundamental modes of activity in the substratum:
+
+Simultaneity: - All components act together within one instant - Many interactions
+merge into a single count - Creates density, mass, coherence, potential - Synonymous
+with: mass, density, rigidity, coherence
+
+Sequence: - Components act one-after-another over time - An interval separates two
+adjacent activities - Creates detectable change, displacement, motion
+
+The Vanishing Counts:
+
+
+
+  "Ten claps can be counted as such if it occurs one after another but if all ten occur
+  at the same instant it can be counted as only one. It causes an anomaly of nine
+  vanishing counts when interactions synchronise to act simultaneously." — G.
+  Srinivasan, SoS1, pp. 8–9
+
+
+
+This "clap analogy" is a key teaching tool for INW.
+
+3.5 The Three Phases of Interaction
+
+Any cycle of interaction between two objects has three complementary phases:
+ Phase                  Time Mode              Stress Type                            Guna
+
+ Compressive            Simultaneous           Compressive stresses at impact         Thaama
+ collision              instant
+
+ Rebounding reversal    Resonant period        Compressive reverses to expansive      Raja
+
+ Expansive separation   Sequential interval    Stress transmigrates beyond            Sathwa
+                                               boundary
+
+
+(Source: SoS1, Overview; SANKHYAABSTRACT, pp. 2–3)
+
+3.5.1 The Guna Equation S.1 — Interactive Count Formulae
+
+G. Srinivasan provides the mathematical expression for the three Guna modes as
+interactive count formulae in the Sutra 1 analysis itself:
+
+           Interactive Count
+ Guna                               Physical Mode            Domain
+           Formula
+
+ Thaama    C^(1+x)                  Compressive, dense,      Hadronic/nuclear — strong
+                                    coherent                 interaction domain
+
+ Raja      C^(x+x) = C^(2x)         Resonant, shuttling,     Interface — weak interaction
+                                    bonding                  domain
+
+ Sathwa    C^(1−x)                  Expansive, radiant,      Leptonic/electromagnetic —
+                                    elastic                  radiation domain
+
+
+Where: C = 2.9657596692 × 10⁸ (axiomatic oscillator rate); x = 0.618034 (golden mean
+conjugate)
+
+Verification: - C^(1+x) × C^(1−x) = C² — the product of Thaama and Sathwa gives the
+full two-axis count - C^(2x) = C^(1.236068) — the Raja/resonant mode sits between the
+compressive and expansive modes - The three formulae together describe the complete
+interactive spectrum from hidden density to radiant output
+
+INW teaching point: "The three Gunas aren't just descriptions — they're precise
+mathematical ratios of the same field oscillator C, operating in three different modes
+simultaneously."
+
+(Source: SoS2, p. 145, Equation S.1)
+
+3.6 Space Is Not Empty — Key Arguments
+
+G. Srinivasan provides several axiomatic arguments:
+
+   1. It is axiomatically impossible to accept that the foundation of the most realistic
+      Universe is a void
+   2. A real component or elemental matter must be volumetric — its dimensional
+      property of length defines the unit value
+   3. Since there can be no smaller unit in an elementary field, the volume is unit
+      cubed
+   4. The next incremental dimension must be 2 units, giving 2³ = 8 volumes (1 original
+      + 7 incremental)
+   5. A fractional dimension is axiomatically forbidden in an elemental field
+   6. Hence the quantum state of 1 containing 7 unit volumes is a natural axiomatic
+      consequence
+
+(Source: SoS1, Overview, pp. 6–7)
+
+3.7 The Logic of Detection
+
+G. Srinivasan presents a step-by-step logical chain (SoS2, pp. 158–159, 174–176) that
+demonstrates how the nature of the substratum can be deduced from the simple premise
+that only change can be detected. This chain is both rigorous and teachable:
+
+Step 1 — Foundational premise: Only change can be detected.
+
+Step 2 — Observational premise: The observer detects only vibrations. Therefore, all
+manifested phenomena are aggregates or collective states of vibrations on a
+fundamental base.
+
+
+
+  "Only vibrations are detected by the observer and all manifested phenomenon are
+  aggregates or collective states of such vibrations on a fundamental base." — G.
+  Srinivasan, SoS2, p. 174
+
+
+
+Step 3 — Causal premise: Vibrations are actions. Therefore, they must be caused by
+fundamental objects or components.
+
+Step 4 — Epistemic limit: Only relative changes can be detected. Therefore, non-
+vibratory fundamental components cannot be detected directly.
+
+Step 5 — Mechanism: Vibrations arise from components in interaction. Interaction =
+cyclic colliding and separating.
+
+Step 6 — Three stress modes: From the interaction of components, three stress modes
+are produced: - Collision → compressive / inelastic stresses - Reaction → expansive /
+elastic stresses - No freedom to move away → cyclic / shuttling / resonant stresses
+
+Step 7 — Measurement consequence: - If there is oscillatory displacement (to-and-fro
+movement) → vibration can be measured - If there is no space to move → vibratory action
+becomes stresses/pressures → these stresses transmigrate across components in the
+three modes
+
+Step 8 — Ontological conclusion: If detection depends on vibrations → fundamental
+space must contain components with the four characteristics/states (Aikaantha,
+Aathyantha, Atho, Abhaavath) → therefore space functions holographically → all
+vibrations remain in fixed relationship relative to each vibratory point → in a coherent
+and resonant state.
+
+
+
+  "The following Suthras provide logically concatenating proof to show that
+  manifestation is a holographic phenomenon." — G. Srinivasan, SoS2, p. 159
+
+
+
+Clarification note on "holographic": G. Srinivasan's use of "holographic" means that
+all vibrations remain in fixed positional relationships relative to each other in a coherent/
+resonant state. This is a detection-theoretic concept rooted in Sankhya axiomatics — it
+describes a property of substantial space where each point contains the relational
+pattern of the whole. It is not identical to the "holographic principle" in modern
+theoretical physics (which concerns boundary/bulk information encoding).
+
+INW teaching summary: "Start from one simple truth: you can only see what changes.
+Follow the logic step by step, and you arrive at the conclusion that space must be
+substantial, coherent, dynamic, and holographic. That's what Sutra 1 tells us in
+compressed form."
+
+(Source: SoS2, pp. 158–159, 174–176; Sutra 1 Report)
+
+3.8 The Holographic Function of Space
+
+The Logic of Detection concludes that space functions holographically. This has specific
+implications:
+
+   1. Every point contains the pattern: In a coherent, resonant field, every vibratory
+      point maintains a fixed relationship to every other point. The pattern is not
+      localised — it is distributed throughout the field.
+
+   2. Detection is relational, not absolute: We do not detect the substratum directly;
+      we detect the vibrations (changes) within it. These vibrations form fixed relational
+      patterns — what G. Srinivasan calls the holographic form.
+
+   3. The source of the holographic state: Both the 1/2, x, and x² locations act
+      simultaneously within the interaction cycle, forming the source of a holographic
+      state.
+  "What Maharishi Kapila had demonstrated through axiomatic mathematics was that
+  all phenomena in nature was of a holographic or coherent vibratory form." — G.
+  Srinivasan, SoS2, Preface, p. 13
+
+
+
+(Source: SoS1, Axiomatic Concepts; SANKHYAABSTRACT, p. 5; SoS2, p. 159)
+
+3.9 Scale Invariance of the Substratum
+
+G. Srinivasan explicitly states that the same axiomatic laws apply at every scale of
+manifestation, from subatomic particles to galaxies:
+
+
+
+  "The same laws apply in evaluating the galaxy, sun, planets, protons, electrons etc.
+  The distance always varies with cyclic interactive period keeping C the perpetual
+  oscillatory rate constant." — G. Srinivasan, SoS2, p. 159
+
+
+
+Key implications: - The laws derived from the axiomatic foundation are not limited to
+any particular scale - C (the oscillator rate) is the constant; distance and period vary -
+This is why Sankhya can derive values for both Planck-scale quantities and nuclear/
+atomic quantities from the same axioms - Scale invariance is not merely an observation
+— it is an axiomatic necessity in a coherent, substantial field
+
+INW teaching point: "The same rules that explain how a proton stays together also
+explain how a galaxy holds its shape. In Sankhya, there is only one law — it just shows
+up at different levels."
+
+(Source: SoS2, p. 159)
+
+
+
+PART 4: THE PHO STATE — ENGINE OF THE
+SUBSTRATUM
+
+4.1 What Is the PHO State?
+
+PHO = Perpetual Harmonic Oscillator — the ubiquitous engine of the substratum. It
+is the self-maintaining cyclic condition through which all manifestation becomes
+intelligible.
+ PHO
+                Meaning                                      Manifest Expression
+ Element
+
+ Perpetual      Does not decay — reactive displacement       Persistence of substratum and
+                never exceeds interactive displacement       stable matter
+
+ Harmonic       Exact ratio, phase, standing-wave, self-     Stable spectra, mass ratios,
+                similar count                                resonant states
+
+ Oscillator     Cyclic expansion, compression, resonant      Wave, particle, charge, mass
+                exchange                                     as phase conditions
+
+ Volumetric     Spherical/volumetric — manifests density,    Hadronic cores, leptonic
+                boundary, flux                               surfaces, charge-like flux
+
+ Simultaneous   Many interactions within one cycle and one   Hidden counts become mass,
+                common center                                density, potential
+
+
+
+  "PERPETUAL HARMONIC OSCILLATION IS AN AXIOMATIC STATE OF SPACE." —
+  G. Srinivasan, PHOSTATE
+
+
+
+(Source: PHOSTATE.pdf; PHOscillator.pdf; Key Insights Report)
+
+4.2 The Bow Analogy (PHO Physical Model)
+
+
+  "An archer's bow is the iconic model of the PHO state. The shaft of the bow is a flat
+  long strip made up of a rigid material like wood or metal. When it is bent the outer
+  curve stretches while the inner surface compresses at the same time... If a string is
+  attached to both the ends when bent, it would resonate or vibrate... Depending on
+  the rigidity of the strip and the elasticity of the string it would reach a balanced
+  resonant state and remain in that state forever." — G. Srinivasan, SoS1, Overview;
+  SoS2, Preface
+
+
+
+An amplifier with a microphone attached confirmed this perpetual resonance
+experimentally.
+
+4.3 From Axioms to the PHO: The Derivation Chain
+
+Part 4 of the v2.0 Guide presented PHO ratios as a table of values without showing how
+they are derived from the axiomatic foundation. The following derivation chain, drawn
+from SoS2's "Power House of the Universe" chapter (pp. 353–362), traces the complete
+path from axiom to PHO:
+ Step    Operation                          Result                Significance
+
+ EP1     Start: 1 + 1 = 2; standing-wave    2³ = 8 volumes (7     Spectral states sum to 1/7;
+         ratio 1/2                          incremental)          quantum structure emerges
+
+ EP2     k = 2^(1/3) = 1.259921             Radial-to-            Volume doubles when radius
+                                            volumetric ratio      increases by k−1
+
+ EP3     Two simultaneous 10-count          PR = 100/28 =         PHO Ratio (= Gyromagnetic
+         cycles / sequential volumetric     3.571428              Ratio) — the perpetual
+         displacement                                             oscillatory ratio
+
+ EP4     Asymptotic sum of                  Kx = 0.91499          Purusha state — maximum
+         combinatorial simultaneous                               coherent delay/inertia/mass
+         interactions
+
+ EP5     Self-similar harmonic ratio as     C = 2.9657596692      Fundamental oscillator rate of
+         cyclic count                       × 10⁸                 the field
+
+ EP6     Kx / C⁶                            My = 1.3446 ×         Moolaprakriti — minimum
+                                            10⁻⁵¹                 interactive unit
+
+
+
+  "The ratio EP5 is a simultaneous self similar ratio and as it's a cubic ratio of x it has
+  the limiting property or damping force to maintain an oscillatory state perpetually."
+  — G. Srinivasan, SoS2, p. 356
+
+
+
+Teaching sequence for INW: 1. Start with the axiom: 1 + 1 = 2 2. Divide by 2 — this
+preserves a fixed center and generates stable nodes 3. From that geometry, derive the
+volumetric quantum (8 volumes = 7 incremental + 1 original) 4. Build the resonant
+ratios (PR and RS) from interaction counts 5. Derive C (the oscillator rate) from the self-
+similar properties 6. Derive the full range: maximum (Kx) to minimum (My = Kx/C⁶) 7.
+Show that stable particles and constants are states on this ladder — not isolated objects
+in empty space
+
+(Source: SoS2, pp. 353–357, derivations EP1 through EP6)
+
+4.4 Key PHO Ratios
+
+ Ratio             Value        Meaning                                          Derivation
+
+ Standing-         1/2          Fundamental balanced division                    Division by 2
+ wave ratio                                                                      keeps center
+                                                                                 fixed
+
+ k = 2^(1/3)       1.259921     Radial-to-volumetric increase ratio              Cube root of 2
+
+                   2³ = 8                                                        —
+ Ratio         Value         Meaning                                      Derivation
+ Volumetric                  A radius doubling gives 8 volumes (7
+ doubling                    incremental beyond original)
+
+ PR (PHO       100/28 =      Two simultaneous 10-count cycles (100)       EP3
+ Ratio)        3.571428      divided by sequential forward/reverse
+                             volumetric displacement (28). PR =
+                             Gyromagnetic Ratio (Gmr).
+
+ RS            100/98 =      Resonant restoring factor; also PR × (2/7)   EP3 derivative
+ (Resonant     1.020408
+ Ratio)
+
+
+4.4.1 RS as Transcendental Power Series
+
+The Resonant Ratio RS is not merely a numerical value — it is derivable as a
+transcendental power series:
+
+RS = Σ(2/100)ⁿ for n = 0 to ∞ = 100/(100 − 2) = 1.020408...
+
+This is the "rate of decay of interactions per cycle" as a perpetually dynamic state. The
+key insight: the coherent state's decay time, when expressed through this series, is
+infinite/eternal. This is why the PHO is perpetual — the restoring factor ensures the
+oscillation never dies out.
+
+Physical basis of RS = PR × 2/7: - 2 = two changes of volume per cycle (expansion
+and compression) - 7 = seven volumetric displacements within the quantum
+
+(Source: PHOSTATE; PHOscillator)
+
+4.4.2 PR as Nuclear Gyromagnetic Ratio
+
+
+
+  "THE PR = 3.5714 VALUE IS ALSO THE OBSERVED NUCLEAR GYROMAGNETIC
+  RATIO BUT HAS NOT BEEN THEORETICALLY DERIVED SO FAR IN PHYSICS." —
+  G. Srinivasan, PHOSTATE
+
+
+
+The PHO Ratio PR = 100/28 = 3.571428 is axiomatically derived from Sankhya's
+interaction counts. This ratio is identical to the Gyromagnetic Ratio (Gmr) — the
+measured nuclear gyromagnetic ratio in experimental physics — which has not been
+theoretically derived by modern physics. G. Srinivasan presents this identity (PR = Gmr)
+as confirmatory evidence of the PHO framework: Sankhya axiomatically derives a value
+that physics can only measure.
+
+(Source: PHOSTATE)
+4.5 The Ladder of Phenomenon: C-Power States
+
+The C-power ladder is the central organising structure of the PHO chapter and the key
+to understanding how the substratum field produces different states of manifestation. It
+is built from powers of C (the fundamental oscillator rate):
+
+ Power   State                 Physical Domain         Significance
+
+ C       Fundamental           Elemental field cycle   ≈ 2.9658 × 10⁸ counts/cycle
+         oscillator rate
+
+ C²      "Vanishing" from      Synchronised axis       Two-axis synchrony; counts become
+         detectable spectrum   counts                  hidden
+
+ C³      Hadronic / coherent   Nuclear stable state    Non-radiant; mass/density; 3D
+         domain                                        coherent count where all three
+                                                       axes synchronise
+
+ C⁴      Intermediate          Transition domain       —
+         transition
+
+ C⁵      Planck-mass (Mahad)   Maximum oscillatory     Connects to Planck scale; operates
+         level                 state                   at C cycles/cycle
+
+ C⁶      Maximum field count   Two C³ states           Upper coherent limit
+                               interacting
+                               simultaneously
+
+
+Key teaching points: - C³ is the stable 3D coherent count where all three spatial
+axes synchronise. This creates the hadronic (nuclear) domain — dense, non-radiant,
+stable matter. - C⁶ is the maximum when two such C³ states interact simultaneously.
+This defines the upper coherent limit of the field. - Kx (maximum) and My = Kx/C⁶
+(minimum) define the full dynamic range of the substratum — from the densest
+coherent state to the smallest quantum unit. - Stable particles and constants are not
+isolated objects — they are states or transitions on this ladder.
+
+INW teaching analogy: "Think of the C-power ladder as a building with floors. The
+ground floor (C) is the basic beat. Each higher floor packs more beats together
+simultaneously. By the time you reach the top floor (C⁶), so many beats are packed
+together that nothing can escape — that's the deepest hidden potential. Going down, the
+beats spread out and become visible as particles, waves, and radiation."
+
+(Source: SoS2, pp. 361–362; SoS2, p. 368, Fig: The Ladder Of Phenomenon)
+
+Connection between Kx and leptonic mass — the C³ symmetry:
+
+From the foundational derivation Kx = Mly × C⁶, a key symmetry equation follows
+directly:
+Kx / C³ = Mly × C³
+
+Equivalently: Kx = Mly × C⁶
+
+This equation reveals that the maximum coherent boundary (Kx, the Purusha constant ≈
+0.9149879) and the minimum quantum unit (Mly ≈ 1.3446 × 10⁻⁵¹) are related through
+the C³ factor — exactly the hadronic/leptonic boundary level on the Ladder of
+Phenomenon. The C³ level is where all three spatial axes synchronise to form stable
+hadronic (nuclear) states. The equation Kx / C³ = Mly × C³ shows that both ends of the
+Ladder — the maximum and minimum — are symmetrically anchored at the C³
+(hadronic/leptonic) boundary, connecting the Kx constant directly to the domain of
+leptonic mass.
+
+(Source: SoS1, Eq. [EP6]; SANKHYAABSTRACT, p. 9)
+
+4.6 Hadronic States: Proton, Neutron, and the Hidden Coherent
+Mass
+
+The three hadronic states form the "nuclear triad" — three precisely derived masses that
+demonstrate the PHO state at the nuclear level. Their perpetual oscillatory relationship
+via PR and RS is the core demonstration of the PHO in action.
+
+                         Axiomatically Derived      Physics Measured        Match
+ State         Symbol
+                         Value                      Value                   Error
+
+ Neutron       Pn        1.6749276458 × 10⁻²⁷       1.67492728 × 10⁻²⁷      +2.18 ×
+                                                                            10⁻⁷
+
+ Coherent      PM        1.6744231791 × 10⁻²⁷       Not known in physics    —
+ mass
+
+ Proton        Pm        1.672621512 × 10⁻²⁷        1.67262171 × 10⁻²⁷      +1.18 ×
+                                                                            10⁻⁷
+
+
+The PHO proof — perpetual oscillatory ratios maintained:
+
+(PM − Pm) / (Pn − PM) = PR = 3.5714285714
+
+The proton mass change occurs over 7 volumetric displacements; the neutron mass
+change occurs over 2 volumetric displacements within the same oscillatory period.
+
+(PM − Pm) / (Pn − PM) × (2/7) = RS = 1.0204081633
+
+The hidden coherent mass PM: This is a state that modern physics has not identified.
+In Sankhya, it is the balanced, coherent center between the proton and neutron — the
+stable reference point around which both oscillate perpetually.
+  "The reader must realise that at the atomic / nuclear level there is no uncertainty
+  what so ever." — G. Srinivasan, PHOSTATE
+
+
+
+INW teaching point: "The proton and neutron aren't just sitting there — they're
+perpetually oscillating around a hidden balanced center. The ratios between them are
+exact, not approximate. There is no uncertainty at this level — only precise, axiomatic
+counting."
+
+(Source: PHOSTATE; PHOscillator; PHO-GENETICS — all three confirm identical
+derivations)
+
+4.7 Leptonic States: Electron as Boundary, Not Independent
+Particle
+
+The leptonic states demonstrate that the electron is NOT an independent particle — it is
+the harmonic oscillatory boundary of the hadronic nuclear core. This is a paradigm-
+shifting claim backed by precise derivation.
+
+                                                        Physics
+ State                    Symbol    Derived Value                        Notes
+                                                        Measured
+
+ PM-derived lepton        Mep       9.1140580241 ×      Not predicted    —
+                                    10⁻³¹
+
+ Planck-mass-derived      Me        9.110233722 ×       Not predicted    —
+ lepton                             10⁻³¹
+
+ Balancing state (=       Mee       9.1093838239 ×      9.1093897 ×      Extremely
+ measured electron)                 10⁻³¹               10⁻³¹            precise match
+
+
+The PHO proof at the leptonic level:
+
+(Mep − Me) / (Me − Mee) × (k²/7) = RS = 1.0204081633
+
+The same resonant ratio RS that governs the hadronic triad also governs the leptonic
+triad — demonstrating scale invariance across the nuclear and electronic domains.
+
+Key teaching points: - Leptonic states are area-dependent flux densities displaying
+"charge" characteristics - They act as a simultaneous surface of interaction at
+distance k from the hadronic center - The electron (Mee) is the resonant balancing
+state of the boundary, not a free-floating independent particle - The leptonic triad uses
+k² (area ratio) rather than k³ (volume ratio) because it describes a surface, not a volume
+  "THE LEPTONIC STATES ARE ONLY THE BOUNDARY STATE OF THE HADRONIC
+  NUCLEAR CORE STATE. THEREFORE THE LEPTONIC ELECTRON IS NOT AN
+  INDEPENDANT PARTICLE." — G. Srinivasan, PHOSTATE
+
+
+
+INW teaching point: "The electron isn't a little ball orbiting the nucleus. It's the
+vibrating boundary of the nucleus itself — like the surface of a drum isn't separate from
+the drum. The same exact ratio (RS) that governs the proton-neutron relationship also
+governs the electron relationship."
+
+(Source: PHOSTATE; PHOscillator; PHO-GENETICS)
+
+4.8 Planck Mass (Mahad) as PHO Oscillator
+
+The Planck mass, identified in Sankhya as Mahad Prakriti (Mps), is not merely a
+theoretical threshold. It is a dynamic, perpetual, self-similar oscillator operating at
+exactly C cycles per cycle.
+
+
+
+  "A dynamic perpetual self similar oscillator operating at exactly C cycles per cycle
+  (or second)." — G. Srinivasan, SoS2, pp. 358–359
+
+
+
+Key characteristics: - The Mahad (Planck mass) sits at the C⁵ level on the Ladder of
+Phenomenon - It represents the interface between the Thaama/Raja domains (strong/
+weak force interface in physics) — the EP3 ratio equivalence governs this transition -
+The transition from Planck mass to neutron does not radiate any energy — hence it is
+not detectable until a violation of the coherent state occurs - The Compton wavelength
+exists at the boundary k−1 = 0.2599 from the coherent surface
+
+
+
+  "This transition does not radiate any energy. Hence it is not detectable till a
+  violation of the coherent state occurs." — G. Srinivasan, SoS2, p. 359
+
+
+
+INW teaching point: "The Planck mass isn't just a number — it's an active oscillator,
+beating at exactly C beats per second. It's the highest-energy stable oscillator in the field
+ladder, and it connects the quantum world to the nuclear world."
+
+(Source: SoS2, pp. 358–360)
+4.9 Planck's Constant: Axiomatically Derived
+
+G. Srinivasan describes the axiomatic derivation of Planck's constant from the PM
+(coherent nuclear mass) state as "a unique and unequivocal proof of Sankhyan concepts
+and logic." This derivation demonstrates unification across quantum and nuclear
+domains.
+
+The derivation:
+
+h = [PM × Px × (2π) × (k−1)²] / [C × 7] = 6.6261986282 × 10⁻³⁴
+
+Measured value: h = 6.6260755 × 10⁻³⁴
+
+Physical interpretation: Planck's constant is "the ratio of the breaking down of the
+spherical coherent state PM to the linear displacement rate C."
+
+What this means: - h is not an arbitrary measured constant — it is axiomatically
+derivable from the PHO framework - It connects the nuclear coherent mass (PM) to the
+fundamental oscillator rate (C) - The factors (2π), (k−1)², and 7 represent the geometric
+and volumetric conversion from spherical coherence to linear displacement - The match
+with the measured value is to 7+ significant figures
+
+INW teaching point: "Planck's constant — the most fundamental number in quantum
+mechanics — isn't just measured. It can be derived from the same axioms that give us
+proton mass, electron mass, and the speed of light. That's what unification means."
+
+(Source: PHOSTATE; PHOscillator; PHO-GENETICS — all three derive the same value)
+
+4.10 When Coherence Breaks: Waves, Impedance, and the
+Photon
+
+When the coherent state of the substratum breaks down, the internal stresses can no
+longer remain hidden. They transmigrate as waves through the substantial field. The
+impedance derivation connects the PHO framework to electromagnetic phenomena.
+
+Wave states: - The simultaneous phase transmigrates as C^x - The sequential phase
+transmigrates as C^(1−x) - Their product = C^x × C^(1−x) = C — the total always
+equals the fundamental oscillator rate
+
+Balanced impedance: - C^x / C^(1−x) = C^(2x−1) - Numerically: 100 / [(k−1) × RS]
+= 377.04 - This equals the measured impedance of free space in physics (377.0376 Ω)
+
+The photon: - When acceleration exceeds C, stress quanta radiate in holographic form -
+A total of 4.96 × 10¹⁷ My counts (= seven Ne's) are needed to initiate the accelerative
+process as a simultaneous package — this is the photon - The wave is NOT a photon
+"radiating in empty space with a velocity" — it is a transmigrating stress in substantial
+space
+
+INW teaching point: "Light isn't a little ball flying through nothing. It's a stress pattern
+passing through a real, substantial field — like a ripple moving through water. The water
+doesn't go anywhere; the pattern does."
+
+(Source: PHOSTATE; PHOscillator; PHO-GENETICS)
+
+4.11 "Dark" Matter and Energy — Sankhya's Precise Explanation
+
+Modern cosmology's "dark matter" and "dark energy" are not mysterious unknown
+substances. In Sankhya, they are precisely defined as the unobservable interactive
+states that are approximately 10¹⁸ orders of Mly (Moolaprakriti) below h — the
+first detectable quantum. The term "dark" simply means: too far below the threshold of h
+to produce a detectable quantum of change.
+
+The key equation: Mly × C² = h
+
+G. Srinivasan establishes that the fundamental mass unit Mly (Moolaprakriti) has an
+energy value exactly equal to Planck's constant:
+
+Mly × C² = h = 6.6261986 × 10⁻³⁴ J·s
+
+(Source: PHO-GENETICS.pdf, p. 4: "my is the fundamental mass value in Sankhya and
+its energy value is equal to Planck's constant")
+
+This means Mly and h are related through C² — the two-axis synchronised count.
+Planck's constant h is therefore not a standalone arbitrary number but the energy
+equivalent of one Moolaprakriti scaled by C².
+
+The ~10¹⁸ ratio: gap between Mly and h
+
+The spectrum from Mly (the minimum quantum oscillator) up to h (the first observable
+quantum) spans approximately:
+
+h / Mly ≈ 4.93 × 10¹⁷ ≈ 10¹⁸ Mly counts
+
+(SoS1, Eq. [0.52]: Tq = h/Mly = 4.9278 × 10¹⁷)
+
+All interactive states below this threshold — hadronic and sub-hadronic counts below h
+— are permanently hidden: they cannot produce a discrete detectable frequency change.
+This is the precise Sankhya definition of "dark."
+
+Dark Matter vs. Dark Energy in Sankhya:
+ Term       Sankhya Definition                                Physical Character
+
+ Dark       Hadronic unobservable states below h —            Coherent simultaneous counts;
+ Matter     interactive counts in the hadronic domain that    acts as inertia/mass but
+            are below the h threshold; cannot radiate; acts   produces no detectable
+            as hidden mass/density                            quantum
+
+ Dark       Energy equivalent of h in Mly counts — the        Mly × C² = h; the latent energy
+ Energy     energy resident across the ~10¹⁸ Mly-count        driving the coherent
+            spectrum below h; the hidden potential of the     substratum
+            field
+
+
+The EP8 Value — Energy in the Fundamental Field
+
+The energy resident in the fundamental field as coherent unmanifest activity is:
+
+EP8 = Kx / [My × (RS−1)] = 3.334 × 10⁻⁵²
+
+This is "the state before the field appears in quantum physics" — the pre-quantum
+coherent energy of the substratum itself.
+
+
+
+  "There exists no experimental way of measuring the potential or coherent state of
+  dynamic activity." — G. Srinivasan, SoS2, p. 357
+
+
+
+The Hidden Two-Thirds: Thama and Raja as the Perpetual Engine
+
+G. Srinivasan states the practical significance of the Sankhya paradigm with precision:
+
+
+
+  "The question arises as to what are the advantages of making a paradigmatic
+  change on a vital aspect of Physics. The answer is that exposing two thirds of
+  phenomena hidden from human understanding can give a tremendous motivation to
+  humanity to correct its focus and thereby gain the maximum advantage that the
+  substantial continuum of space can offer, especially in the realm of extracting over-
+  unity energy from the limitless dynamic source." — G. Srinivasan, SoS1, p. 186
+
+
+
+The "two thirds of phenomena hidden from human understanding" maps directly to the
+triadic Guna structure of the Substratum. In the Sankhya framework, all activity resolves
+into three complementary components — Thama (compressive density), Raja (resonant
+shuttling), and Sathwa (expansive radiation). Of these three, only Sathwa manifests as
+observable phenomenon: mass/charge states and radiation. The remaining two
+components — Thama and Raja — constitute the hidden, perpetual PHO engine that
+drives all manifestation but produces no detectable quantum.
+The arithmetic is exact: total Substratum activity comprises three Guna components, of
+which two (Thama + Raja) remain hidden and one (Sathwa) becomes observable. This
+yields the precise ratio — two-thirds hidden, one-third observable — that Srinivasan
+identifies as the scope of phenomena concealed from human understanding.
+
+In the pre-manifestation Atho state, as described in the 2×3 Guna matrix (§3.2.4), the
+Sathwa component equals zero. Only Thama and Raja are present — compressive
+density and resonant shuttling in perpetual balance — with no expansive or radiant
+mode active. The balance condition (π × x) / e = (7 × RS) / 10 maintains this equilibrium.
+Manifestation occurs precisely when this Thama-Raja balance is disrupted and Sathwa
+becomes non-zero, transitioning the Substratum from hidden (Thama-Raja only) to
+observable (Thama-Raja-Sathwa). The resulting polarization produces either mass/
+charge states (observable matter) or radiation states (observable energy) — both
+manifestations within the holographic Substratum.
+
+The "limitless dynamic source" Srinivasan references is the eternal Thama-Raja balance
+in the Atho state: a perpetual resonance that stands ready to power manifestation
+anytime, anywhere, across the 10¹⁸-order simultaneous interaction spectrum.
+Understanding this hidden two-thirds engine — rather than treating the unobservable
+domain as a mysterious "dark" substance — opens the pathway to harmonizing with
+nature's own wheelwork and extracting coherent energy from the Substratum's
+perpetual activity.
+
+INW teaching: "What scientists call 'dark matter' is not a mystery substance — it's the
+hadronic count-activity that exists below Planck's constant h, the first detectable
+quantum. It acts like mass because it has count-density, but it can't be seen because no
+interaction in it is large enough to produce a detectable quantum. 'Dark energy' is the
+energy equivalent of h expressed in Moolaprakriti units: Mly × C² = h."
+
+(Source: PHO-GENETICS.pdf, p. 4–5; SoS1, Eq. [0.52]; SoS2, p. 357)
+
+4.12 Why PHO Is Not Perpetual Motion
+
+Modern physics rejects perpetual harmonic motion as violating energy conservation, but
+this objection assumes empty space and externalised matter. In Srinivasan's framework:
+
+
+
+  If space is a substantial coherent continuum, then perpetual harmonic oscillation is
+  not a machine violating nature — it IS nature's own balanced condition.
+
+
+
+The field stays coherent by "internal exchange of oscillatory counts" carried out as a fully
+internal transfer. Nothing enters or leaves; the exchange is closed and self-sustaining.
+  "The field stays coherent by internal exchange of oscillatory counts carried out as a
+  fully internal transfer." — G. Srinivasan, SoS2, pp. 425–426
+
+
+
+(Source: PHOSTATE.pdf; Key Insights Report; SoS2, pp. 425–426)
+
+4.13 Ferromagnetism as PHO State
+
+The derivation of Iron's atomic characteristics from PHO axioms provides a compelling
+proof of scale invariance and the practical applicability of the PHO framework:
+
+Magnetic state: Created at the resonant oscillatory rate of 2 cycles per period at
+maximum coherence.
+
+ Property                  Axiomatically Derived        Physics Measured           Match
+
+ Atomic mass number        55.867                       Fe = 55.845                Very close
+
+ Element number            26.07                        Fe = 26                    Very close
+
+
+
+  "Ferromagnetism is a PHO state at 55 protons & 26 electrons." — G. Srinivasan,
+  PHOSTATE
+
+
+
+Why this matters for INW: The same axiomatic method that derives subatomic particle
+masses can also derive the properties of a specific chemical element — demonstrating
+scale invariance from nuclear to atomic domains.
+
+(Source: PHOSTATE; PHOscillator; PHO-GENETICS)
+
+4.14 Quick Reference: Three PHO Papers Compared
+
+Users of the Guide may need to consult individual PHO papers. This quick-reference
+comparison helps orient them:
+
+ Document         Primary Focus     Key Contribution               Best Used For
+
+ PHOSTATE         Energy and        PHO as axiomatic state of      Understanding the energy
+                  technology        space; overunity theoretical   implications; technology
+                  claim             foundation                     applications
+
+ PHOscillator     Full numerical    Complete derivation set        Detailed numerical
+                  architecture      with Mathcad notation          verification; checking
+                                                                   specific derivations
+ Document         Primary Focus          Key Contribution               Best Used For
+
+ PHO-             Scale invariance       Same PHO logic applies to      Demonstrating universality;
+ GENETICS         claim                  hadronic, leptonic, and cell   biological extensions
+                                         structure
+
+
+Note: All three papers derive identical numerical values for hadronic masses, leptonic
+masses, Planck's constant, and the key ratios (PR, RS). They differ in emphasis and
+framing, not in content.
+
+(Source: PHO Analysis Report)
+
+
+
+PART 5: THE TRI-GUNA — THREE MODES OF
+INTERACTION
+
+5.1 Authentic Definitions
+
+The Tri-Guna are NOT moral qualities ("good/bad"). They are the three technical modes
+of stress interaction that cause all phenomena in the Universe:
+
+            Sanskrit Meaning (G.                                             Mathematical
+ Guna                                         Physical Mode
+            Srinivasan)                                                      Expression
+
+ Thaama     Compressed, contracted,           Compressive, inward,           x² = 1/2 − x³/2
+            static mass                       density-forming
+
+ Raja       Shuttling action,                 Resonant, shuttling,           x³ = x − x²
+            interaction, oscillation          bonding exchange
+
+ Sathwa     Expansion, vector, tensor,        Expansive, outward, radiant    x = 1/2 + x³/2
+            radiant state
+
+
+(Source: SoS2, Lexicon pp. 494–502; Key Insights Report)
+
+5.2 The Tri-Guna as PHO Phases
+
+Every cycle of interaction expresses all three Gunas:
+
+   1. Thaama → Squeeze (compressive collision)
+   2. Raja → Exchange (resonant reversal and coupling)
+   3. Sathwa → Release (expansive separation and radiation)
+
+INW phrase: "Every event squeezes, exchanges, and releases."
+5.3 Teaching Note
+
+The Gunas are NOT separate forces. They are three inseparable aspects of every single
+interaction cycle. Like a single breath has inhalation, pause, and exhalation — you
+cannot have one without the others.
+
+
+
+PART 6: KEY SANKHYA CONCEPTS
+
+6.1 Purusha (Kx ≈ 0.9149879)
+
+Authentic definition: The coherent, static-seeming, central potential state of maximum
+density. It is the largest coherent unit of cyclic time-period, equated to maximum inertia,
+mass, or delay as the ground state. In Sankhya it is called the "Andhathamishra" or
+black-hole state.
+
+Purusha is NOT: - ❌ A "person" or "soul" in the common philosophical sense - ❌
+"Consciousness" in the transcendent sense - ❌ A moolaprakriti
+
+Purusha IS: - ✓ A state of maximum density (Kx ≈ 0.9149879) - ✓ The coherent center
+around which activity manifests - ✓ The synchronised, static-seeming high-potential state
+
+(Source: SoS2, Symbols & Definitions, p. 504; SoS1, Eq. [1.15])
+
+6.2 Moolaprakriti (Mly ≈ 1.3446 × 10⁻⁵¹)
+
+Authentic definition: The smallest cyclic unit of activity — the elemental perpetual
+quantum oscillator, equated to the fundamental unit of charge. All counts are in terms of
+the Mly value and therefore dimensionless.
+
+Mly = Kx / C⁶
+
+This is approximately equal to Planck's constant h/C² and is consistent with values in
+Physics.
+
+(Source: SoS2, Symbols & Definitions, p. 504; SANKHYAABSTRACT, p. 9)
+
+6.3 Prakriti and Vikrithi
+
+ Term              Authentic Meaning                 Physical State
+
+ Prakriti          Resonance, oscillatory, dynamic   Hadronic (nuclear) domain
+                   state
+
+ Vikrithi                                            Leptonic (electron) domain
+ Term                 Authentic Meaning                   Physical State
+                      Harmonic-oscillator, expansive,
+                      change
+
+ Mahad Prakriti       Largest dynamic mass = Planck       Break in coherent state → start of
+ (Mps)                mass                                synchronised state
+
+ Mahad Vikrithi       Reactive/observable unit =          Reactive phase output when triggered
+ (Me)                 electron mass
+
+
+(Source: SoS2, Symbols & Definitions, pp. 504–505)
+
+6.4 Linga and Bhava
+
+ Term      Authentic Meaning                               Physical Role
+
+ Linga     Coherent state, superposition, field-           The static-seeming coherent field form
+           potential, inertia
+
+ Bhava     Kinetic charge, waveform, manifest forms        The dynamic, kinetic, charge-bearing
+                                                           interface
+
+
+The Linga-Bhava polarisation represents the interface between coherent potential and
+dynamic manifestation.
+
+(Source: SoS2, Lexicon; SoS2, Fig: The Linga-Bhaava Polarising Form)
+
+6.5 Abhiman and Ahankar
+
+ Term        Authentic Meaning                     Physical Role
+
+ Abhiman     Self-potential, self-measure, self-   The potential well at the resonant interface
+             dimension
+
+ Ahankar     Dynamic self-potential, self-         The spectrum of 7 radiative Ne states; the
+             action, self-motivation               active self-organising principle
+
+
+(Source: SoS2, Lexicon pp. 494, 502; SoS2, Fig: The Ahankar Spectrum of 7 Ne States)
+
+6.6 Vrithi (Vortex)
+
+Authentic meaning: Vortex, photon, oscillatory cycle, circular movement.
+
+In the Sathwic (expansive) mode, Vrithis consist of Moolaprakriti (My) units accelerated
+in groups, packages, or quanta. A total of 4.96 × 10¹⁷ My counts (= seven Ne's) are
+needed to initiate the accelerative process as a simultaneous package — this is the
+photon in Physics.
+(Source: SoS2, Symbols & Definitions, pp. 505–506)
+
+6.7 Duhkha = Interactive Stress (NOT "Suffering")
+
+The first decisive correction in Srinivasan's transliteration:
+
+ Common Translation                 Authentic Meaning
+
+ Pain, suffering                    Interactive stress; constrained imbalance
+
+
+This unlocks Sutra 1 as physics of manifestation, not philosophy of suffering.
+
+(Source: SoS2, Lexicon: "dhu:kha = stress, pressure, force, pain")
+
+6.8 The 68 Sutras — Organized by G. Srinivasan
+
+The Sankhya Karika contains 68 axiomatic theorems (Sutras), transliterated by Ishwara
+Krishna from Maharishi Kapila's science. The following grouping follows G. Srinivasan's
+authoritative structure in Secret of Sankhya Part 2, pp. 125–140 ("Summary of Suthras").
+
+Organizational note: G. Srinivasan groups the sutras thematically to reveal the logical
+flow of Kapila's axiomatic chain. Each group builds on the previous one, progressing
+from the fundamental definition of the substratum through to the complete model of
+manifestation and liberation.
+
+Why 68 matters: Through the method of elliptical negation in Sutra 1, factorial 68
+numbers of solutions can be derived combinatorially. (Source: SoS1, Contents)
+
+
+
+Group 1: Fundamental Space (Sutras 1–3)
+
+Theme: Defining the substratum and its foundational properties
+
+          Sub-heading
+ Sutra                       Key Meaning
+          (G. Srinivasan)
+
+ 1        The Dynamic        Investigating the triad of interactive stresses confirms their
+          Substratum         existence; such modes would not be detectable without the
+                             coherent, perpetual, dynamic, unmanifest state of the
+                             substratum (Aikaantha-Athyantha-Atho-Abhavath).
+
+ 2        Qualities of       Detection methods have limits (distortion, attenuation, resolution);
+          Substratum         the alternate method is discriminating the substratum into:
+                             unmanifest, manifest, self-potential, and kinetic potential.
+
+ 3                           The fundamental oscillatory state is synchronised, coherent,
+                             resonant, stable; the first interactive state = maximum
+                             acceleration intensity; seven levels of coherent harmonic
+         Sub-heading
+ Sutra                        Key Meaning
+         (G. Srinivasan)
+         Axiomatic 3D         oscillatory stages; above sixteenth order = expanding radiation;
+         Wave                 nuclear core = neither oscillatory nor harmonically interactive.
+         Fundamentals
+
+
+INW teaching takeaway: The first three sutras establish what the universe is made of
+— a real, dynamic, coherent field that hides itself through perfect balance.
+
+
+
+Group 2: Intellectual Verification (Sutras 4–6)
+
+Theme: Methods for proving and knowing reality
+
+ Sutra   Sub-heading               Key Meaning
+
+ 4       Verification of Reality   Siddhi (conclusive holistic proof) is arrived at by logical/
+         Through Axiomatic         theoretical analysis of observations, inferences, and axiomatic
+         Proof                     principles; condensed further using threefold analytical
+                                   process = conclusive axiomatic theorem.
+
+ 5       Process of                For persistent sensory perception, there are three information
+         Verification of           aspects: (positive) detectable, (negative) undetectable,
+         Detectable                (neutral) original characteristics → measure, analyze,
+         Phenomenon                interpret to establish axiomatic theorem.
+
+ 6       Process of Holistic       For imperceptible, mobile, expansive, undetectable
+         Derivation of Proof Is    phenomenon → use inferential, holistic, deductive, logical
+         Siddhi                    verification technique to mentally experience phenomenon =
+                                   Siddhi (perfect resonance).
+
+
+INW teaching takeaway: These sutras establish that there are reliable methods to
+know what cannot be directly seen — through axiomatic reasoning and the Siddhi
+process of perfect mental resonance.
+
+
+
+Group 3: Axiomatic Reasons for Non-Detection (Sutras 7–10)
+
+Theme: Why the substratum and certain phenomena remain hidden
+
+ Sutra   Sub-heading               Key Meaning
+
+ 7       Reasons Why               Extremely far/near distances, mental/sensory inefficiencies,
+         Manifestation May         subtle/attenuated conditions, occultation/eclipsing, poor
+         Not Be Detected           background contrast, camouflaging effect.
+
+ 8
+ Sutra   Sub-heading               Key Meaning
+         Reason Why the            Non-detectability is due to extremely attenuated reactions,
+         Fundamental               not non-existence; only reactions are detectable; when
+         Substratum Is Not         primary displacement occurs → sequence of oscillations
+         Detectable                detected (original form or harmonics).
+
+ 9       Logical Reasons Why       Axiomatically illogical to accept continuous/all possible modes
+         Substratum Must           of action without a physical cause; the ability to act in all
+         Exist If Manifestation    possible ways requires a cause → axiomatic rule.
+         Exists
+
+ 10      Detection of              Caused detectable effects of phenomena are: relatively
+         Manifestation Is Due      temporary, confined to limited region, proceed action to
+         to Changes                action (sequential), become cause of further action, have
+                                   identified characteristics, substantial/with mass, resultant/
+                                   secondary trait; unmanifest cannot be detected due to
+                                   inability to discern such effects.
+
+
+INW teaching takeaway: Something can be real and undetectable at the same time.
+Non-detection does not mean non-existence — it means perfect balance.
+
+
+
+Group 4: Self-Similar Law of Interaction (Sutras 11–14)
+
+Theme: The three Gunas (interactive stress modes) and their self-similar nature
+
+ Sutra   Sub-heading               Key Meaning
+
+ 11      Ability to Discriminate   Inability to discriminate between the triad of stressed states
+         3 Aspects of Gunas =      (dynamic connection) = cause of not detecting in
+         Cause of Detectability    synchronised/static/unmanifest state; the three-mode
+                                   interactive principle applies to first/primary intense state,
+                                   succeeding reactive states, and nucleus (in opposite/non-
+                                   detectable state).
+
+ 12      Characteristics of        Just as human stress transfers through buoyant → calm →
+         Gunas (Triad of           despair; Guna interactions = free mobile expansion →
+         Interactive Stresses)     balanced resonant interface → compact static contraction;
+                                   three states mutually interact to override/strengthen/weaken
+                                   one another, be creative/destructive, associate/combine, exist
+                                   as self-supporting resonant/dynamic entity.
+
+ 13      Definition of Gunas       Sathwa = outward operation at maximum rate/intensity/
+                                   energy transmitting past nuclear boundary beyond first octet
+                                   (fluidic/flexible state);
+                                   Raja = transition region of seven oscillatory + first (octet);
+                                   shuttles inward/outward transferring interactions from
+                                   nuclear boundary to second radial boundary and vice versa;
+ Sutra   Sub-heading             Key Meaning
+
+                                 Thaama = decelerating interaction acting inward forming
+                                 static nuclear boundary;
+                                 Vrithi = resultant interaction radiated as self-sustained
+                                 vortex of radiant energy created by permutations/
+                                 combinations of previous three levels to transfer interaction/
+                                 radiate energy.
+
+ 14      Holistic Logic Can      Through holistic analytical derivation of proof: non-detection/
+         Predict Hidden States   detection is due to observer's inability/ability to detect any/all
+                                 three modes of exchange/transfer of interactions; the Siddhi
+                                 process itself is due to unmanifest substratum reacting
+                                 through Guna action by its own inner motivation/potential/
+                                 cause to manifest as awareness/consciousness.
+
+
+INW teaching takeaway: Nature's interactions follow three modes — compression,
+resonance, and expansion. These modes create everything from hidden mass to radiant
+light. The same three-mode rule works at every level (self-similar).
+
+
+
+Group 5: Phases of Oscillatory States (Sutras 15–17)
+
+Theme: How cyclic interaction creates waveforms and phase transitions
+
+ Sutra   Sub-heading      Key Meaning
+
+ 15      Cyclic           Cyclic interaction at interface is due to sequentially changing value
+         Oscillatory      (acceleration/deceleration); cyclic action = cause and effect by turns
+         Interaction      to attenuate and concentrate (expand/contract, decrease/increase
+         Creates          density) producing oscillatory waveform = standard in nature.
+         Natural
+         Waveform
+
+ 16      First Change     In manifestation of decelerating potential → triad of interactions
+         of Phase         initiated into action → rising/increasing effort/interaction/pressure; a
+         Occurs with      transformation/distinctive change of state occurs (like vapour
+         Increasing       condensing to liquid) when inward-going interaction brought to very
+         Interaction      restful (synchronised = static) state.
+
+ 17      Second           Nucleus = location/center/core holding power/potential/interaction/
+         Change of        energy from cyclic collision/aggregation due to close contact (back-
+         Phase Creates    to-back) of oscillating volumes/waveforms, initiated/triggered by
+         Nucleus          triad of Guna interactive principle in relatively isolated, free,
+                          synchronised state. [Summarising: Purusha/nucleus =
+                          superpositioning of 3D oscillatory waveforms due to Guna action in
+                          static state of dormant potential in undetectable, absolute
+                          substratum that is synchronised, coherent, perpetually dynamic but
+ Sutra   Sub-heading        Key Meaning
+                            unmanifest; period determined solely by time constant in Sutra 3
+                            forming self-potential in Sutra 2.]
+
+
+INW teaching takeaway: Oscillations create waveforms. When waveforms collide and
+synchronize, they form the nucleus (Purusha) — a hidden, dense, high-potential core.
+
+
+
+Group 6: Nuclear State as Superposed Coherent Activity (Sutras 18–21)
+
+Theme: The nucleus (Purusha) as a many-component coherent state
+
+ Sutra   Sub-heading             Key Meaning
+
+ 18      Logical Proof That      Since causative action leading to aggregation/dissolution
+         the Nucleus Is a        (creation/destruction) are not simultaneous/instantaneous at
+         Conglomerate            nuclear interface → holistic conclusion: there must be many
+                                 nuclei/individual core components (Purusha); also because
+                                 reversal of triad interactions produce multiple types of
+                                 phenomenon (should have been singular had nucleus been
+                                 singular/elementary object).
+
+ 19      The Complex             Conversely inferential holistic conclusion: nuclear state forms
+         Nuclear State Forms     background with particulate/inertial mass, relatively seen as
+         Background for          neutral, unhindered, static.
+         Manifestation
+
+ 20      Static and Dynamic      Because of proximity of static/dynamic states → static state
+         State Is Sustained      seems dynamic; through Guna action → dynamic seems to
+         by Interaction          behave in static mode maintaining balance.
+
+ 21      Nuclear State Is        Fundamental measurement of phenomenon references
+         Reference               nucleus; static nuclear state provides basic background to
+         Background              detect/measure first (primary/fundamental) active (manifested)
+                                 state as comparative/relative difference; manifestation
+                                 proceeds on principle of fulfilling need to maintain balance
+                                 (like blind man and lame man team up to behave normally/
+                                 effectively).
+
+
+INW teaching takeaway: The nucleus isn't a single thing — it's many synchronized
+components acting as one. This complex hidden core becomes the reference background
+for all measurement.
+
+
+
+Group 7: Logic of Self-Sustaining Activity (Sutras 22–25)
+
+Theme: The mathematical derivation of self-similar, perpetual activity
+ Sutra   Sub-heading              Key Meaning
+
+ 22      Mathematical             By action of primary interaction → self-sustaining oscillatory
+         Derivation of the        state established; from this → series of measurable/detectable
+         Dynamic Self-Similar     energy radiated at sixteenth power of primary value in
+         State                    progressive series incremented to sixteenth level binding/
+                                  condensing phenomenon through five levels into five sets of
+                                  manifested phenomenon.
+
+ 23      Ascertainment by         Intellectual logical confirmation process involves application of
+         Axiomatic                axiomatic law in expansive mode, backed with knowledge,
+         Mathematical Logic       flexibility to change scales/ratios in order of powers; opposite
+                                  (contractive, inverted, fractionising concepts) lead to
+                                  misconceptions/errors of judgement.
+
+ 24      Mathematical             Static potential and kinetic self-similar force (energy) initiate
+         Description of Field     action in progressive incremental value in sequential sets of
+         Force as a Spectrum      two → spectrum containing sequential group of eleven, in
+                                  groups of fives, of field (subtle) forces.
+
+ 25      Expansive                Expansive Satwik state has set of eleven levels of change;
+         Interaction Rises to     compressive Thaamasic change initiated through self-action
+         11th Power               with elemental particles with mass and self-sustaining vortex
+                                  of charge; interactive Rajasic state is both expansive and
+                                  compressive.
+
+
+INW teaching takeaway: The field isn't random — it follows precise mathematical
+patterns of self-similar growth. These patterns create the spectrum of forces we observe.
+
+
+
+Group 8: Cerebral System as a Universal Function (Sutras 26–28)
+
+Theme: Mind, senses, and action governed by the same universal Guna law
+
+ Sutra   Sub-heading            Key Meaning
+
+ 26      Efferent and           Efferent (input sensory responses) = light, sound, smell,
+         Afferent Sensory       chemical (taste), contact (touch); afferent (output/action
+         Systems                responses) = oscillatory, exchanging, transporting, radiating,
+                                creating.
+
+ 27      Interactions in the    Mind/cerebral system capable of processing both efferent
+         Sensory Systems        (incoming input sensory information) and afferent (outgoing
+                                action-oriented outputs); can produce specific output despite
+                                diversity created by permutations/combinations of internal
+                                aspects of three Gunas with numerous external incoming signals.
+
+ 28      The Five Levels of
+         Cyclic Vortex
+ Sutra   Sub-heading           Key Meaning
+         (Photonic)            Five types of sensory input signals activated by discrete quantum
+         Activities            of forces → results in five categories of output: oscillatory,
+                               interactive, transmigrating, radiating, creative activities.
+
+
+INW teaching takeaway: The mind isn't separate from physics — it operates by the
+same Guna laws. Sensory input and action output follow the three-mode interaction
+principle.
+
+
+
+Group 9: Perpetual Oscillation and Radiation (Sutras 29–31)
+
+Theme: How cyclic vortices (photons) are formed and sustained
+
+ Sutra   Sub-heading           Key Meaning
+
+ 29      Definition of Self-   Cyclic vortex functions on self-similar principles up to third
+         Similar Internal      power, is non-synchronous, yet interacts internally together
+         Activity and          extraordinarily; in synchronous accelerated state at fifth power →
+         Radiation             becomes fundamental unit of energy radiation.
+
+ 30      Definition of a       When oscillatory cycle count in all directions act simultaneously/
+         Cyclic Vortex and     synchronously and raised to 4th power → cyclic self-supporting
+         a Spherical           Vrithi (photon) is formed; when it acts non-synchronously/
+         Harmonic              sequentially → becomes detectable/measurable with degree of
+         Oscillator            certainty; in initial state prior to above when oscillatory count
+                               reaches power of three and synchronised/acts simultaneously in
+                               all directions → self-supporting harmonic oscillatory state but not
+                               detectable/observable.
+
+ 31      The Cyclic Vortex     Cyclic vortex/spherical oscillator kept in continuous interactive
+         Is Kept in            exchange up to the very end (limit) only by nuclear/core potential
+         Continuous            developed by mutual exchange of internally motivated/triggered
+         Oscillation Only by   self-similar/self-organized impulse/force; no other external
+         Its Internal          potential cause.
+         Potential
+
+
+INW teaching takeaway: Light (photons) and stable matter are both oscillators — they
+differ only in their level of synchronisation. Matter is 3rd-power synchronised; photons
+are 4th-power vortices. Both are self-sustaining with no external cause.
+
+
+
+Group 10: Potential as Coherent States (Sutras 32–34)
+
+Theme: How potential builds up through coherent synchronisation
+ Sutra   Sub-heading           Key Meaning
+
+ 32      The Static and        Potential rises to 13th power to accelerate, superpose, radiate;
+         Kinetic Potential     consequently kinetic potential rises to 10th power to accelerate,
+         Limits                superpose, radiate.
+
+ 33      The Internal and      Internal limit of potential is at third power; externalising
+         External Potential    detectable factor (existing in present time) is up to 10th power;
+         Limits                third-power factor contributes to internal bonding or is a limiting
+                               state.
+
+ 34      The Potential to      Will/internal potential to act increases rate to 5th power of both
+         Act Is at the 5th     specific/non-specific (observable/hidden) sensory signals; sound
+         Power Level           signals relate to speech/oscillatory functions; rest relate to all five
+                               observable interactions.
+
+
+INW teaching takeaway: Potential isn't vague — it has precise power-law levels. The
+3rd power creates bonding/internal coherence. The 5th power creates the will to act.
+The 10th–13th powers create radiation.
+
+
+
+Group 11: Third-Order Constraint Causes Phenomena (Sutras 35–39)
+
+Theme: The third-power damping constraint and its consequences
+
+ Sutra   Sub-heading                  Key Meaning
+
+ 35      The Formation of a Basic     At point when all measurable interactions plunge to limit
+         Field Is Determined by       and form coherent bond = measure of effort involved;
+         the 3rd Order Damping        therefore third power of this bond forms base/limiting
+         Action                       medium; remaining powers of interaction use this as
+                                      medium.
+
+ 36      Decay of Radiated            Spectrum of light transmission process = complex/
+         Phenomenon                   mutually interactive Guna exchange sequence; totally
+                                      controlled by Purusha potential; it is the only coherent
+                                      motivating factor clearly till its end.
+
+ 37      Extraction of Potential      Comprehensive/extraordinary use can be made in
+         Energy from the Purusha      following way: Purusha potential can be attained from
+         Domain                       minute coherent state hidden inside Purusha by repeated
+                                      precisely triggered inputs to initiate primary interactions.
+
+ 38      Classification of Activity   Self-generated vortex (Vrithi) has non-specific/wide range
+         of Vrithi and Elements       of activity level; elements are at five levels up to fifth
+                                      power of activity; spectrum logically covers classes of
+                                      activity states: synchronised, non-synchronised,
+                                      interactive, superposed, coherent.
+
+ 39      Genetic Code
+ Sutra   Sub-heading                Key Meaning
+                                    Field sustained by fundamental source of energy bonds
+                                    into three organic species; mobile field is constant and
+                                    controlled; organic states of three species are cyclic/
+                                    periodic.
+
+
+INW teaching takeaway: The third power is the damping constraint that prevents
+collapse or runaway expansion. This creates the base field. From this base, higher
+powers create radiation, vortices, and even organic life patterns (genetic code).
+
+
+
+Group 12: Superposed States Create Ground Potential (Sutras 40–42)
+
+Theme: How static mass states are formed through superposition
+
+ Sutra   Sub-heading               Key Meaning
+
+ 40      Linga State as Coherent   Static mass states created by maximally absorbing/
+         and Superposed            superpositioning entire spectrum of vibratory/oscillatory
+         Oscillations              states, from largest/strongest to (limit) finest minimal
+                                   kinetic charged states.
+
+ 41      The Need for the          Just as it is not possible to present picture without
+         Substratum as             supporting base nor cast shadow without appropriate pillar
+         Supporting Framework      → impossible to have synchronised/superpositioned static
+         for Manifestation         state without required supportive base.
+
+ 42      The Synchronised State    Synchronised/coherent state of nuclear core forms target
+         Provides Attracting       potential to attract oscillatory interactions to synchronise/
+         Potential to Build Up     superposition itself circumferentially, simultaneously,
+         Mass                      similar to movements in a dance, which increases/
+                                   strengthens resonant state of interactions.
+
+
+INW teaching takeaway: Mass isn't a property particles "have" — it's what happens
+when oscillations synchronize and stack up (superposition). The coherent core attracts
+more oscillations into synchrony, building up mass.
+
+
+
+Group 13: The Balance in Interactive States (Sutras 43–45)
+
+Theme: How balance determines detectable vs. undetectable states
+
+ Sutra   Sub-heading            Key Meaning
+
+ 43      Conditions Under       Source/starting point of axiomatic laws of resonant action are
+         Which the Laws of      from state when charged interactive state is in perfect
+                                resonance; starting point/start of time-cycle-period count of
+ Sutra   Sub-heading           Key Meaning
+         Interaction Are       measurement commences when action is in state of relative
+         Certain               rest/static state (detection only possible when detected
+                               component is at restful state).
+
+ 44      The Mode of           Satwic expansive actions supported by axiomatic laws and
+         Natural Action        expand towards free state; actions opposing it result in
+         Based on Rules        reduced states leading to Thaamasic/compressive states that
+                               are restrictive; inner self-potential is only cause of
+                               synchronisation/establishment of coherent state; obstruction/
+                               restrictions result in confined/bonded state.
+
+ 45      State of Unbalance    When Rajasic interactive states are equal and balanced →
+         Is the Motivating     accumulation/increase of mass by absorption/superpositioning
+         Cause of              of active displacements occur; when unbalanced/unequal →
+         Manifestation         increase/decrease in force causes acceleration/deceleration
+                               creating manifest spectrum of universal phenomenon.
+
+
+INW teaching takeaway: Perfect balance creates mass (accumulation). Imbalance
+creates motion and radiation (manifestation). The laws are certain and deterministic
+when we measure from a restful reference state.
+
+
+
+Group 14: Spectrum of Interactions Defined (Sutras 46–50)
+
+Theme: The complete power-spectrum of manifestation (up to 50 orders)
+
+ Sutra   Sub-heading           Key Meaning
+
+ 46      Interactions in the   Ascertained order of spectrum of interactive states due to
+         Synchronised State    conditions of unbalance, non-synchronisation, balance, coherent
+         Cause 50 Orders of    synchronisation caused by interplay of three Guna modes of
+         Change                interaction rise up to 50 (power index).
+
+ 47      Balanced,             Sequence of 5 orders (power index) of change created by three
+         Synchronised and      varying states: non-synchronous, interactive change,
+         Its Reversed          synchronous; weak/unsynchronised states have 28 orders;
+         Variation Sequence    balanced phase has 9 orders; perfectly synchronised state has 8
+         of Interactions       orders of sequentially variable levels.
+
+ 48      Order of              Interactive changes in compressive Thaamasic state proceed on
+         Compression           basis of 8 orders of change along one axis; increases by same
+         Increase When         order when synchronises with another axis at deeper level; at
+         One, Two, and         next intermediate level increases by 10 orders; at final core
+         Three Axes            level increases by 18 and another 18 at deepest core level
+         Synchronise           synchronisation → 8 + 5+4 followed by (5) in each axis and
+                               finally (8+10) 18; combinatorial process of incremental rates
+ Sutra   Sub-heading             Key Meaning
+                                 can synchronise/remain in balance only as even-numbered
+                                 levels.
+
+ 49      The 11 & 17 Orders      Eleven orders of expansive interactions cover observable range
+         of the Weak and         out of previous 28 orders mentioned before; balance of 17
+         Balanced Groups         orders consists of balanced/coherent states and radiant states;
+                                 with 5 orders of radiant state forms 22 orders; 17 orders form
+                                 common potential to both phases.
+
+ 50      Nuclear Balancing       Interaction inside nuclear state can be defined as: at fourth
+         Parameters              power, initiating cause of action and responsive self-reaction,
+                                 time period of reaction, destined potential available for
+                                 reaction; externally detectable fundamental activity categorised
+                                 as being at fifth power; when these two act together
+                                 synchronously = ninth power.
+
+
+INW teaching takeaway: The entire observable and unobservable universe is a
+spectrum of 50 power-levels of interaction. The weak/expansive domain (28 orders), the
+balanced domain (9 orders), and the coherent domain (8 orders) — all follow precise
+combinatorial rules.
+
+
+
+Group 15: Interactions Cause Stress (Sutras 51–56)
+
+Theme: How colliding interactions create vibratory stress; the dual polarisation into
+mass and charge
+
+ Sutra   Sub-heading                Key Meaning
+
+ 51      Colliding Interaction      Knowledge gained through research on vibratory/oscillatory
+         Cause of Vibrations        stress caused by colliding interactions follow three-step
+                                    action (compression–shuttling–expansion Guna mode)
+                                    leading to intensive superpositioned, divergent, or
+                                    synchronised states raised to eighth power in coherent
+                                    mode; original state prior to interaction established to be in
+                                    controlled, compressed, cubic, volumetric state raised to
+                                    third power.
+
+ 52      The Polarisation of        Neither can a characteristic potential source exist without a
+         Phenomenon into            kinetic phase nor can a potential phase without a kinetic
+         Coherent Potential         mode; vorticular particle is initiated by a potential source;
+         (Mass) and Kinetic         potential is classified as mass and kinetic phase as charge;
+         Potential (Charge)         from this dual combination all phenomenon is initiated/
+         Modes                      maintained by dual mode of polarisation.
+
+ 53      Guna Classification        Natural/inorganic/matter-oriented phenomenon = result of 8
+                                    orders of variations; organic/sub-human order is fivefold;
+ Sutra   Sub-heading                 Key Meaning
+                                     human order is from single variant; these three classes
+                                     succinctly control complete spectrum of phenomenon.
+
+ 54      The Distribution of         Ascending order of outward manifestation predominantly
+         Guna Interactive States     Satwic; descending inward mode of creation predominantly
+                                     Thaamasic; intermediate range predominantly Rajasic;
+                                     consistently so right from starting dynamic creative field to
+                                     final coherent static order of manifestation.
+
+ 55      Stress in Three Modes       Therefore process of decay/absorption introduces
+         Follows Self-Similar        interactive stresses that maintain dynamic state of Purusha;
+         Laws in the Dynamic         on its absorption of vorticular interactive activity by nuclear
+         Substratum                  core → process of superpositioning continues until
+                                     interactions minimised and coherent self-similar state
+                                     established.
+
+ 56      Manifestation Is the        In this way interactive oscillatory activity initiated/
+         Result of Interactions      perpetuated from intense fundamental activity at source to
+         to Maintain the             final coherent superposed massive state at isolated nuclear
+         Balance Between             boundary where self-potential balances with reactive
+         Nucleus and Boundary        potential at starting point.
+
+
+INW teaching takeaway: All phenomenon comes from dual polarisation: mass
+(coherent potential) and charge (kinetic potential). The three Guna modes create the
+stress patterns that build up, transmigrate, and release energy in precise self-similar
+ways.
+
+
+
+Group 16: Coherence Causes Potential States (Sutras 57–60)
+
+Theme: How the nucleus forms through stress absorption and internal motivation
+
+ Sutra   Sub-heading              Key Meaning
+
+ 57      Attainment of a          Growth of calf is due to flow of milk that seems to have
+         Coherent                 commenced without cause/specific instruction; similarly
+         Superposed State         formation of nucleus takes place by stress transmigration of
+         Initiates Oscillatory    static potential through gradual attenuation of primary kinetic
+         State                    force into synchronised state of freedom by its own internal
+                                  motivation/initiating activity to balance forces.
+
+ 58      The Unmanifest           People are motivated into maintaining state of activity to
+         State Maintains the      reduce their zeal for action; similarly unmanifest state
+         Potential to Act         maintains Purusha in isolated state free of stresses by
+                                  absorbing stresses of continuous static-through-kinetic
+                                  balancing interactions.
+ Sutra   Sub-heading              Key Meaning
+
+ 59      Forming of Nucleus       Just as external exhibition of dancer's performance reduces his
+         Due to Reduction of      urge to continue his performance because it satisfies his
+         Potential Difference     desires; similarly outward spreading of internally motivated
+                                  self-energy diminishes its potential to radiate and thereby
+                                  reaches interactive state of balance in oscillatory state.
+
+ 60      Cause of Interactive     Various factors (controllable, corrective, supportive, non-
+         Oscillations             supportive nuclear state) along with interactive Guna qualities
+                                  and its opposite coherent superposed states (dynamic and non-
+                                  dynamic, potential and lack of potential) maintains oscillatory
+                                  activity.
+
+
+INW teaching takeaway: The nucleus forms by its own internal motivation — not from
+an external cause. Like milk flowing to feed a calf or a dancer's energy finding
+expression, the field's own potential seeks balance. This self-organization is the engine of
+manifestation.
+
+
+
+Group 17: Synchronisation Causes Holographic States (Sutras 61–62)
+
+Theme: The holographic nature of manifestation; nothing truly moves, only patterns
+transmigrate
+
+ Sutra   Sub-heading                Key Meaning
+
+ 61      The Oscillatory            At nuclear boundary oscillatory displacements reduce to
+         Displacement at the        such minute angular oscillatory movement that its very
+         Point of Balance Is        existence seems doubtful; consequent reduction in
+         Very Attenuated            interactive self-potential does not ever allow it to radiate
+                                    detectable information on state of interaction of nuclear
+                                    region.
+
+ 62      Interactions Are Cause     Therefore nothing is bound, released, or translocated; only
+         of Manifestation as a      the oscillatory waveforms of interactions is bound/
+         Holographic                superposed by synchronisation, released by
+         Phenomenon                 desynchronisation, and transferred by transmigration due to
+                                    unequal displacements; this dynamic state continues
+                                    endlessly.
+
+
+INW teaching takeaway: Nothing actually moves from place to place. What "moves" is
+the pattern of oscillations. Manifestation is holographic — it's a transmission of
+synchronized waveform patterns, not a transport of objects.
+Group 18: Self-Similar Interactions (Sutras 63–64)
+
+Theme: The seventh-power compression/expansion dynamic and the ground state
+
+ Sutra   Sub-heading            Key Meaning
+
+ 63      Interaction            Oscillatory waveforms superposition itself by its own potential
+                                to form nuclear density by compressing its waveforms to
+                                seventh power when it becomes equal to static nuclear
+                                potential; when it expands it releases one waveform at a time.
+
+ 64      The Lack of Specific   Hence fundamental research indicates that non-availability of
+         Self-Potential Leads   self-potential is cause of existence of potential sink (ground
+         to a Ground State      state); not due to any precise measure of interactive control
+                                that a pure changeless ground state exists (in nuclear core of
+                                components of substratum).
+
+
+INW teaching takeaway: Compression goes to the seventh power — then it matches
+the nuclear potential and stops. Expansion releases one waveform at a time. The ground
+state isn't a "thing" — it's the condition when self-potential is absent (potential sink).
+
+
+
+Group 19: Equalisation of Potentials (Sutras 65–66)
+
+Theme: The state of balance when the nuclear boundary is in perfect equilibrium
+
+ Sutra   Sub-heading             Key Meaning
+
+ 65      The State of Balance    When oscillatory interactions minimised because of reduction
+         When the Nuclear        in activity between boundary and nuclear core → interactive
+         Boundary Is in          current becomes neutral and activities at seven radial levels
+         Balance                 become insignificant → Purusha attains firm background
+                                 state.
+
+ 66      State of Balance by     Observing neutral state of one gives proof that observable
+         Eliminating the         movement of the other has ceased; even though both are
+         Potential to Act        together no interactive manifestation exists.
+
+
+INW teaching takeaway: When the nuclear boundary fully balances with the core, all
+radial activity becomes insignificant. The Purusha becomes a firm, undetectable
+background. This is the state of liberation — no manifestation, only existence.
+
+
+
+Group 20: Conversion of Charge to Mass (Sutras 67–68)
+
+Theme: How kinetic force (charge) converts to static potential (mass) and vice versa
+ Sutra   Sub-heading             Key Meaning
+
+ 67      Conversion of           Basic principle of acquiring solid state/mass is by
+         Kinetic Force into      synchronising components into relatively static level by
+         Static Potential as     allowing spin angular momentum to be converted to potential
+         Inertia or Mass         state; exchange/accumulation is through self-similar
+                                 proportion or ratio.
+
+ 68      The Final               Process of acquiring mass is given effect by superpositioning
+         Synchronised,           interactive vortex-like waveforms by changing it into gradually
+         Coherent, Dynamic       diminishing cyclic interaction that reaches synchronised/
+         State of Isolated       coherent state of balance within first/primary activity
+         Nucleus                 boundary; attaining synchronised/coherent state eliminates
+                                 delay, inertia, friction and allows this state to continue
+                                 unhindered in complete freedom.
+
+
+INW teaching takeaway: Mass is frozen spin. Charge is unfrozen motion. The
+conversion between them follows the self-similar ratio (golden mean). When
+synchronisation is perfect, the state is free — no friction, no delay, perpetual.
+
+Structural closure: Sutra 68 repeats the key terms from Sutra 1 — "synchronised,
+coherent, dynamic" — confirming that the entire 68-sutra treatise is a self-consistent
+logical loop returning to its starting point. (Source: SoS2, p. 44, Tribute to Kapila)
+
+
+
+Group 21: Hierarchy of Knowledge Transmission (Sutras 69–70)
+
+Theme: The lineage of Sankhya knowledge (meta-level sutras)
+
+ Sutra   Sub-heading               Key Meaning
+
+ 69      The Knowledge of the      The knowledge of nuclear potential is encoded in this work
+         Nuclear Potential Is      by the great Maharishi wherein the method of intellectually
+         Codified in This Work     ascertaining the process of manifestation of phenomenon
+                                   from its origin, through its growth, and till its dissolution are
+                                   explained.
+
+ 70      The Hierarchy of          This pure and exotic doctrine the sage gave to Asuri who in
+         Information               turn handed down to Panchasikha by whom it was
+         Transmission              extensively propagated as the perfect set of principles
+                                   explaining the mode of action in reality.
+
+
+Note on Sutras 69–70: These are meta-level sutras about the knowledge lineage itself
+(Kapila → Asuri → Panchasikha → Ishwara Krishna). They are not part of the physics/
+manifestation model. Some scholars count 68 sutras (Groups 1–20) as the main body;
+others count 70 including the lineage sutras.
+INW teaching takeaway: Sankhya is not a religion or mythology — it is a codified
+science transmitted through a verified lineage of sages who tested and confirmed it
+through the Siddhi process.
+
+
+
+Summary: The Arc of the 68 Sutras
+
+
+               Sutra
+ Arc Phase                Conceptual Flow
+               Range
+
+ Foundation    1–10       Define the substratum; establish methods of proof; explain why it's
+                          hidden
+
+ Dynamics      11–25      Three Gunas; oscillatory phases; self-similar mathematical
+                          derivation
+
+ Application   26–39      Mind/senses; perpetual oscillation; radiation; third-order
+                          constraint; genetic code
+
+ Coherence     40–56      Superposition creates mass; balance vs. imbalance; 50-order
+                          spectrum; mass/charge polarisation
+
+ Liberation    57–68      Self-organization; holographic manifestation; waveform
+                          compression/expansion; balance; conversion of charge to mass;
+                          final freedom
+
+ Lineage       69–70      Knowledge transmission hierarchy
+
+
+(Source: SoS2, Summary of Suthras, pp. 125–140)
+
+
+---
+
+PART 7: SIDDHI — DIRECT KNOWING THROUGH
+RESONANCE
+
+7.1 Authentic Definition
+
+Siddhi = resonant, proven, verified, contained skill — the process of perfect resonance
+with the coherent field, enabling direct experiential knowing.
+
+(Source: SoS2, Lexicon p. 500: "siddhi = resonant, prooven, verified, contained skill")
+7.2 The Four Stages
+
+ Stage       Sanskrit              Function
+
+ Dharana     Collection            Gather the field of attention
+
+ Dhyana      Focusing              Bring inquiry into steady coherence
+
+ Samadhi     Equality/resonance    Mind becomes equal to the object of inquiry
+
+ Samyama     Synchronised result   Solution appears as a complete, internally verified whole
+
+
+(Source: MEDITATION.pdf; SIDDHI.pdf; Key Insights Report)
+
+7.3 Scientific Basis (Not Mystical)
+
+The mind is a local expression of the same universal substratum. When the body and
+mind settle into balance, the cerebral field can synchronise with the coherent field of
+space.
+
+   • ✓ This is a lawful process in Sankhya
+   • ✓ Conditions can be specified
+   • ✓ Results can be predicted and tested
+   • ✓ Anyone can develop this capacity
+   • ✗ Not requiring faith or belief
+   • ✗ Not dependent on special powers
+   • ✗ Not supernatural or magical
+
+
+
+  "What Maharishi Kapila had demonstrated through axiomatic mathematics was that
+  all phenomena in nature was of a holographic or coherent vibratory form. Therefore,
+  the human mind too could reproduce every phenomenon within itself by the
+  simplest process of bringing it to a coherent and synchronised phase." — G.
+  Srinivasan, SoS2, Preface, p. 13
+
+
+
+7.4 The 21-Minute Cycle
+
+Practical meditation instruction references a 21-minute cycle and 3.75 Hz Theta/
+Ishwara-field frequency, connecting physiological rhythm with Earth-field resonance.
+
+(Source: MEDITATION.pdf; SIDDHI.pdf)
+PART 8: SANKHYA vs. MODERN PHYSICS
+
+8.1 Key Differences
+
+ Aspect          Modern Physics                          Sankhya
+
+ Space           Empty vacuum                            Substantial, dynamic, coherent
+                                                         substratum
+
+ Foundation      Empirical measurement                   Axiomatic derivation
+
+ Method          Hypothesis → Test → Revise              Axiom → Derive → Verify
+
+ Certainty       Probabilistic (uncertainty principle)   Axiomatic (counting is certain)
+
+ Origin of       Measured, not explained                 Derived from axioms
+ constants
+
+ Forces          Separate domains (electromagnetic,      No separate forces — only different
+                 gravitational, strong, weak)            levels of simultaneous interactions
+
+ Growth          Observed, catalogued                    Derived as mathematically inevitable
+ patterns
+
+ Perpetual       Forbidden (energy conservation)         Natural (PHO state in substantial
+ states                                                  continuum)
+
+ Dark matter/    Mysterious unknown substances           Hadronic unobservable states ~10¹⁸
+ energy                                                  orders of Mly below h; Mly × C² = h
+
+ Quantum         Paradoxical mysteries                   Explained by substratum properties
+ behavior
+
+ Electron        Independent particle                    Boundary state of hadronic core
+
+ Planck's        Measured, not derived                   Axiomatically derived from PM state
+ constant
+
+
+8.2 Sankhya's Explanatory Achievements
+
+Per G. Srinivasan's derivations:
+
+   1. Speed of light (C) — Derived axiomatically as C = 10^(2/x³) = 296,575,967
+      counts/cycle
+   2. Electron mass (Me) — Derived as Mahad Vikrithi = 9.11023 × 10⁻³¹
+   3. Planck mass (Mps) — Derived as Mahad Prakriti = 2.20369 × 10⁻⁸
+   4. Permittivity (ε) and Permeability (μ) — Derived from impedance relationships
+   5. Gravitational phenomenon — Primary cause: different levels of simultaneous
+      interactions
+   6. EPR paradox — Resolved through simultaneity in substantial substratum
+  7. Hubble's redshift — Not expansion; frequency shifts are logarithmically
+     proportional to distance in a gravitational field
+  8. Pioneer anomaly — Predicted shortfall in stress transmigratory distance
+  9. Planck's constant (h) — Axiomatically derived from PM state: h = 6.6261986282
+     × 10⁻³⁴
+ 10. Neutron mass — Derived to 7+ significant figures: 1.6749276458 × 10⁻²⁷
+ 11. Proton mass — Derived to 7+ significant figures: 1.672621512 × 10⁻²⁷
+ 12. Nuclear gyromagnetic ratio (Gmr) — Axiomatically derived as PHO Ratio PR =
+     3.571428
+ 13. Iron atomic mass number — Derived as 55.867 (measured: 55.845)
+ 14. Free-space impedance — Derived as 377.04 Ω
+
+(Source: SoS1, Axiomatic Derivations; SANKHYAABSTRACT, pp. 5–8; PHOSTATE;
+PHOscillator; PHO-GENETICS)
+
+
+
+PART 9: TERMINOLOGY STANDARDS FOR INW
+
+9.1 Terms to Use (Authentic to Sankhya)
+
+ Term               Usage                         Context
+
+ Sankhya            The authentic science         "In Sankhya science, we derive…"
+
+ Axiom              Foundational provable truth   "The axiom 1+1=2…"
+
+ Derive             Work from first principles    "Derive the golden ratio from…"
+
+ Dynamism           Self-sustaining rhythmic      "Nature's just-right dynamism ratio"
+                    interchange
+
+ PHO state          Perpetual Harmonic            "The PHO state is the engine of the
+                    Oscillator                    substratum"
+
+ Substratum         Fundamental substantial       "The substratum is coherent and
+                    space                         dynamic"
+
+ Simultaneity &     Dual modes of activity        "Simultaneous and sequential…"
+ Sequence
+
+ Tri-Guna           Three modes of interaction    "Compression, resonance, expansion"
+
+ Self-similar       Internally generated          "The rule comes from within"
+                    proportional rule
+
+ Scale-invariant    Same dimensionless law at     "The same law applies everywhere"
+                    each level
+
+ Coherent state
+Term                  Usage                           Context
+                      Many interactions acting as     "A coherent state forms when many
+                      one                             synchronise"
+
+Golden mean           x = 0.618034                    "Nature's dynamism ratio"
+conjugate
+
+Siddhi                Direct knowing through          "Siddhi is a lawful process"
+                      resonance
+
+Swabhava              Self-nature; internally         "The rule comes from within the
+                      generated law                   interaction itself"
+
+Duhkha                Interactive stress              "Stress drives manifestation"
+
+Counting              The method of Sankhya           "Counting interactions is certain"
+
+Ladder of             C-power states of               "Each level on the Ladder represents a
+Phenomenon            manifestation                   power of C"
+
+Detection Principle   Only change can be detected     "Non-detection is not non-existence"
+
+
+9.2 Terms to Avoid or Qualify
+
+Term                       Issue                       Alternative
+
+Samkhya                    Non-authentic spelling      Use "Sankhya" (G. Srinivasan's
+                                                       spelling)
+
+Believe                    Implies faith               Use "derive," "verify," "understand"
+
+Spiritual/Mystical         Vague, not scientific       Use "axiomatic," "mathematical,"
+                                                       "derived"
+
+Consciousness              Implies transcendence       Use "awareness," "knowing,"
+(capitalised)                                          "coherent state"
+
+Energy (undefined)         Vague physics term          Specify: potential, kinetic,
+                                                       interaction, stress
+
+Vibration (without         Vague                       Use: oscillation, interaction,
+mechanism)                                             resonance
+
+Ancient wisdom             Implies reverence over      Use "axiomatic science" or "Sankhya"
+                           reason
+
+Forces (as separate        Implies separate sources    "Different levels of simultaneous
+domains)                                               interactions"
+9.3 Red Flag Language
+
+ ❌ Avoid                             ✓ Use Instead
+
+ "Scientists believe…"               "From first principles, we derive…"
+
+ "This is ancient wisdom, so…"       "Let's verify this by…"
+
+ "You just have to understand        "Here's how we derive it…"
+ that…"
+
+ "It's spiritual, so…"               "This is a mathematical principle…"
+
+ "Eastern philosophy teaches…"       "G. Srinivasan's Sankhya system shows…"
+
+ "Energy flows through…"             "Interactive stress transmigrates from…"
+
+ "The universe is expanding…"        "Space comprising substantial components cannot
+                                     expand"
+
+
+
+
+PART 10: TEACHING ANALOGIES FOR INW
+
+10.1 The Clap Analogy (Simultaneity)
+
+Ten claps one after another → countable as ten. Ten claps all at once → countable as one,
+but with ten times the intensity. Nine counts "vanish" into hidden density. This is how
+mass, potential, and coherence arise.
+
+(Source: SoS1, pp. 8–9)
+
+10.2 The Archer's Bow (PHO State)
+
+A rigid bow with a string attached: the outer curve stretches while the inner surface
+compresses simultaneously. The string resonates at a balanced frequency — perpetually.
+Neither the bow nor the string changes its state. This is the PHO state.
+
+(Source: SoS1, Overview; SoS2, Preface)
+
+10.3 The Train Analogy (Simultaneous vs. Sequential)
+
+Wagon length L = rigid (simultaneous). Gap G = variable (sequential). Both ends of each
+wagon act simultaneously. The gap between wagons is the sequential interval. Changes
+in velocity alter the Lt/Gt ratio instantly, requiring a balancing process: this is why 1/x =
+1 + x.
+
+(Source: SoS1, pp. 8–9)
+10.4 The Porous Pot Immersed in Water (Siddhi)
+
+Imagine a porous pot immersed in water. If you keep shaking it all the time, very little
+water seeps into the pot. But if you let the pot remain absolutely still, water from all
+sides simultaneously seeps in and fills it in the shortest time. We — as bundles of
+Moolaprakriti — are exactly like that porous pot: immersed in a resonant sea of energy.
+The more still and coherent we become, the more fully we absorb from the field. The
+Siddhi process is the deliberate cultivation of that stillness.
+
+
+
+  "Imagine a porous pot immersed in water. If you keep shaking it all the time very
+  little water would seep into the pot. On the other hand, if you let the pot remain
+  absolutely still, water from all the sides would simultaneously seep into the pot and
+  fill it in the shortest time. Recalling that we in effect are a bundle of Moolaprakritis,
+  just like a porous pot, we must learn to sit very still indeed to absorb from the
+  resonant sea of energy around us." — G. Srinivasan, SoS2, p. 449
+
+
+
+(Source: SoS2, p. 449)
+
+10.5 The Moolaprakriti Count Ladder (Coherent Simultaneity)
+
+The "C-power ladder" is most precisely understood as a spectrum of simultaneous
+Moolaprakriti counts — describing how many Mly units are acting coherently at the
+same instant. The smallest possible count is a single Mly — one elemental quantum
+oscillator acting alone. As more and more Mly units synchronise and act simultaneously,
+they form progressively higher-density coherent states. The maximum possible
+simultaneous count is Kx (Purusha) ≈ 0.9149879 — the upper boundary of coherent
+activity.
+
+The full spectrum from Mly (one Mly acting alone, the smallest) to Kx (maximum
+coherent simultaneous count) defines the complete range of manifestation. Every stable
+physical state — Moolaprakriti, neutrino, electron, proton, neutron, Planck mass — is a
+specific count of how many Moolaprakritis are acting simultaneously as one. This is what
+the ladder measures: not floors in a building, but the number of Moolaprakriti acting in
+coherent unison.
+
+The spectrum: - Bottom rung: 1 Mly acting alone = Mly = 1.3446 × 10⁻⁵¹ (minimum
+quantum unit) - Upper rung: Kx worth of Mly units acting simultaneously = Purusha
+state ≈ 0.9149879 (maximum coherent count) - Known particles sit at specific counts
+between these extremes — each one a characteristic simultaneous Mly count
+
+INW teaching point: "How many Moolaprakritis are clapping at once? One clapping
+alone is the bottom rung. Maximum coherence — all acting as one — is the Kx top. Every
+particle in nature is a specific rung on that ladder: a precise number of Moolaprakritis
+all beating together."
+
+(Source: SoS1, Axiomatic Concepts; SoS2, pp. 361–362; SANKHYAABSTRACT, p. 9)
+
+10.6 The Drum Surface (Electron as Boundary)
+
+The electron isn't a little ball orbiting the nucleus — it's the vibrating surface of the
+nucleus itself. Like the surface of a drum isn't separate from the drum body. The same
+ratio that governs the proton-neutron relationship also governs the electron relationship.
+One rule, expressed at two levels.
+
+
+
+PART 11: COMMON MISCONCEPTIONS &
+CORRECTIONS
+
+ #    Misconception          Correction                           Teaching Point
+
+ 1    "Golden ratio          φ is the ONLY ratio that achieves    "Nature uses φ because it's
+      appears because it's   balanced dynamism. Beauty is a       the only way to maintain
+      beautiful"             consequence, not a cause.            balance while growing."
+
+ 2    "The 68 axioms are     They are mathematical theorems       "These aren't beliefs. They're
+      spiritual teachings"   — provable and logical.              mathematical principles you
+                                                                  can derive and verify."
+
+ 3    "Siddhi is             Siddhi is a lawful process of        "Siddhi happens naturally
+      supernatural"          resonance with the coherent field.   when specific conditions are
+                                                                  met."
+
+ 4    "Sankhya is ancient    Sankhya is authentic science with    "It's rigorous science, not
+      religion"              deeper foundations than modern       belief."
+                             physics.
+
+ 5    "Space is empty"       Space is a substantial, dynamic,     "The void is the greatest error
+                             coherent, holographic medium.        in physics."
+
+ 6    "Forces are separate   There are no separate forces —       "What we call gravity,
+      domains"               only different levels of             electromagnetism, etc. are all
+                             simultaneous interactions.           the same thing at different
+                                                                  densities."
+
+ 7    "Perpetual motion is   In a substantial continuum, PHO      "The substratum never stops
+      impossible"            is nature's balanced condition.      oscillating — it's what 'being'
+                                                                  means."
+
+ 8    "Dark energy is        "Dark" = unobservable states         "It's not dark — it's below the
+      mysterious"            ~10¹⁸ Mly counts below h; Mly ×      detection threshold of h."
+#    Misconception             Correction                           Teaching Point
+                               C² = h; Dark Matter = hadronic
+                               counts below h; not a mysterious
+                               substance.
+
+9    "The electron is an       The electron is the boundary         "It's the drum surface, not a
+     independent               state of the hadronic nuclear        separate ball."
+     particle"                 core.
+
+10   "Planck's constant is     h is axiomatically derivable from    "Even 'fundamental'
+     just a measured           the PHO framework.                   constants have reasons."
+     number"
+
+11   "Nuclear physics is       At the atomic/nuclear level, there   "Counting is certain. Only
+     uncertain"                is no uncertainty — only precise     measurement is uncertain."
+                               counting.
+
+
+
+
+PART 12: QUICK REFERENCE TABLES
+
+Key Values
+
+Concept                      Value/Formula          Significance
+
+Axiom                        1+1=2                  Foundation of everything
+
+Balance equation             1/x = 1 + x            Dynamism requires ratio = increment
+
+Golden mean conjugate        x ≈ 0.618034           Nature's dynamism ratio
+
+Golden mean                  φ ≈ 1.618034           Expansion ratio
+
+√5 connection                √(1² + 2²)             Links φ back to axiom
+
+Third-order damping          x³ = x − x²            Prevents collapse or runaway
+
+Ten-count cycle              10 interactions/       Axiomatic cyclic unit
+                             cycle
+
+Purusha (Kx)                 0.9149879              Maximum density boundary
+
+C (count rate)               296,575,967            Axiomatic interactive rate
+
+Moolaprakriti (Mly)          1.3446 × 10⁻⁵¹         Smallest quantum unit
+
+PHO Ratio (PR = Gmr)         100/28 = 3.571428      Axiomatically derived; equals the
+                                                    Gyromagnetic Ratio
+
+PHO Resonant Ratio           100/98 = 1.020408      Perpetual restoring factor
+
+k (cube root 2)              1.259921               Volumetric increment ratio
+ Concept                      Value/Formula         Significance
+
+ Planck's constant (h)        6.6261986282 ×        Axiomatically derived from PM
+                              10⁻³⁴
+
+ Free-space impedance         377.04                Derived from PHO framework
+ (Si)
+
+
+Hadronic Triad
+
+ State                   Symbol         Derived Value                 Physics Measured
+
+ Neutron                 Pn             1.6749276458 × 10⁻²⁷          1.67492728 × 10⁻²⁷
+
+ Coherent mass           PM             1.6744231791 × 10⁻²⁷          Not known in physics
+
+ Proton                  Pm             1.672621512 × 10⁻²⁷           1.67262171 × 10⁻²⁷
+
+
+Leptonic Triad
+
+ State                             Symbol      Derived Value              Physics Measured
+
+ PM-derived lepton                 Mep         9.1140580241 × 10⁻³¹       Not predicted
+
+ Planck-derived lepton             Me          9.110233722 × 10⁻³¹        Not predicted
+
+ Balancing state (electron)        Mee         9.1093838239 × 10⁻³¹       9.1093897 × 10⁻³¹
+
+
+
+
+PART 13: CORE PRINCIPLES — WHEN IN DOUBT
+
+✓ Start with 1+1=2 — Everything traces back to this axiom.
+
+✓ Derive, Don't Believe — Show the logical steps. Never ask readers to accept without
+derivation.
+
+✓ Nature Has Reasons — Every pattern serves a purpose. The golden ratio isn't
+arbitrary — it's inevitable.
+
+✓ Count, Don't Assume — Counting interactions is certain. Time and measurement are
+relative.
+
+✓ PHO Is the Engine — The substratum never stops oscillating. All forms arise from
+balanced/broken/restored PHO.
+
+✓ Invisible Is Not Unreal — Non-detection does not equal non-existence.
+✓ Unify, Don't Separate — There are no separate forces, no separate domains.
+Everything is one field at different densities.
+
+✓ Empower, Don't Lecture — Help readers discover. Don't tell them what they should
+find.
+
+✓ Sankhya Deals Only With Reality — No speculation, no belief, no mysticism. Only
+axiomatically derived truth.
+
+✓ Follow the Ladder — From axiom to Kx to C to My, every value connects.
+
+✓ The Same Ratio Everywhere — PR (= Gmr) and RS appear at hadronic, leptonic, and
+atomic levels.
+
+
+
+Document Status: v2.4 — CANONICAL-SOURCE & REGISTRY ALIGNMENT Version:
+2.4 (July 16, 2026 — aligned to canonical SoS1/SoS2 + Master Symbol & Terminology
+Registry v1.0; §2.8a two light speeds; Appendix A extended derived constants; see
+Changelog) Last Updated: July 16, 2026 Source Authority: Exclusively G. Srinivasan
+authentic works (SoS1 189 pp. + SoS2 571 pp., locked in-repo under sources/ )
+Companion documents: Master Symbol & Terminology Registry v1.0 (symbol/value
+authority) · Sankhya Glossary v2.3 · Teacher Guide QA Checklist v1.0 Maintained By:
+INW Project Content Team
+
+
+
+APPENDIX A: EXTENDED DERIVED CONSTANTS
+(VETTED)
+
+This appendix lists additional physical constants that Sankhya derives axiomatically from
+the cyclic variable x = 0.618034 and the count-rate C = Cs = 296,575,967. Every
+value below has been cross-checked against the SoS1 equation set and recorded in the
+Master Symbol & Terminology Registry v1.0 (§3), which holds the authoritative
+sourcing and equation numbers. Values are quoted as derived; the closely matching
+modern (CODATA) quantity is given for orientation only.
+
+A.1 Core cyclic and field constants
+
+ Symbol    Name                        Derived value             Modern equivalent
+
+ C = Cs    Axiomatic count-rate        296,575,967               — (axiomatic "speed of
+                                       (2.9657596692 × 10⁸)      light")
+
+ c = CL    Measured light speed        299,792,458               Speed of light on Earth
+                                                                 (= Cs × Fc)
+Symbol      Name                            Derived value             Modern equivalent
+
+Fc          Blue-shift correction           1.010845                  CL / Cs
+
+Gm          Base gyromagnetic count         7.142857 (= 100/14)       —
+
+PR =        PHO / gyromagnetic ratio        3.5714286 (= Gm/2 =       Nuclear gyromagnetic
+Gmr                                         100/28)                   ratio
+
+Rs          Resonant restoring ratio        1.0204081633 (= 100/98    —
+                                            = Gm/7)
+
+K7 = Tce    Seventh count / thermal-        26.9312547                —
+            cyclic exponent
+
+Kx          Purusha constant                0.9149879388              ≈ Catalan's constant
+
+
+A.2 Planck-scale constants
+
+Symbol     Name                              Derived value             Modern equivalent
+
+h          Planck's constant (= 7·Ne)        6.6701138380 × 10⁻³⁴      6.62607015 × 10⁻³⁴ J·s
+
+Lp         Planck length                     1.6895595727 × 10⁻³⁵ m    1.616255 × 10⁻³⁵ m
+
+Tp         Planck time                       5.6968863333 × 10⁻⁴⁴ s    5.391247 × 10⁻⁴⁴ s
+
+Dp         Planck-scale density              4.5691019728 × 10⁹⁶       —
+
+Mps        Mahad Prakriti (Planck mass)      2.203694454 × 10⁻⁸        2.176434 × 10⁻⁸ kg
+
+
+A.3 Particle masses (derived)
+
+Symbol     Name                                   Derived value        Modern equivalent
+
+Pn         Neutron mass                           1.674927646 ×        1.67492750 × 10⁻²⁷ kg
+                                                  10⁻²⁷
+
+Pm         Proton mass                            1.672621512 ×        1.67262192 × 10⁻²⁷ kg
+                                                  10⁻²⁷
+
+PM         Prakriti Saptha (coherent nuclear      1.674423179 ×        — (not in modern
+           mass)                                  10⁻²⁷                physics)
+
+Mee        Electron mass (measured)               9.109383824 ×        9.1093837 × 10⁻³¹ kg
+                                                  10⁻³¹
+
+Me         Mahad Vikrithi (Planck-derived         9.110233722 ×        —
+           electron)                              10⁻³¹
+A.4 Electromagnetic & atomic constants
+
+ Symbol   Name                                   Derived value             Modern equivalent
+
+ α⁻¹      Fine-structure constant (inverse)      137.04339643              137.035999
+
+ kB       Boltzmann constant (= 11/              1.380658 × 10⁻²³          1.380649 × 10⁻²³ J/K
+          (2·7·C·Mly))
+
+ e0       Permittivity of free space (Ce)        8.8469724203 × 10⁻¹²      8.8541878 × 10⁻¹² F/
+                                                                           m
+
+ u0       Permeability of free space (1/         1.2576619439 × 10⁻⁶       1.25663706 × 10⁻⁶ H/
+          Ce·C²)                                                           m
+
+ Si       Impedance of free space                377.03756598              376.730313 Ω
+
+ λ_Cp     Proton Compton wavelength              1.3227536624 × 10⁻¹⁵      1.32140986 × 10⁻¹⁵
+                                                 m                         m
+
+ Ls       Lamb shift                             1.05701926 × 10⁹          ≈ 1.057 × 10⁹ Hz
+
+
+A.5 Thermodynamic chain constants
+
+ Symbol   Name                             Derived value   Note
+
+ Px       Cyclic pressure exponent         20.947986098    Feeds Boltzmann/temperature chain
+
+ KV       Cyclic-volume constant           56.94762837     Feeds Bt
+
+ Bt       Base thermal ratio (=            2.7185252132    ≈ e (Euler's number)
+          KV·Tk/Px)
+
+ Tk       Base temperature                 273.25968858    Reference temperature
+          constant
+
+ Ge       Gyromagnetic/electron            0.66478976082   Fills the value left blank in the SoS2
+          derivation constant                              symbols table (resolved via SoS1)
+
+
+Sourcing note: SoS2's symbols table leaves some derived-constant values blank or
+quotes measured figures; all values above are reconciled against SoS1 equations. See
+Registry v1.0 §3 for equation-by-equation provenance.
+CHANGELOG
+
+v2.4 — July 16, 2026 (Canonical-source & Registry alignment)
+
+Aligned the guide to the newly locked canonical sources and the master registry:
+
+     • Canonical sources locked. Header now cites SoS1 (2021-04-21, 189 pp.) and
+       SoS2 (571 pp.), both stored in-repo under sources/ , resolving the edition/page-
+       drift issue (GAP #1).
+     • §2.8a added — "The Two Light Speeds: C (Cs) vs c (CL)." Reconciles the
+       axiomatic count-rate C = Cs = 296,575,967 with the measured c = CL =
+       299,792,458 via the blue-shift factor Fc ≈ 1.010845 (CL = Cs × Fc), and
+       documents the SoS2 internal C-value inconsistency across pp. 198/295/514/567
+       (GAP: spectral shift / Fc).
+     • §2.8 C row annotated as C = Cs with a pointer to §2.8a.
+     • Appendix A added — "Extended Derived Constants (Vetted)." New tables of
+       Planck-scale, particle-mass, electromagnetic/atomic, and thermodynamic constants
+       derived from x and C, cross-checked against SoS1 (GAP: derived EM/atomic
+       constants).
+     • Registry cross-reference. The Master Symbol & Terminology Registry v1.0 is
+       named as the authority for symbols, values, and conventions; companion
+       documents (Glossary v2.3, Teacher Guide QA Checklist v1.0) listed in the status
+       block.
+
+v2.3 — June 28, 2026 (14 Technical Corrections + Symbol
+Rendering Fix)
+
+The following corrections were applied in v2.3, aligning terminology and content to G.
+Srinivasan's authentic usage. Fixed mathematical symbol rendering issues (exponents
+and pi) in PDF/DOCX output.
+
+ #     Section   Change                                               Rationale
+
+ 1     §1.2      Changed "Unity becomes duality" → "Natural           The axiom's significance
+                 number counting logic"; added paragraph on           is counting logic, not
+                 scale-invariance of 1, 1/2 as maximum change         philosophical duality
+                 increment, and 1/n as progressively smaller rates
+
+ 2     §2.2      Replaced "lean" (describing gradient/rate) with      "Lean" is colloquial;
+                 "relative change ratio", "differential rate"         authentic Sankhya
+                                                                      terminology uses
+                                                                      gradient/rate terms
+
+ 3     §2.3      Rewrote section relative to x (golden mean           x = 0.618034 is the
+                 conjugate), not φ; added x vs. φ distinction table   primary Sankhya
+#    Section     Change                                              Rationale
+                                                                     variable; φ = 1/x is
+                                                                     derived
+
+4    §2.5        Replaced ❌ / ✓ symbols with plain-text              Rendering errors on some
+                 alternatives                                        platforms; replaced with
+                                                                     Avoid reducing to: /
+                                                                     Technical meaning:
+
+5    §2.6,       Fixed throughout: "golden mean increment" →         x = 0.618034 is the
+     §2.8,       "golden mean conjugate"; "golden reciprocal" →      conjugate (1/φ); φ =
+     §9.1, §12   "golden mean" for φ                                 1.618034 is the golden
+                                                                     mean
+
+6    All         Removed all [bracketed change notes] ([NEW in       Body text should read
+     sections    v2.1 — implements REC-], ← Expanded in v2.1,        cleanly; version tracking
+                 (v2.1), (v2.2)*) from body text; moved to this      belongs in Changelog
+                 Changelog
+
+7    §3.0a       Renamed §3.0a → §3.1 (The Detection Principle);     "3.0a" is a non-standard
+                 shifted old §3.1–§3.8 → §3.2–§3.9                   alphanumeric section
+                                                                     label
+
+8    §3.2.3      Replaced Atho "Dynamic Asymmetry" content;          Atho precedes
+                 removed "lean"; described as pre-polarized,         polarization — "lean"
+                 latent, undifferentiated, pre-manifestation, pre-   implies directional force
+                 radiation state                                     which is incorrect at this
+                                                                     pre-differentiated stage
+
+9    §3.2.4      Added note on 2×3 Guna matrix for Atho state:       Explicit matrix
+                 Sathwa=0, only Thaama+Raja; balance equation        description of the Atho
+                 (π × x)/e = (7 × RS)/10; no observable mass/        state needed for technical
+                 charge/radiation                                    completeness
+
+10   §4.5        Added Kx/C³ = Mly × C³ equation; explained C³       Shows connection
+                 symmetry connecting maximum (Kx) and                between Kx constant and
+                 minimum (Mly) through hadronic/leptonic             leptonic mass domain
+                 boundary
+
+11   §4.11       Completely rewrote dark matter/energy               The 72%/28%
+                 explanation: "Dark" = ~10¹⁸ orders of Mly below     observational split is a
+                 h; Mly × C² = h; Dark Matter = hadronic             rough analogy; Sankhya
+                 unobservable below h; Dark Energy = energy          explanation is the precise
+                 equivalent of h in Mly counts; removed              10¹⁸-order h/Mly ratio
+                 inaccurate "72% mystery substance" framing
+
+12   §10.4       Replaced "The Still Pond (Siddhi)" with "The        G. Srinivasan's own
+                 Porous Pot Immersed in Water (Siddhi)"; added       analogy from the source
+                 direct quote from SoS2, p. 449                      text; more precise than
+                                                                     the "still pond" substitute
+ #    Section         Change                                             Rationale
+
+ 13   §10.5           Rewrote "The Building Floors (C-Power Ladder)"     The ladder is about
+                      → "The Moolaprakriti Count Ladder (Coherent        simultaneous
+                      Simultaneity)"; corrected to describe              Moolaprakriti counts, not
+                      simultaneous Mly counts from single Mly            abstract "C-power floors"
+                      (bottom) to maximum Kx (top)
+
+ 14   Header/         Incremented version to v2.3; date June 27, 2026;   Version tracking
+      Footer          added this Changelog section
+
+
+v2.2 — June 27, 2026
+
+ #    Section           Change                          Rationale
+
+ 1    Throughout        "Product Ratio" → "PHO          More precise terminology aligned to SoS
+                        Ratio" (PR)                     source
+
+ 2    §4.4.2, §8.2,     Added PR = Gmr                  PR 100/28 = 3.571428 is identical to the
+      §12               (Gyromagnetic Ratio)            nuclear gyromagnetic ratio measured in
+                        clarification                   physics
+
+
+v2.1 — June 26, 2026
+
+17 recommendations implemented (REC-3A through REC-3F, REC-4A through REC-4K): -
+REC-3A: §3.0 Why Sutra 1 Is the Master-Key (new) - REC-3B: §3.1.1–3.1.4 Aikaantha,
+Aathyantha, Atho, Abhaavath — four properties detailed (new) - REC-3C: §3.6 The Logic
+of Detection — full step-by-step chain (new) - REC-3D: §3.0a The Detection Principle
+(new) - REC-3E: §3.4.1 The Guna Equation S.1 — interactive count formulae (new) -
+REC-3F: §3.8 Scale Invariance of the Substratum (new) - REC-4A: §4.3 The Derivation
+Chain EP1–EP6 (new) - REC-4B: §4.5 The C-Power Ladder (new) - REC-4C: §4.6 Hadronic
+States — proton/neutron/PM triad (new) - REC-4D: §4.7 Leptonic States — electron as
+boundary (new) - REC-4E: §4.9 Planck's Constant axiomatically derived (new) - REC-4F:
+§4.4.1–4.4.2 RS as power series; PR as nuclear gyromagnetic ratio (new) - REC-4G: §4.10
+Wave states, impedance, photon (new) - REC-4H: §4.13 Ferromagnetism as PHO state
+(new) - REC-4I: §4.11.1 EP8 value (now part of §4.11) - REC-4J: §4.8 Planck mass as PHO
+oscillator (new) - REC-4K: §4.14 Three PHO papers compared (new)
+
+v2.0 — June 24, 2026
+
+Category 7 analysis reports integrated; consolidated from multiple working documents.
+
+v1.0 — June 2026
+
+Initial release.
+
