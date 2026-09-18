@@ -1,0 +1,29 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node
+node_modules/
+
+# Build / temp
+dist/
+build/
+*.log
+.tmp/
+
+# Secrets — never commit tokens or keys
+.env
+*.pem
+
+# Abacus.AI internal metadata / preview artifacts
+.abacus.donotdelete
+*_preview/

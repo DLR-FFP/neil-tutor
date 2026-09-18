@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Thinking Lab Collection — Imagine Nature's Wheelwork</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Inter:wght@400;500;600;700&family=Caveat:wght@600;700&display=swap" rel="stylesheet" />
+<style>
+  :root{
+    --bg:#0b1020; --panel:#121936; --panel-2:#182247;
+    --text:#e8eefc; --muted:#a7b4da;
+    --accent:#7dd3fc; --accent-2:#a78bfa;
+    --cosmic:#38bdf8; --green:#34d399; --gold:#fbbf24; --orange:#fb923c; --sky:#7dd3fc;
+    --num:#34d399;   /* Number & Proportion */
+    --wave:#38bdf8;  /* Waves & Resonance */
+    --force:#fb923c; /* Oscillation & Force */
+    --hub:#a78bfa;   /* hub */
+    --line:rgba(255,255,255,0.12);
+    --shadow:0 10px 30px rgba(0,0,0,0.35);
+  }
+  *{box-sizing:border-box;}
+  html,body{height:100%;}
+  body{
+    margin:0; color:var(--text);
+    font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    background:
+      radial-gradient(circle at top right, rgba(125,211,252,0.14), transparent 28%),
+      radial-gradient(circle at top left, rgba(167,139,250,0.14), transparent 24%),
+      linear-gradient(180deg, #0b1020, #090d18 60%);
+    min-height:100vh;
+    overflow-x:hidden;
+  }
+  a{color:var(--accent);}
+  .hidden{display:none !important;}
+  .wrap{max-width:1280px;margin:0 auto;padding:26px 22px 44px;}
+
+  /* ---------- Landing ---------- */
+  .hero{display:grid;gap:12px;margin-bottom:8px;}
+  .eyebrow{font-weight:700;letter-spacing:.14em;text-transform:uppercase;font-size:.74rem;color:var(--accent-2);}
+  .hero h1{margin:0;font-family:'Merriweather',serif;font-weight:900;font-size:clamp(2rem,4.2vw,3.3rem);line-height:1.04;}
+  .hero .tag{margin:0;color:var(--green);font-weight:600;font-size:1.02rem;}
+  .hero p.lede{margin:2px 0 0;max-width:880px;color:var(--muted);font-size:1.02rem;line-height:1.7;}
+  .quick-links{display:flex;flex-wrap:wrap;gap:14px 18px;margin-top:12px;}
+  .quick-links a{cursor:pointer;text-decoration:none;font-weight:700;font-size:.94rem;}
+  .quick-links a:hover{color:#dbeafe;text-decoration:underline;text-underline-offset:3px;}
+
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px;margin-top:26px;}
+  .lab-card{
+    position:relative;text-align:left;color:var(--text);cursor:pointer;
+    border:1px solid rgba(255,255,255,0.09);border-radius:24px;
+    background:linear-gradient(180deg, rgba(255,255,255,0.05), rgba(255,255,255,0.03)),
+              linear-gradient(180deg, rgba(125,211,252,0.08), rgba(167,139,250,0.04));
+    box-shadow:var(--shadow);padding:24px 22px;min-height:230px;
+    transition:transform .16s ease,border-color .16s ease,background .16s ease;
+    display:flex;flex-direction:column;
+  }
+  .lab-card:hover{transform:translateY(-4px);border-color:rgba(125,211,252,0.42);}
+  .lab-card:focus-visible{outline:2px solid #b6f0ff;outline-offset:3px;}
+  .icon-wrap{width:74px;height:74px;border-radius:18px;display:grid;place-items:center;margin-bottom:16px;
+    background:linear-gradient(180deg, rgba(125,211,252,0.16), rgba(167,139,250,0.10));
+    border:1px solid rgba(255,255,255,0.10);}
+  .lab-card h2{margin:0 0 8px;font-family:'Merriweather',serif;font-size:1.28rem;line-height:1.18;}
+  .lab-card p{margin:0;color:var(--muted);font-size:.96rem;line-height:1.55;}
+  .lab-card .go{margin-top:auto;padding-top:16px;color:var(--accent);font-weight:700;font-size:.92rem;}
+  .lab-card .badge-soon{position:absolute;top:16px;right:16px;font-size:.68rem;font-weight:700;letter-spacing:.06em;
+    text-transform:uppercase;color:#0b1020;background:var(--gold);border-radius:999px;padding:4px 9px;}
+
+  .foot{margin-top:34px;color:#8595c0;font-size:.82rem;line-height:1.6;border-top:1px solid var(--line);padding-top:16px;}
+
+  /* ---------- Lab view shell ---------- */
+  .labbar{margin-bottom:16px;}
+  .labbar-top{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;}
+  .backbtn{cursor:pointer;font:inherit;font-weight:700;font-size:.92rem;color:var(--text);margin-left:auto;
+    border:1px solid var(--line);background:rgba(255,255,255,0.05);border-radius:12px;padding:9px 14px;white-space:nowrap;}
+  .backbtn:hover{background:rgba(255,255,255,0.09);}
+  .labbar h1{margin:0;font-family:'Merriweather',serif;font-size:clamp(1.4rem,2.4vw,2rem);}
+  .labbar .lab-links{display:flex;gap:16px;margin-top:10px;flex-wrap:wrap;}
+  .labbar .lab-links a{cursor:pointer;font-weight:600;font-size:.9rem;text-decoration:none;color:var(--accent);}
+  .labbar .lab-links a:hover{text-decoration:underline;text-underline-offset:3px;}
+
+  /* ---------- Wheelwork Map ---------- */
+  .mapwrap{display:flex;gap:16px;align-items:flex-start;}
+  .mapcard{flex:1 1 auto;min-width:0;background:rgba(255,255,255,0.03);border:1px solid var(--line);
+    border-radius:18px;box-shadow:var(--shadow);padding:8px;overflow:hidden;}
+  svg#map{width:100%;height:auto;display:block;touch-action:manipulation;}
+  aside.detail{flex:0 0 340px;position:sticky;top:14px;background:rgba(255,255,255,0.03);
+    border:1px solid var(--line);border-radius:18px;box-shadow:var(--shadow);padding:20px 20px 22px;min-height:360px;}
+  aside.detail .kicker{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#7f8dbb;}
+  aside.detail h2{font-family:'Merriweather',serif;font-size:22px;margin:4px 0 2px;color:#e8eefc;line-height:1.15;}
+  aside.detail .chap{display:inline-block;font-size:12px;font-weight:700;color:#0b1020;background:var(--accent);border-radius:999px;padding:3px 10px;margin:6px 0 12px;}
+  aside.detail .whatis{font-size:15px;line-height:1.55;color:#d6ddf2;margin:0 0 6px;}
+  aside.detail h3{font-size:12.5px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:#8595c0;margin:16px 0 6px;}
+  aside.detail .hands{font-size:14px;line-height:1.5;color:#b9c4e6;margin:0 0 6px;font-style:italic;}
+  aside.detail ul.links{list-style:none;margin:0;padding:0;}
+  aside.detail ul.links li{font-size:13.5px;line-height:1.45;color:#c3cdec;padding:6px 0 6px 18px;position:relative;border-bottom:1px dashed rgba(255,255,255,0.10);}
+  aside.detail ul.links li:before{content:"\2192";position:absolute;left:0;color:var(--orange);font-weight:700;}
+  aside.detail ul.links li b{color:var(--accent);}
+  .hubline{margin-top:16px;padding:12px 14px;background:rgba(167,139,250,0.10);border-left:4px solid var(--hub);border-radius:8px;font-size:13.5px;color:#e4e0fb;line-height:1.5;}
+  .hubline b{font-family:'Merriweather',serif;}
+  .legend{display:flex;flex-wrap:wrap;gap:12px 18px;margin:2px 0 14px;align-items:center;}
+  .legend .item{display:flex;align-items:center;gap:7px;font-size:13px;font-weight:600;color:#c3cdec;}
+  .legend .dot{width:14px;height:14px;border-radius:50%;box-shadow:0 1px 2px rgba(0,0,0,.4);}
+  .legend .hint{margin-left:auto;font-weight:500;color:#8595c0;font-size:12.5px;font-style:italic;}
+  @media (max-width:820px){
+    .mapwrap{flex-direction:column;}
+    .mapcard{order:1;width:100%;overflow-x:auto;overflow-y:hidden;-webkit-overflow-scrolling:touch;}
+    svg#map{min-width:560px;}
+    aside.detail{order:2;flex:1 1 auto;width:100%;position:static;min-height:0;}
+  }
+  .edge{stroke:rgba(167,178,218,0.45);stroke-width:2;fill:none;opacity:.6;transition:stroke .15s,stroke-width .15s,opacity .15s;}
+  .edge.hi{stroke:var(--accent);stroke-width:3.4;opacity:1;}
+  .edge.dim{opacity:.1;}
+  .gear{cursor:pointer;}
+  .gear:focus{outline:none;}
+  .gear:focus-visible .ring{stroke:#fff;stroke-width:4;}
+  .gear .cog{transition:transform .2s;transform-box:fill-box;transform-origin:center;}
+  .gear:hover .cog{transform:rotate(18deg);}
+  .gear .ring{transition:stroke-width .15s;}
+  .gear.sel .ring{stroke:#fff;stroke-width:4;}
+  .gear.dim{opacity:.26;}
+  .gear text{pointer-events:none;font-family:'Inter',sans-serif;}
+  .gear .lbl{font-weight:700;fill:#0b1020;}
+  .gear .ch{font-weight:700;fill:#0b1020;opacity:.7;}
+  .hub text.hlbl{font-family:'Merriweather',serif;font-weight:900;fill:#fff;}
+  .hub text.heq{font-family:'Inter';font-weight:600;fill:#ede9fe;}
+
+  /* ---------- Question Wall ---------- */
+  .qw-intro{background:rgba(255,255,255,0.03);border:1px solid var(--line);border-radius:16px;padding:16px 18px;margin-bottom:16px;}
+  .qw-intro p{margin:0;color:var(--muted);font-size:.98rem;line-height:1.65;}
+  .qw-intro .quote{font-family:'Caveat',cursive;font-size:1.5rem;color:var(--gold);line-height:1.2;margin:0 0 6px;}
+  .qw-toolbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:16px;}
+  .qw-toolbar .spacer{flex:1 1 auto;}
+  button.btn{font:inherit;font-size:.88rem;font-weight:600;cursor:pointer;color:var(--text);
+    border:1px solid var(--line);border-radius:12px;padding:9px 13px;
+    background:linear-gradient(180deg, rgba(125,211,252,0.16), rgba(125,211,252,0.07));
+    transition:transform .12s ease,background .12s ease;}
+  button.btn:hover{transform:translateY(-1px);}
+  button.btn.secondary{background:rgba(255,255,255,0.06);}
+  button.btn.gold{background:linear-gradient(180deg, rgba(251,191,36,0.24), rgba(251,191,36,0.10));}
+  button.btn.ghost{background:transparent;}
+  .qw-note{color:#8595c0;font-size:.8rem;}
+  .qw-columns{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;align-items:start;}
+  @media (max-width:1100px){.qw-columns{grid-template-columns:repeat(2,minmax(0,1fr));}}
+  @media (max-width:620px){.qw-columns{grid-template-columns:1fr;}}
+  @media (max-width:620px){
+    button.btn,.backbtn{min-height:44px;display:inline-flex;align-items:center;justify-content:center;}
+  }
+  .qw-col{background:rgba(255,255,255,0.03);border:1px solid var(--line);border-radius:16px;padding:12px 10px;min-height:120px;
+    transition:background .12s,border-color .12s;}
+  .qw-col.dragover{background:rgba(125,211,252,0.10);border-color:var(--accent);}
+  .qw-col h3{margin:2px 4px 10px;font-size:.86rem;line-height:1.25;display:flex;align-items:flex-start;gap:6px;}
+  .qw-col .cbar{height:5px;border-radius:5px;margin:0 2px 10px;}
+  .qw-col .count{margin-left:auto;font-size:.72rem;font-weight:700;color:#0b1020;border-radius:999px;padding:2px 8px;flex:0 0 auto;}
+  .card{background:linear-gradient(180deg, rgba(255,255,255,0.07), rgba(255,255,255,0.03));
+    border:1px solid rgba(255,255,255,0.10);border-radius:12px;padding:11px 11px 9px;margin-bottom:10px;cursor:grab;
+    box-shadow:0 3px 10px rgba(0,0,0,0.25);position:relative;}
+  .card.answered{border-color:rgba(52,211,153,0.55);background:linear-gradient(180deg, rgba(52,211,153,0.12), rgba(52,211,153,0.04));}
+  .card .qtext{font-size:.92rem;line-height:1.4;color:#eef2ff;margin:0 0 6px;}
+  .card .test{font-size:.8rem;line-height:1.4;color:#b9c4e6;margin:6px 0 0;padding:7px 8px;background:rgba(255,255,255,0.05);border-radius:8px;border-left:3px solid var(--accent-2);}
+  .card .test b{color:var(--accent-2);}
+  .card .seedtag{display:inline-block;font-size:.64rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:#8595c0;margin-bottom:5px;}
+  .card .answered-badge{display:inline-block;font-size:.64rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:#0b1020;background:var(--green);border-radius:999px;padding:2px 7px;margin-bottom:5px;}
+  .card .actions{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px;}
+  .card .actions button{font:inherit;font-size:.72rem;font-weight:600;cursor:pointer;color:var(--muted);
+    background:rgba(255,255,255,0.05);border:1px solid var(--line);border-radius:8px;padding:4px 8px;}
+  .card .actions button:hover{color:#fff;background:rgba(255,255,255,0.12);}
+  .card .actions .mv{margin-left:auto;}
+  .card select.movesel{font:inherit;font-size:.72rem;background:#182247;color:var(--text);border:1px solid var(--line);border-radius:8px;padding:4px 6px;}
+  .empty{color:#6b78a6;font-size:.8rem;font-style:italic;text-align:center;padding:14px 6px;}
+
+  /* ---------- Modals ---------- */
+  .modal{position:fixed;inset:0;display:none;align-items:center;justify-content:center;padding:24px;
+    background:rgba(3,7,18,0.72);backdrop-filter:blur(10px);z-index:1000;}
+  .modal.open{display:flex;}
+  .modal-card{width:min(720px,100%);max-height:min(84vh,900px);overflow:auto;padding:20px 22px;
+    background:linear-gradient(180deg, rgba(18,25,54,0.99), rgba(11,16,32,0.99));
+    border:1px solid rgba(255,255,255,0.14);border-radius:20px;box-shadow:var(--shadow);}
+  .modal-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:10px;}
+  .modal-head h3{margin:0;font-family:'Merriweather',serif;font-size:1.2rem;}
+  .modal-close{width:36px;height:36px;border-radius:999px;padding:0;cursor:pointer;font-size:1.1rem;color:var(--text);
+    border:1px solid var(--line);background:rgba(255,255,255,0.06);}
+  .modal-card p,.modal-card li{color:var(--muted);font-size:.96rem;line-height:1.62;}
+  .modal-card h4{margin:16px 0 6px;color:#e8eefc;font-size:1rem;}
+  .modal-card label{display:block;font-size:.86rem;font-weight:600;color:#c3cdec;margin:12px 0 5px;}
+  .modal-card textarea,.modal-card select,.modal-card input[type=text]{width:100%;font:inherit;font-size:.94rem;
+    background:rgba(255,255,255,0.06);color:var(--text);border:1px solid var(--line);border-radius:10px;padding:9px 11px;}
+  .modal-card textarea{min-height:70px;resize:vertical;}
+  .modal-card select option{color:#0b1020;background:#eef4ff;}
+  .modal-actions{display:flex;gap:10px;justify-content:flex-end;margin-top:18px;flex-wrap:wrap;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <!-- ============ LANDING ============ -->
+  <section id="landing">
+    <div class="hero">
+      <h1>Thinking Lab Collection</h1>
+      <p class="tag">Think as Nature Intended. · Derive, Don't Believe.</p>
+      <p class="lede">Two labs for the two thinking skills the whole series rests on: <strong>synthesis</strong> — seeing how separate discoveries connect — and <strong>inquiry</strong> — turning curiosity into a question worth chasing. Build the whole machine on the Wheelwork Map, then post the doors it opened on the Question Wall.</p>
+      <div class="quick-links">
+        <a id="openAbout">About</a>
+        <a id="openGuide">User Guide</a>
+        <a id="openTeacher">Teacher Guide</a>
+      </div>
+    </div>
+
+    <div class="grid">
+      <button class="lab-card" data-lab="wheelwork">
+        <div class="icon-wrap">
+          <svg width="40" height="40" viewBox="0 0 40 40" aria-hidden="true"><g fill="none" stroke="#7dd3fc" stroke-width="2.2"><circle cx="14" cy="14" r="7"/><circle cx="27" cy="25" r="5"/><circle cx="14" cy="14" r="2" fill="#7dd3fc"/><circle cx="27" cy="25" r="1.6" fill="#7dd3fc"/><path d="M14 3v3M14 22v3M3 14h3M22 14h3M6 6l2 2M20 20l2 2M22 6l-2 2M8 20l-2 2"/><path d="M27 18v2M27 30v2M20 25h2M32 25h2"/></g></svg>
+        </div>
+        <h2>The Wheelwork Map</h2>
+        <p>Every big idea in Book 1 is a gear. Tap any gear to see what it is, the hands-on apparatus that reveals it, and which other gears it turns — until it all becomes one connected wheelwork.</p>
+        <span class="go">Open the map →</span>
+      </button>
+
+      <button class="lab-card" data-lab="question">
+        <div class="icon-wrap">
+          <svg width="40" height="40" viewBox="0 0 40 40" aria-hidden="true"><g fill="none" stroke="#fbbf24" stroke-width="2.2"><rect x="5" y="7" width="12" height="9" rx="2"/><rect x="22" y="11" width="12" height="9" rx="2"/><rect x="9" y="22" width="12" height="9" rx="2"/><path d="M27 26.5c0-2 3-2 3-4.2 0-1.3-1-2.3-2.4-2.3-1.2 0-2.2.8-2.5 1.9" transform="translate(0,4)"/><circle cx="28.6" cy="34.4" r="0.9" fill="#fbbf24" stroke="none"/></g></svg>
+        </div>
+        <h2>The Question Wall</h2>
+        <p>Post the doors this book opened. Sort your wonderings into five curiosity columns, turn a wonder into a testable plan, and watch better questions pile up. Your wall is saved on this device.</p>
+        <span class="go">Open the wall →</span>
+      </button>
+
+      <a class="lab-card" href="long_view_lab.html">
+        <div class="icon-wrap">
+          <svg width="40" height="40" viewBox="0 0 40 40" aria-hidden="true"><g fill="none" stroke="#34d399" stroke-width="2.2"><line x1="5" y1="32" x2="35" y2="32"/><line x1="5" y1="8" x2="5" y2="32"/><circle cx="10" cy="26" r="2.2" fill="#34d399" stroke="none"/><circle cx="18" cy="22" r="2.2" fill="#34d399" stroke="none"/><circle cx="24" cy="16" r="2.2" fill="#34d399" stroke="none"/><circle cx="31" cy="12" r="2.2" fill="#34d399" stroke="none"/><polyline points="10,26 18,22 24,16 31,12" stroke="#34d399" stroke-width="1.4" stroke-dasharray="3 2"/></g></svg>
+        </div>
+        <h2>The Long View</h2>
+        <p>Stretch your sense of time. See when and where human knowing actually happened — and how often an idea was known, lost, and found again. Hover any marker for a quick look; click to read and edit the account.</p>
+        <span class="go">Open the lab →</span>
+      </a>
+    </div>
+
+    <p class="foot">Standalone review copy for <em>Imagine Nature's Wheelwork</em> — Book 1: <em>Think Naturally</em>. The Wheelwork Map draws its concepts and relationships from Chapters 1–12. The Question Wall saves your cards in this browser only (nothing leaves your device); a served version could share a class wall.</p>
+  </section>
+
+  <!-- ============ WHEELWORK MAP LAB ============ -->
+  <section id="lab-wheelwork" class="hidden">
+    <div class="labbar">
+      <div class="labbar-top">
+        <h1>The Wheelwork Map</h1>
+        <button class="backbtn" data-back>← Home</button>
+      </div>
+      <div class="lab-links">
+        <a data-modal="aboutModal">About</a>
+        <a data-modal="guideModal">User Guide</a>
+        <a data-modal="teacherModal">Teacher Guide</a>
+      </div>
+    </div>
+    <div class="legend">
+      <span class="item"><span class="dot" style="background:var(--num)"></span>Number &amp; Proportion</span>
+      <span class="item"><span class="dot" style="background:var(--wave)"></span>Waves &amp; Resonance</span>
+      <span class="item"><span class="dot" style="background:var(--force)"></span>Oscillation &amp; Force</span>
+      <span class="item"><span class="dot" style="background:var(--hub)"></span>The Wheelwork (hub)</span>
+      <span class="hint">Tap a gear — or tap the hub to reset.</span>
+    </div>
+    <div class="mapwrap">
+      <div class="mapcard">
+        <svg id="map" viewBox="0 0 1400 940" role="img" aria-label="Concept map of Book 1 ideas connected like gears"></svg>
+      </div>
+      <aside class="detail" id="detail">
+        <div class="kicker">Explore the machine</div>
+        <h2 id="d-title">Start anywhere</h2>
+        <p class="whatis" id="d-what">Tap any gear to read what it is and how it connects. Try tracing an unbroken path from <em>counting patterns</em> all the way to <em>the three phases</em> — every link is really the same hub in disguise.</p>
+        <div id="d-body"></div>
+        <div class="hubline"><b>The hub — balanced beats.</b> Every gear on this map reduces to the same thing at the center: rhythmic balanced interchange (PHO), where the simultaneous change ratio equals the sequential change increment, <em>1/x = 1 + x</em>.</div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- ============ QUESTION WALL LAB ============ -->
+  <section id="lab-question" class="hidden">
+    <div class="labbar">
+      <div class="labbar-top">
+        <h1>The Question Wall</h1>
+        <button class="backbtn" data-back>← Home</button>
+      </div>
+      <div class="lab-links">
+        <a data-modal="aboutModal">About</a>
+        <a data-modal="guideModal">User Guide</a>
+        <a data-modal="teacherModal">Teacher Guide</a>
+      </div>
+    </div>
+
+    <div class="qw-intro">
+      <p class="quote">“I have more questions.” — “Good.”</p>
+      <p>When Sophie reached the end of her two weeks she didn't run out of answers — she ran into <em>better questions</em>, and Neil's reply was a single word: <strong>“Good.”</strong> A question is what a real discovery hands you next. This wall is where you post the doors this book opened. Good science is measured in better questions — and there are no wrong ones here.</p>
+    </div>
+
+    <div class="qw-toolbar">
+      <button class="btn" id="addCardBtn">+ Add a question</button>
+      <button class="btn secondary" id="exportBtn">Export</button>
+      <button class="btn secondary" id="printBtn">Print</button>
+      <span class="spacer"></span>
+      <span class="qw-note" id="saveNote">Saved on this device</span>
+      <button class="btn ghost" id="resetBtn" title="Restore the starter cards">Reset to starter cards</button>
+    </div>
+
+    <div class="qw-columns" id="qwColumns"></div>
+  </section>
+
+</div>
+
+<!-- ============ MODALS ============ -->
+<div class="modal" id="aboutModal"><div class="modal-card">
+  <div class="modal-head"><h3>About the Thinking Lab Collection</h3><button class="modal-close" data-close>×</button></div>
+  <p>The Thinking Lab Collection turns two print activities from the close of Book 1 into interactive labs. Where the other Discovery-Zone collections let you test a single physical idea, these two labs exercise how you <em>think</em> about all of them together.</p>
+  <h4>The Wheelwork Map — synthesis</h4>
+  <p>A concept map where every Book 1 idea is a gear and every line shows which gear turns which. The point is not to memorize a diagram but to <em>see</em> that separate discoveries — counting, ratio, spiral, wave, beat, force, the three phases — are one connected machine whose center is the balanced beat, <em>1/x = 1 + x</em>.</p>
+  <h4>The Question Wall — inquiry</h4>
+  <p>A place to post the questions the book <em>opened</em> rather than closed. Curiosity is the engine that keeps the wheelwork turning: every idea you truly understand shows you a new door. Sort wonderings into five columns, turn any wonder into a testable plan, and carry your best question into Book Two.</p>
+</div></div>
+
+<div class="modal" id="guideModal"><div class="modal-card">
+  <div class="modal-head"><h3>User Guide</h3><button class="modal-close" data-close>×</button></div>
+  <h4>Wheelwork Map</h4>
+  <ul>
+    <li>Tap any gear to see what it is, the hands-on apparatus Sophie used, and the reasoned links to every gear it turns.</li>
+    <li>Selecting a gear dims the rest and lights up its connections. Tap the central hub to reset.</li>
+    <li>Try to trace an unbroken path from <em>counting patterns</em> to <em>the three phases</em> — and notice how each link comes back to balanced beats.</li>
+  </ul>
+  <h4>Question Wall</h4>
+  <ul>
+    <li>Press <strong>+ Add a question</strong>, pick a column, and (optionally) add an <em>“I could test this by…”</em> note that turns a wonder into an experiment.</li>
+    <li>Drag a card between columns, or use the card's move menu. Mark a card <strong>Answered</strong> when you've tested it — then write the new question it opened.</li>
+    <li>Your wall is saved automatically on this device. <strong>Export</strong> downloads your cards; <strong>Print</strong> makes a paper copy.</li>
+  </ul>
+</div></div>
+
+<div class="modal" id="teacherModal"><div class="modal-card">
+  <div class="modal-head"><h3>Teacher Guide</h3><button class="modal-close" data-close>×</button></div>
+  <p>Both labs are synthesis-and-inquiry tools best used after learners have worked several chapters, or as a capstone at the end of Book 1.</p>
+  <h4>With the Wheelwork Map</h4>
+  <ul>
+    <li>Ask learners to defend one link out loud: <em>why</em> does this gear turn that one? The reason is the learning, not the arrow.</li>
+    <li>Challenge: find the longest chain of connected gears, then show how every step reduces to balanced beats.</li>
+  </ul>
+  <h4>With the Question Wall</h4>
+  <ul>
+    <li>Frame it as exploration, never a test — curiosity is the goal. Model one card of your own first, including an “I could test this by…” plan.</li>
+    <li>Sort as a class; revisit weekly. When a card is answered, insist on the <em>new</em> question it opened — that habit is the whole point.</li>
+    <li>Export or print the wall to carry the best questions forward into Book Two.</li>
+  </ul>
+</div></div>
+
+<!-- Add / edit card modal -->
+<div class="modal" id="cardModal"><div class="modal-card">
+  <div class="modal-head"><h3 id="cardModalTitle">Add a question</h3><button class="modal-close" data-close>×</button></div>
+  <label for="qInput">Your question</label>
+  <textarea id="qInput" placeholder="What are you curious about? e.g. Where else do the counts 21 and 34 show up?"></textarea>
+  <label for="colInput">Which column?</label>
+  <select id="colInput"></select>
+  <label for="testInput">I could test this by… <span style="font-weight:400;color:#8595c0">(optional)</span></label>
+  <input type="text" id="testInput" placeholder="e.g. counting spirals on ten different flowers" />
+  <div class="modal-actions">
+    <button class="btn ghost" data-close>Cancel</button>
+    <button class="btn gold" id="saveCardBtn">Post to the wall</button>
+  </div>
+</div></div>
+
+<script>
+/* ======================================================================
+   View switching
+   ====================================================================== */
+const views = {
+  landing: document.getElementById('landing'),
+  wheelwork: document.getElementById('lab-wheelwork'),
+  question: document.getElementById('lab-question'),
+};
+let mapBuilt = false;
+function showView(name){
+  views.landing.classList.toggle('hidden', name!=='landing');
+  views.wheelwork.classList.toggle('hidden', name!=='wheelwork');
+  views.question.classList.toggle('hidden', name!=='question');
+  if(name==='wheelwork' && !mapBuilt){ buildMap(); mapBuilt=true; }
+  if(name==='question'){ renderWall(); }
+  window.scrollTo(0,0);
+}
+document.querySelectorAll('.lab-card').forEach(c=>{
+  c.addEventListener('click',()=>showView(c.dataset.lab));
+});
+document.querySelectorAll('[data-back]').forEach(b=>b.addEventListener('click',()=>showView('landing')));
+
+/* modals */
+function openModal(id){document.getElementById(id).classList.add('open');}
+function closeModal(el){el.classList.remove('open');}
+document.getElementById('openAbout').onclick=()=>openModal('aboutModal');
+document.getElementById('openGuide').onclick=()=>openModal('guideModal');
+document.getElementById('openTeacher').onclick=()=>openModal('teacherModal');
+document.querySelectorAll('[data-modal]').forEach(a=>a.addEventListener('click',()=>openModal(a.getAttribute('data-modal'))));
+document.querySelectorAll('[data-close]').forEach(b=>b.addEventListener('click',e=>closeModal(e.target.closest('.modal'))));
+document.querySelectorAll('.modal').forEach(m=>m.addEventListener('click',e=>{if(e.target===m)closeModal(m);}));
+document.addEventListener('keydown',e=>{if(e.key==='Escape')document.querySelectorAll('.modal.open').forEach(closeModal);});
+
+/* ======================================================================
+   LAB 1 — Wheelwork Map
+   ====================================================================== */
+const CL={num:'var(--num)',wave:'var(--wave)',force:'var(--force)',hub:'var(--hub)'};
+const RAW={num:'#34d399',wave:'#38bdf8',force:'#fb923c',hub:'#a78bfa'};
+const NODES=[
+  {id:'hub',label:'Nature\u2019s\nWheelwork',ch:'',cluster:'hub',x:700,y:470,r:96,
+    what:'The whole machine: an integrated system where every idea connects to every other. At its core are the balanced beats \u2014 perpetual harmonic oscillation (PHO) \u2014 expressed from the vibration of an atom to the turning of a galaxy.',
+    hands:'The sunflower in the final chapter: one seed head holding every pattern at once.'},
+  {id:'fib',label:'Counting\nPatterns',ch:'Ch 1',cluster:'num',x:225,y:150,r:66,
+    what:'Numbers that know the next step: 1, 1, 2, 3, 5, 8\u2026 The two before always give rise to the next \u2014 the additive rule Sophie built with a pile of beans.',
+    hands:'A handful of lima beans piled up, one, one, two, three, five.'},
+  {id:'ratio',label:'The Ratio\nx',ch:'Ch 2',cluster:'num',x:150,y:370,r:70,
+    what:'The self-referencing number x \u2248 0.618034 that perfect balance keeps returning to. It obeys 1/x = 1 + x; \u03c6 (1.618\u2026) is derived from it. x is primary, \u03c6 is its shadow.',
+    hands:'The four-strip golden gauge \u2014 open and close the arms and the same ratio keeps appearing.'},
+  {id:'spiral',label:'Golden\nSpiral',ch:'Ch 3',cluster:'num',x:190,y:600,r:64,
+    what:'A spiral that grows by turning \u2014 a logarithmic curve expanding by the same ratio at every size. A shape that is really a history of balanced growth.',
+    hands:'Tracing a seashell and a fern, and drawing the spiral square by square.'},
+  {id:'angle',label:'Golden\nAngle 137.5\u00b0',ch:'Ch 4',cluster:'num',x:370,y:775,r:64,
+    what:'The one turn that divides a circle so no two leaves or seeds ever line up \u2014 the angle derived from x that packs a sunflower perfectly.',
+    hands:'Measuring the angle between successive scales on a sunflower: 137.5\u00b0.'},
+  {id:'selfsim',label:'Self-\nSimilarity',ch:'Ch 8',cluster:'num',x:495,y:700,r:62,
+    what:'Small patterns and big patterns following the same proportional rule \u2014 scale invariance. One ratio governs every level at once.',
+    hands:'Zooming in and out on branching, coastlines and seed heads and finding the same rule.'},
+  {id:'travel',label:'Traveling\nWaves',ch:'Ch 5',cluster:'wave',x:835,y:135,r:66,
+    what:'Waves that never stop: a beat set loose moves through a medium, one part after another. Frequency, wavelength and speed all tie together here.',
+    hands:'Shaking a rope and counting the passes; making twelve beats in a row.'},
+  {id:'standing',label:'Standing\nWaves',ch:'Ch 6',cluster:'wave',x:1075,y:220,r:70,
+    what:'Standing still while moving: two travelers overlap and lock into place with fixed nodes and antinodes. Nature keeps only whole-number beats.',
+    hands:'A jump rope shaken into one hump, two humps, three humps \u2014 always a whole number.'},
+  {id:'align',label:'Alignment',ch:'Ch 9',cluster:'wave',x:1235,y:440,r:64,
+    what:'When things line up: sequential (one after another) and simultaneous (all at once). Overlapping beats add up \u2014 superposition \u2014 and lined-up beats reinforce.',
+    hands:'The clap experiment; watching waves add and cancel.'},
+  {id:'reson',label:'Resonance',ch:'Ch 6 \u00b7 9',cluster:'wave',x:1130,y:660,r:64,
+    what:'When a push matches a system\u2019s own beat, the response swells. Matched beats trade energy most easily \u2014 sympathetic resonance.',
+    hands:'Two tuning forks; a plate of sand forming Chladni patterns.'},
+  {id:'beat',label:'Everything\nHas a Beat',ch:'Ch 7',cluster:'force',x:645,y:805,r:68,
+    what:'Oscillation everywhere: atoms, planets, light, a heartbeat. Once something can be pushed back toward balance, it beats \u2014 the universal rhythm.',
+    hands:'Timing rhythms all around \u2014 pulse, swing, day and night.'},
+  {id:'push',label:'Push &amp;\nPull',ch:'Ch 10',cluster:'force',x:835,y:780,r:66,
+    what:'A restoring force: elasticity that pulls a thing back toward balance and lets it spring back. Force is really constrained oscillation.',
+    hands:'Stretching rubber bands and feeling the pull grow, then release.'},
+  {id:'coupled',label:'Coupled\nExchange',ch:'Ch 6 \u00b7 11',cluster:'force',x:1010,y:730,r:62,
+    what:'Two beats trading energy back and forth \u2014 and the same exchange happening inside a single object.',
+    hands:'Two washers on a rubber band; the Wilberforce spring trading bounce for twist.'},
+  {id:'phases',label:'Three\nPhases',ch:'Ch 11',cluster:'force',x:900,y:585,r:72,
+    what:'Every interaction breathes through three phases \u2014 compression, reversal, expansion (Tri-Guna, three states of interaction). A collision holds all three in one click.',
+    hands:'The Newton\u2019s cradle: steel on steel, compression in, reversal at contact, expansion out.'},
+];
+const EDGES=[
+  ['fib','ratio','successive counts settle toward x'],
+  ['ratio','spiral','the spiral grows at this ratio'],
+  ['ratio','angle','a circle shared in this ratio gives 137.5\u00b0'],
+  ['ratio','selfsim','one ratio at every scale'],
+  ['angle','spiral','turning by 137.5\u00b0 traces the spiral'],
+  ['travel','standing','two travelers overlap and stand still'],
+  ['standing','reson','nature keeps only whole-number beats'],
+  ['align','standing','all-at-once overlap (superposition)'],
+  ['align','reson','lined-up beats reinforce'],
+  ['push','beat','a restoring pull makes it oscillate'],
+  ['beat','travel','a beat set loose travels'],
+  ['beat','coupled','two beats can trade energy'],
+  ['reson','coupled','matched beats exchange most easily'],
+  ['coupled','phases','each exchange breathes in three phases'],
+  ['push','phases','one push-pull = compression, reversal, expansion'],
+  ['selfsim','phases','the same three-phase rule at every scale'],
+  ['ratio','hub','proportion reduces to balanced beats'],
+  ['standing','hub','a standing wave is balance in motion'],
+  ['beat','hub','the beat IS the wheelwork turning'],
+  ['phases','hub','every beat moves through three phases'],
+];
+const NS='http://www.w3.org/2000/svg';
+const byId=Object.fromEntries(NODES.map(n=>[n.id,n]));
+const adj={};NODES.forEach(n=>adj[n.id]=new Set());
+EDGES.forEach(([a,b])=>{adj[a].add(b);adj[b].add(a);});
+function el(name,attrs){const e=document.createElementNS(NS,name);for(const k in attrs)e.setAttribute(k,attrs[k]);return e;}
+function gearPath(cx,cy,r,teeth){
+  const inner=r,outer=r+Math.max(7,r*0.16),tw=0.62;let d='';const step=(Math.PI*2)/teeth;
+  for(let i=0;i<teeth;i++){
+    const a0=i*step,a1=a0+step*tw*0.5,a2=a0+step*0.5,a3=a0+step-step*tw*0.5;
+    const p=(ang,rad)=>[(cx+Math.cos(ang)*rad).toFixed(2),(cy+Math.sin(ang)*rad).toFixed(2)];
+    const A=p(a0,inner),B=p(a1,outer),C=p(a2,outer),D=p(a3,inner),E=p(a0+step,inner);
+    d+=(i===0?`M ${A[0]} ${A[1]} `:'')+`L ${B[0]} ${B[1]} L ${C[0]} ${C[1]} L ${D[0]} ${D[1]} L ${E[0]} ${E[1]} `;
+  }
+  return d+'Z';
+}
+let gearEls={},edgeEls=[];
+function buildMap(){
+  const svg=document.getElementById('map');
+  EDGES.forEach(([a,b,why])=>{
+    const A=byId[a],B=byId[b];
+    const line=el('path',{class:'edge',d:`M ${A.x} ${A.y} L ${B.x} ${B.y}`});
+    svg.appendChild(line);edgeEls.push({a,b,why,line});
+  });
+  NODES.forEach(n=>{
+    const col=RAW[n.cluster];
+    const g=el('g',{class:'gear'+(n.cluster==='hub'?' hub':''),'data-id':n.id,tabindex:'0'});
+    const teeth=n.cluster==='hub'?16:11;
+    g.appendChild(el('path',{class:'cog',d:gearPath(n.x,n.y,n.r,teeth),fill:col,opacity:n.cluster==='hub'?0.5:0.9}));
+    g.appendChild(el('circle',{class:'ring',cx:n.x,cy:n.y,r:n.r,fill:col,stroke:n.cluster==='hub'?'#a78bfa':'#0b1020','stroke-width':3,opacity:n.cluster==='hub'?0.9:1}));
+    g.appendChild(el('circle',{cx:n.x,cy:n.y,r:Math.max(5,n.r*0.12),fill:'#0b1020',opacity:0.35}));
+    const lines=n.label.split('\n');
+    const fs=n.cluster==='hub'?24:15;
+    const startY=n.y-((lines.length-1)*(fs*0.58));
+    lines.forEach((ln,i)=>{
+      const t=el('text',{class:n.cluster==='hub'?'hlbl':'lbl',x:n.x,y:(startY+i*fs*1.15).toFixed(1),'text-anchor':'middle','dominant-baseline':'middle','font-size':fs});
+      t.textContent=ln.replace('&amp;','&');g.appendChild(t);
+    });
+    if(n.ch){
+      const c=el('text',{class:'ch',x:n.x,y:(n.y+n.r*0.5).toFixed(1),'text-anchor':'middle','dominant-baseline':'middle','font-size':11.5});
+      c.textContent=n.ch;g.appendChild(c);
+    }else if(n.cluster==='hub'){
+      const eq=el('text',{class:'heq',x:n.x,y:(n.y+n.r*0.42).toFixed(1),'text-anchor':'middle','dominant-baseline':'middle','font-size':15});
+      eq.textContent='1/x = 1 + x';g.appendChild(eq);
+    }
+    svg.appendChild(g);gearEls[n.id]=g;
+    g.addEventListener('click',()=>selectGear(n.id));
+    g.addEventListener('keypress',e=>{if(e.key==='Enter'||e.key===' ')selectGear(n.id);});
+  });
+  gearEls['hub'].addEventListener('click',resetMap);
+}
+const clusterName=c=>({num:'Number & Proportion',wave:'Waves & Resonance',force:'Oscillation & Force',hub:'The Wheelwork'}[c]);
+function selectGear(id){
+  const n=byId[id];
+  Object.values(gearEls).forEach(g=>{g.classList.remove('sel');g.classList.add('dim');});
+  gearEls[id].classList.add('sel');gearEls[id].classList.remove('dim');
+  adj[id].forEach(nb=>gearEls[nb].classList.remove('dim'));
+  edgeEls.forEach(e=>{const on=(e.a===id||e.b===id);e.line.classList.toggle('hi',on);e.line.classList.toggle('dim',!on);});
+  document.getElementById('d-title').textContent=n.label.replace(/\n/g,' ').replace('&amp;','&');
+  document.getElementById('d-what').innerHTML=n.what;
+  let html=`<span class="chap">${n.ch?n.ch+' \u00b7 ':''}${clusterName(n.cluster)}</span>`;
+  html+='<h3>Hands-on \u2014 how Sophie saw it</h3>';
+  html+=`<p class="hands">${n.hands}</p>`;
+  const conns=edgeEls.filter(e=>e.a===id||e.b===id).map(e=>{
+    const other=e.a===id?e.b:e.a;
+    return `<li><b>${byId[other].label.replace(/\n/g,' ').replace('&amp;','&')}</b> \u2014 <span style="color:#8595c0">${e.why}</span></li>`;
+  }).join('');
+  html+='<h3>Gears it connects to</h3>';
+  html+=`<ul class="links">${conns}</ul>`;
+  document.getElementById('d-body').innerHTML=html;
+}
+function resetMap(){
+  Object.values(gearEls).forEach(g=>g.classList.remove('sel','dim'));
+  edgeEls.forEach(e=>e.line.classList.remove('hi','dim'));
+  document.getElementById('d-title').textContent='Start anywhere';
+  document.getElementById('d-what').innerHTML='Tap any gear to read what it is and how it connects. Try tracing an unbroken path from <em>counting patterns</em> all the way to <em>the three phases</em> \u2014 every link is really the same hub in disguise.';
+  document.getElementById('d-body').innerHTML='';
+}
+
+/* ======================================================================
+   LAB 2 — Question Wall
+   ====================================================================== */
+const QW_KEY='inw_question_wall_v1';
+const COLUMNS=[
+  {id:'how',   title:'How does this work?',              color:'#38bdf8'},
+  {id:'where', title:'Where else might this pattern hide?', color:'#34d399'},
+  {id:'change',title:'What happens if I change one thing?', color:'#fbbf24'},
+  {id:'mine',  title:'A pattern I spotted in my own world',color:'#fb923c'},
+  {id:'door',  title:'A door this book opened',            color:'#a78bfa'},
+];
+const SEED=[
+  {id:'s1',col:'where', text:'Where else do the counts 21 and 34 show up?', test:'counting spirals on ten different flowers', seed:true, answered:false},
+  {id:'s2',col:'change',text:'What happens to the beat if I shorten the string?', test:'timing a pendulum at three different lengths', seed:true, answered:false},
+  {id:'s3',col:'how',   text:'Why does 137.5\u00b0 pack the seeds so perfectly?', test:'', seed:true, answered:false},
+  {id:'s4',col:'mine',  text:'My heartbeat has a steady rhythm \u2014 is it more like a traveling wave or a standing one?', test:'', seed:true, answered:false},
+  {id:'s5',col:'door',  text:'If everything has a beat, what gives the very first push?', test:'', seed:true, answered:false},
+  {id:'s6',col:'where', text:'Galaxies spiral like my seashell did \u2014 is it the same ratio x?', test:'measuring the growth of a spiral galaxy photo', seed:true, answered:false},
+];
+let cards=[];
+function loadWall(){
+  try{const raw=localStorage.getItem(QW_KEY);if(raw){cards=JSON.parse(raw);return;}}catch(e){}
+  cards=SEED.map(c=>({...c}));
+  saveWall();
+}
+function saveWall(){
+  try{localStorage.setItem(QW_KEY,JSON.stringify(cards));
+    const n=document.getElementById('saveNote');if(n){n.textContent='Saved on this device \u00b7 '+cards.length+' cards';}
+  }catch(e){
+    const n=document.getElementById('saveNote');if(n){n.textContent='(saving unavailable in this view)';}
+  }
+}
+function uid(){return 'c'+Date.now().toString(36)+Math.random().toString(36).slice(2,6);}
+function esc(s){return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+
+function renderWall(){
+  if(cards.length===0 && localStorage.getItem(QW_KEY)===null){loadWall();}
+  const wrap=document.getElementById('qwColumns');
+  wrap.innerHTML='';
+  COLUMNS.forEach(col=>{
+    const colCards=cards.filter(c=>c.col===col.id);
+    const div=document.createElement('div');
+    div.className='qw-col';div.dataset.col=col.id;
+    div.innerHTML=`<div class="cbar" style="background:${col.color}"></div>`+
+      `<h3>${col.title}<span class="count" style="background:${col.color}">${colCards.length}</span></h3>`;
+    if(colCards.length===0){
+      const e=document.createElement('div');e.className='empty';e.textContent='No cards yet \u2014 add one.';div.appendChild(e);
+    }
+    colCards.forEach(c=>div.appendChild(cardEl(c)));
+    // drag & drop targets
+    div.addEventListener('dragover',e=>{e.preventDefault();div.classList.add('dragover');});
+    div.addEventListener('dragleave',()=>div.classList.remove('dragover'));
+    div.addEventListener('drop',e=>{
+      e.preventDefault();div.classList.remove('dragover');
+      const id=e.dataTransfer.getData('text/plain');
+      const card=cards.find(x=>x.id===id);
+      if(card&&card.col!==col.id){card.col=col.id;saveWall();renderWall();}
+    });
+    wrap.appendChild(div);
+  });
+  saveWall();
+}
+function cardEl(c){
+  const d=document.createElement('div');
+  d.className='card'+(c.answered?' answered':'');
+  d.draggable=true;d.dataset.id=c.id;
+  let inner='';
+  if(c.answered)inner+='<span class="answered-badge">Answered \u2713</span>';
+  else if(c.seed)inner+='<span class="seedtag">Starter card</span>';
+  inner+=`<p class="qtext">${esc(c.text)}</p>`;
+  if(c.test)inner+=`<div class="test"><b>I could test this by\u2026</b> ${esc(c.test)}</div>`;
+  const opts=COLUMNS.map(col=>`<option value="${col.id}"${col.id===c.col?' selected':''}>${col.title}</option>`).join('');
+  inner+=`<div class="actions">`+
+    `<button data-act="answer">${c.answered?'Reopen':'Answered'}</button>`+
+    `<button data-act="edit">Edit</button>`+
+    `<button data-act="delete">Delete</button>`+
+    `<select class="movesel mv" title="Move to column">${opts}</select>`+
+    `</div>`;
+  d.innerHTML=inner;
+  d.addEventListener('dragstart',e=>{e.dataTransfer.setData('text/plain',c.id);e.dataTransfer.effectAllowed='move';});
+  d.querySelector('[data-act="delete"]').onclick=()=>{
+    if(confirm('Delete this question?')){cards=cards.filter(x=>x.id!==c.id);saveWall();renderWall();}
+  };
+  d.querySelector('[data-act="edit"]').onclick=()=>openCardModal(c);
+  d.querySelector('[data-act="answer"]').onclick=()=>{
+    if(!c.answered){
+      c.answered=true;c.seed=false;saveWall();renderWall();
+      setTimeout(()=>{
+        const nq=prompt('Nice \u2014 marked answered. What NEW question did answering it open? (leave blank to skip)');
+        if(nq&&nq.trim()){cards.push({id:uid(),col:c.col,text:nq.trim(),test:'',seed:false,answered:false});saveWall();renderWall();}
+      },60);
+    }else{c.answered=false;saveWall();renderWall();}
+  };
+  d.querySelector('.movesel').onchange=e=>{c.col=e.target.value;saveWall();renderWall();};
+  return d;
+}
+
+/* add / edit modal */
+let editingId=null;
+function fillColSelect(sel){sel.innerHTML=COLUMNS.map(c=>`<option value="${c.id}">${c.title}</option>`).join('');}
+function openCardModal(card){
+  editingId=card?card.id:null;
+  document.getElementById('cardModalTitle').textContent=card?'Edit question':'Add a question';
+  const q=document.getElementById('qInput'),col=document.getElementById('colInput'),test=document.getElementById('testInput');
+  fillColSelect(col);
+  q.value=card?card.text:'';
+  col.value=card?card.col:COLUMNS[0].id;
+  test.value=card?(card.test||''):'';
+  openModal('cardModal');
+  setTimeout(()=>q.focus(),40);
+}
+document.getElementById('addCardBtn').onclick=()=>openCardModal(null);
+document.getElementById('saveCardBtn').onclick=()=>{
+  const text=document.getElementById('qInput').value.trim();
+  if(!text){document.getElementById('qInput').focus();return;}
+  const colv=document.getElementById('colInput').value;
+  const testv=document.getElementById('testInput').value.trim();
+  if(editingId){
+    const c=cards.find(x=>x.id===editingId);
+    if(c){c.text=text;c.col=colv;c.test=testv;c.seed=false;}
+  }else{
+    cards.push({id:uid(),col:colv,text,test:testv,seed:false,answered:false});
+  }
+  editingId=null;
+  closeModal(document.getElementById('cardModal'));
+  saveWall();renderWall();
+};
+
+/* toolbar */
+document.getElementById('resetBtn').onclick=()=>{
+  if(confirm('Restore the starter cards? This clears the questions on this device.')){
+    cards=SEED.map(c=>({...c}));saveWall();renderWall();
+  }
+};
+document.getElementById('exportBtn').onclick=()=>{
+  const lines=['Imagine Nature\u2019s Wheelwork \u2014 Book 1 Question Wall','',];
+  COLUMNS.forEach(col=>{
+    lines.push('## '+col.title);
+    const cc=cards.filter(c=>c.col===col.id);
+    if(cc.length===0)lines.push('  (none yet)');
+    cc.forEach(c=>{lines.push('  \u2022 '+c.text+(c.answered?'  [answered]':'')+(c.test?'\n      I could test this by: '+c.test:''));});
+    lines.push('');
+  });
+  const blob=new Blob([lines.join('\n')],{type:'text/plain'});
+  const a=document.createElement('a');a.href=URL.createObjectURL(blob);
+  a.download='inw_question_wall.txt';document.body.appendChild(a);a.click();a.remove();
+};
+document.getElementById('printBtn').onclick=()=>window.print();
+
+/* init */
+loadWall();
+</script>
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496" integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ==" data-cf-beacon='{"version":"2024.11.0","token":"f0f03d0605bf45f1a3b17cf7d5e6861f"}' crossorigin="anonymous"></script>
+</body>
+</html>
