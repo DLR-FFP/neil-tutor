@@ -1,0 +1,21 @@
+{
+ "pool_rows": 60,
+ "negatives": 12,
+ "by_status": {
+  "auto-validated": 51,
+  "rejected-structural": 2,
+  "needs-mentor": 7
+ },
+ "by_difficulty": {
+  "2": 33,
+  "3": 25,
+  "5": 2
+ },
+ "mean_score": 8.883,
+ "gate": "human mentor review final; heuristic triage only",
+ "files": [
+  "dialogue-pool.csv",
+  "negatives.csv",
+  "POOL_REPORT.md"
+ ]
+}
