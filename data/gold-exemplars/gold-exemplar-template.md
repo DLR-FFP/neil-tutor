@@ -110,3 +110,9 @@ diagonals, sunflower packing, sphere as the coherence limit, duhkha as the stres
   forces / h = BtpC threshold / hydrogen spectrum derived / photon life 6.4-25 Gyr and Karma /
   recounted-cube periodicity / Einstein stationary-field scope / 18 vs 6 quark levels / space absorbs
   counts / St = Mps/tp elasticity / zero-empirical-input capstone.
+
+## Correction — COR-001 rewrite (PR #21, 2026-09-21)
+- COR-001 "28/72 harmonic split" WITHDRAWN (user ruling 2026-09-20): 8 gold exemplars rewritten via the documented rewrite loop — register queue EX-184, EX-187, EX-188, EX-193, EX-196, EX-226, EX-250 plus EX-161 (found by the spelled-out paraphrase scan; register extended). Row count unchanged: **270** (EX-001–EX-270).
+- Replacement canon: the balance six with master identity (e·Rs·7)/(π·x·10) = 1 (DZ Constant Explorer); ch05 nickname-vs-nature; ch14 cube 8 − 1 = 7; ch13 1/7 cycle. Draft ch06 material not used as source in any rewritten row.
+- EX-079's 25/7 = 100/28 = 3.571428… (PHO mnemonic, gate v0.7 Gm family) is canon and untouched.
+- Mentor re-review of the 8 rewritten rows pending.
