@@ -1,8 +1,8 @@
 {
  "pool_rows": 210,
  "by_status": {
-  "auto-validated": 202,
-  "rejected-structural": 2,
+  "auto-validated": 192,
+  "rejected-structural": 12,
   "needs-mentor": 6
  },
  "by_difficulty": {
