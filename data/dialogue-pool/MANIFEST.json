@@ -1,15 +1,15 @@
 {
- "pool_rows": 200,
+ "pool_rows": 210,
  "by_status": {
-  "auto-validated": 190,
+  "auto-validated": 202,
   "rejected-structural": 2,
-  "needs-mentor": 8
+  "needs-mentor": 6
  },
  "by_difficulty": {
   "1": 13,
-  "2": 77,
-  "3": 62,
-  "4": 27,
+  "2": 79,
+  "3": 66,
+  "4": 31,
   "5": 21
  },
  "seed_span": [
@@ -137,7 +137,17 @@
   "EX-218",
   "EX-222",
   "EX-225",
-  "EX-232"
+  "EX-232",
+  "EX-271",
+  "EX-272",
+  "EX-273",
+  "EX-274",
+  "EX-275",
+  "EX-276",
+  "EX-277",
+  "EX-278",
+  "EX-279",
+  "EX-280"
  ],
  "funnel_gate": "human mentor review is the final gate; heuristic status is triage only",
  "revalidate_cmd": "python3 build_pool.py && python3 pool_validate.py"
